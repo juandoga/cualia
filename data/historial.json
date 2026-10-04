@@ -23,6 +23,12 @@
     "precioTxt": "Gratis · Google AI Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Uso amplio gratis; los modelos más potentes y el vídeo requieren Google AI Pro."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · AI Plus 4,99 $/mes · AI Pro 19,99 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Desde el 9 de octubre de 2026, lo gratis solo usa el modelo ligero Flash-Lite; Flash y Pro pasan a planes de pago."
    }
   ],
   "chat-04": [
@@ -71,6 +77,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con límites diarios."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro 14,99 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Mensajes y búsquedas limitados, con creación de imágenes."
    }
   ],
   "chat-10": [
@@ -343,6 +355,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocas generaciones gratis; más con Canva Pro."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro unos 12 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Hasta 20 usos al mes de las herramientas de IA; sin las más avanzadas."
    }
   ],
   "imagen-14": [
@@ -383,6 +401,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Gratis con marca de agua y resolución baja."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro desde 7,50 $/mes (pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 exportaciones al mes, solo para uso no comercial."
    }
   ],
   "imagen-19": [
@@ -591,6 +615,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Editor gratis muy completo; algunas funciones y plantillas son Pro."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro 19,99 $/mes (varía por país)",
+    "gratisTipo": "util",
+    "gratisTxt": "Editor gratis muy completo; no puedes exportar si usas plantillas, efectos o IA marcados como Pro."
    }
   ],
   "video-15": [
@@ -599,6 +629,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Una hora de transcripción al mes y exportación con marca de agua."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis limitado · Hobbyist desde 16 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "1 hora de vídeo al mes, 100 créditos de IA (una sola vez), 720p y marca de agua."
    }
   ],
   "video-16": [
@@ -607,6 +643,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis mensuales con marca de agua."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis limitado · Starter 15 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "60 créditos al mes (1 crédito = 1 minuto de vídeo), con marca de agua y clips que caducan a los 3 días."
    }
   ],
   "video-17": [
@@ -631,6 +673,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocas generaciones de vídeo gratis."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro unos 12 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Hasta 20 usos al mes de las herramientas de IA; sin las más avanzadas."
    }
   ],
   "video-20": [
@@ -855,6 +903,12 @@
     "precioTxt": "Gratis · Premium de pago",
     "gratisTipo": "util",
     "gratisTxt": "Separa pistas de unas pocas canciones al mes gratis."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Premium de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "5 canciones al mes: separa voz, batería, bajo y resto."
    }
   ],
   "musica-18": [
@@ -887,6 +941,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · tokens extra de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "15 tokens al mes para las ideas con IA (también con BandLab Membership); el estudio de BandLab es gratis."
    }
   ],
   "musica-22": [
@@ -911,6 +971,12 @@
     "precioTxt": "Gratis · Premium de pago",
     "gratisTipo": "util",
     "gratisTxt": "Acordes de cualquier canción gratis; funciones extra en Premium."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Premium desde 2 $/mes (pago anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "4 canciones al día con cuenta, con anuncios."
    }
   ],
   "musica-25": [
@@ -1111,6 +1177,12 @@
     "precioTxt": "Gratis · Premium de pago",
     "gratisTipo": "util",
     "gratisTxt": "Mejora de audio gratis con límite de duración."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Premium dentro de Firefly Pro (19,99 $/mes)",
+    "gratisTipo": "util",
+    "gratisTxt": "Mejora de voz con archivos de hasta 30 minutos y 1 hora al día."
    }
   ],
   "voz-20": [
@@ -1247,6 +1319,12 @@
     "precioTxt": "Gratis · hasta 60 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con créditos limitados."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro 20 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Plan gratis con autocompletado ilimitado y poco uso de agentes."
    }
   ],
   "codigo-07": [
@@ -1287,6 +1365,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis para programar; el agente de IA tiene uso limitado."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Core 20 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Créditos diarios para el agente con tope mensual y 1 app publicada con el sello de Replit."
    }
   ],
   "codigo-12": [
@@ -1423,6 +1507,12 @@
     "precioTxt": "Planes de pago",
     "gratisTipo": "no",
     "gratisTxt": "Planes de pago."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro 20 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Plan gratis con poco uso de agentes y modelos limitados."
    }
   ],
   "codigo-29": [
@@ -1535,6 +1625,12 @@
     "precioTxt": "Suscripción",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba corta; suscripción."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Suscripción (el precio varía por país)",
+    "gratisTipo": "prueba",
+    "gratisTxt": "7 días de prueba gratis; luego suscripción."
    }
   ],
   "estudio-13": [
@@ -1639,6 +1735,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Traducción gratis con límite de caracteres y archivos."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Individual desde 7,49 €/mes (pago anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "50.000 caracteres al mes y 1 documento al mes."
    }
   ],
   "estudio-26": [
@@ -1647,6 +1749,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis, sin planes de pago."
    }
   ],
   "estudio-27": [
@@ -1687,6 +1795,12 @@
     "precioTxt": "Gratis · Plus de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos iniciales para unas pocas presentaciones."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Plus de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "400 créditos al registrarte (no se recargan), hasta 10 diapositivas por presentación."
    }
   ],
   "trabajo-02": [
@@ -1703,6 +1817,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Canva gratis es muy completo; la IA tiene usos limitados."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Pro unos 12 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Canva gratis es muy completo; la IA tiene hasta 20 usos al mes."
    }
   ],
   "trabajo-04": [
@@ -1735,6 +1855,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Número limitado de reuniones gratis."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · Business 14 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Notas de reuniones gratis, pero solo guarda 30 días de historial."
    }
   ],
   "trabajo-08": [
@@ -1757,6 +1883,12 @@
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis limitado · planes de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 tareas al mes y automatizaciones sencillas."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis limitado · Professional desde 19,99 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "100 tareas al mes y automatizaciones sencillas."
    }
@@ -1879,6 +2011,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis diarios limitados."
+   },
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis limitado · Plus 24,99 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 créditos al día hasta agotar un cupo total; después se acaban del todo."
    }
   ],
   "trabajo-26": [
@@ -1919,6 +2057,14 @@
     "precioTxt": "Complemento para empresas",
     "gratisTipo": "no",
     "gratisTxt": "Complemento de pago para empresas."
+   }
+  ],
+  "codigo-31": [
+   {
+    "fecha": "2026-10-03",
+    "precioTxt": "Gratis · pagas el modelo que uses",
+    "gratisTipo": "libre",
+    "gratisTxt": "La extensión es gratis y ofrece algunos modelos gratis; también puedes usar tu propia clave."
    }
   ]
  }
