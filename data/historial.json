@@ -7,6 +7,12 @@
     "precioTxt": "Gratis · Plus 20 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Chat ilimitado con el modelo básico; límites diarios en el modelo avanzado, imágenes y archivos."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Go 8 $/mes · Plus 20 $/mes · Pro desde 100 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Chat ilimitado con el modelo básico; límites diarios en el modelo avanzado, imágenes y archivos."
    }
   ],
   "chat-02": [
@@ -123,6 +129,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis y anónimo."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · modelos avanzados con suscripción desde 9,99 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis, sin cuenta y sin guardar tus chats, con modelos rápidos como Claude Haiku 4.5 o GPT-5.4 mini."
    }
   ],
   "chat-15": [
@@ -369,12 +381,24 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Uso gratis con límites diarios."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Basic 9 $/mes (5 $ en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 unidades de cálculo al día para crear imágenes con Krea 2; sin vídeo ni uso comercial."
    }
   ],
   "imagen-15": [
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis · Premium de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Créditos gratis escasos; lo útil está en Premium."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis limitado · Essential desde 7,50 $/mes (pago anual)",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis escasos; lo útil está en Premium."
    }
@@ -1207,12 +1231,24 @@
     "precioTxt": "Gratis limitado · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Palabras limitadas a la semana."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis (2.000 palabras/semana) · Pro 15 $/mes (12 $ en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "2.000 palabras a la semana, sin tarjeta; gratis sin límite para estudiantes."
    }
   ],
   "voz-23": [
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis · Pro de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis con el modelo básico; los más precisos en Pro."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Pro 64 € (pago único)",
     "gratisTipo": "util",
     "gratisTxt": "Gratis con el modelo básico; los más precisos en Pro."
    }
@@ -1341,6 +1377,12 @@
     "precioTxt": "Gratis · desde 25–30 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos mensajes gratis al día."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · desde 25–30 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "5 créditos al día, hasta 30 al mes: da para probar una web sencilla."
    }
   ],
   "codigo-09": [
@@ -1349,6 +1391,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Límite diario de uso."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis (1 M de tokens al mes) · Pro desde 25 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "1 millón de tokens al mes, con un máximo de 300.000 al día."
    }
   ],
   "codigo-10": [
@@ -1357,6 +1405,12 @@
     "precioTxt": "Gratis · desde 5 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis mensuales."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis (5 $ en créditos al mes) · Team 30 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "5 $ en créditos al mes y un máximo de 7 mensajes al día."
    }
   ],
   "codigo-11": [
@@ -1529,6 +1583,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Gratis para webs con dominio de Framer."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Basic 10 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Webs gratis con dominio de Framer y 1 GB de tráfico."
    }
   ],
   "estudio-01": [
@@ -1553,6 +1613,12 @@
     "precioTxt": "Gratis limitado · Premium de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Búsquedas avanzadas gratis limitadas."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis limitado · Pro 20 $/mes (12 $ en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Búsquedas de artículos ilimitadas; 10 respuestas Pro y 3 revisiones a fondo al mes."
    }
   ],
   "estudio-04": [
@@ -1609,6 +1675,12 @@
     "precioTxt": "Gratis para docentes · de pago para alumnos",
     "gratisTipo": "limitado",
     "gratisTxt": "Gratis para profesores; para alumnos es de pago según país."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis para docentes · 4 $/mes para alumnos y familias (solo EE. UU.)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Gratis para profesores (en inglés); para alumnos y familias cuesta 4 $/mes y solo se vende en EE. UU."
    }
   ],
   "estudio-11": [
@@ -1647,6 +1719,12 @@
     "precioTxt": "Gratis · Plus de pago",
     "gratisTipo": "util",
     "gratisTxt": "Fichas gratis; las funciones de IA más útiles son Plus."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Plus desde 2,99 $/mes (pago anual, 35,99 $/año)",
+    "gratisTipo": "util",
+    "gratisTxt": "Fichas, preguntas de práctica y juegos gratis; las funciones de IA más útiles son de Plus."
    }
   ],
   "estudio-15": [
@@ -1655,12 +1733,24 @@
     "precioTxt": "Gratis · Plus de pago",
     "gratisTipo": "util",
     "gratisTxt": "Soluciones gratis; explicaciones detalladas en Plus."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Plus 9,99 $/mes o 69,99 $/año",
+    "gratisTipo": "util",
+    "gratisTxt": "Escanea y resuelve problemas sin límite, con los pasos; las explicaciones animadas y las soluciones de libros de texto son de Plus."
    }
   ],
   "estudio-16": [
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis · Pro de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "Resultados gratis; pasos detallados en Pro."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Pro para estudiantes desde 5,25 €/mes (pago anual)",
     "gratisTipo": "util",
     "gratisTxt": "Resultados gratis; pasos detallados en Pro."
    }
@@ -1809,6 +1899,12 @@
     "precioTxt": "Incluido en planes Business",
     "gratisTipo": "prueba",
     "gratisTxt": "Pruebas limitadas; la IA completa va en planes Business."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Business 20 $/mes por persona (incluye la IA)",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Free y Plus solo traen unas pocas respuestas de IA para probar; la IA completa va en Business."
    }
   ],
   "trabajo-03": [
@@ -1831,12 +1927,24 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Correcciones básicas gratis; reescrituras avanzadas en Pro."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · Pro 12 $/mes (pago anual) o 30 $ mes a mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Corrige errores y te dice el tono, con 100 peticiones de IA al mes; también en español."
    }
   ],
   "trabajo-05": [
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis limitado · planes de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "300 minutos al mes y 30 minutos por reunión."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis (300 min/mes) · Pro desde 8,33 $/mes (pago anual)",
     "gratisTipo": "limitado",
     "gratisTxt": "300 minutos al mes y 30 minutos por reunión."
    }
@@ -1869,6 +1977,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Grabación y resúmenes gratis para uso individual."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis · planes desde 15 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "Grabaciones y transcripciones ilimitadas; resúmenes avanzados solo en 5 reuniones al mes."
    }
   ],
   "trabajo-09": [
@@ -1899,6 +2013,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "1.000 operaciones al mes gratis."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis (1.000 créditos/mes) · Core desde unos 9–12 $/mes",
+    "gratisTipo": "util",
+    "gratisTxt": "1.000 créditos al mes, sin tarjeta y sin límite de tiempo (cada acción de una automatización gasta 1)."
    }
   ],
   "trabajo-12": [
@@ -2003,6 +2123,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis limitados."
+   },
+   {
+    "fecha": "2026-10-04",
+    "precioTxt": "Gratis limitado · Pro desde 20 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "300 créditos al día (máximo 1.500 al mes) y 1.000 de regalo al registrarte: da para pocas tareas."
    }
   ],
   "trabajo-25": [

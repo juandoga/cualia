@@ -1,13 +1,23 @@
 {
  "meta": {
-  "ultimaRevision": "2026-10-03",
-  "proximaRevision": "2026-10-10",
+  "ultimaRevision": "2026-10-04",
+  "proximaRevision": "2026-10-11",
   "frecuencia": "semanal",
   "totalFichas": 240,
   "nombre": "Cualia",
   "formulaNota": "calidad×4 + versatilidad×2 + facilidad×2 + precio×2"
  },
  "novedades": [
+  {
+   "fecha": "2026-10-04",
+   "ia": "Cualia",
+   "texto": "Revisión semanal: 22 fichas actualizadas, 17 verificadas por primera vez, ninguna sustituida. Baja el precio de Quizlet en el proyecto «Estudiar mejor»."
+  },
+  {
+   "fecha": "2026-10-04",
+   "ia": "Grammarly",
+   "texto": "Corregimos la ficha: Grammarly ya corrige también en español y en más de 20 idiomas."
+  },
   {
    "fecha": "2026-10-03",
    "ia": "Gemini",
@@ -60,6 +70,11 @@
   },
   {
    "fecha": "2026-09-30",
+   "ia": "v0",
+   "texto": "El plan Premium de 20 $ deja de venderse a usuarios nuevos; el plan de pago pasa a empezar en 30 $/mes."
+  },
+  {
+   "fecha": "2026-09-30",
    "ia": "Ideogram",
    "texto": "Ideogram 4.5, pensado para editar una imagen muchas veces sin perder calidad."
   },
@@ -72,6 +87,11 @@
    "fecha": "2026-09-30",
    "ia": "Gemini",
    "texto": "Google presenta Gemini 4 Argon, de momento con acceso restringido."
+  },
+  {
+   "fecha": "2026-09-29",
+   "ia": "ChatGPT",
+   "texto": "OpenAI presenta los «dots», agentes que trabajan solos en segundo plano, solo para los planes Pro y Business Premium."
   },
   {
    "fecha": "2026-09-29",
@@ -191,7 +211,7 @@
      "nombre": "ChatGPT",
      "empresa": "OpenAI",
      "precio": "freemium",
-     "precioTxt": "Gratis · Plus 20 $/mes",
+     "precioTxt": "Gratis · Go 8 $/mes · Plus 20 $/mes · Pro desde 100 $/mes",
      "nivel": 1,
      "nota": 96,
      "desc": "El asistente más usado: conversa, escribe, analiza archivos, crea imágenes y ejecuta tareas largas.",
@@ -201,10 +221,10 @@
       "Resumir un PDF",
       "Planificar un viaje"
      ],
-     "novedad": "29 sept 2026: GPT-6.1 Sol llega a los planes de pago y aparece el plan Pro de 500 $/mes. El plan Plus sigue en 20 $/mes.",
+     "novedad": "29 sept 2026 (DevDay): llegan los «dots», agentes que trabajan solos en segundo plano, solo en Pro y Business Premium (de momento no en la UE). GPT-6.1 Sol en los planes de pago.",
      "web": "https://chatgpt.com",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-04",
      "dominio": "chatgpt.com",
      "gratisTipo": "util",
      "gratisTxt": "Chat ilimitado con el modelo básico; límites diarios en el modelo avanzado, imágenes y archivos.",
@@ -877,23 +897,24 @@
      "id": "chat-14",
      "nombre": "Duck.ai",
      "empresa": "DuckDuckGo",
-     "precio": "gratis",
-     "precioTxt": "Gratis",
+     "precio": "freemium",
+     "precioTxt": "Gratis · modelos avanzados con suscripción desde 9,99 $/mes",
      "nivel": 1,
-     "nota": 74,
+     "nota": 72,
      "desc": "Chat anónimo con varios modelos. No guarda tus conversaciones para entrenar.",
      "para": "Quien prioriza la privacidad.",
      "ejemplos": [
       "Preguntas sin dejar rastro",
-      "Borradores rápidos"
+      "Borradores rápidos",
+      "Resumir un texto"
      ],
      "novedad": "",
      "web": "https://duck.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "duck.ai",
-     "gratisTipo": "libre",
-     "gratisTxt": "Gratis y anónimo.",
+     "gratisTipo": "util",
+     "gratisTxt": "Gratis, sin cuenta y sin guardar tus chats, con modelos rápidos como Claude Haiku 4.5 o GPT-5.4 mini.",
      "plataformas": [
       "web",
       "movil"
@@ -902,7 +923,7 @@
      "notas": {
       "calidad": 6,
       "facilidad": 10,
-      "precio": 10,
+      "precio": 9,
       "versatilidad": 5
      },
      "pros": [
@@ -910,14 +931,14 @@
       "Sin registro"
      ],
      "contras": [
-      "Modelos menos potentes",
+      "Los modelos potentes solo con suscripción",
       "Sin archivos ni funciones avanzadas"
      ],
      "slug": "duck-ai",
      "afiliado": "",
-     "precioMes": 0,
-     "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "precioMes": 10,
+     "consumo": "fijo",
+     "consumoTxt": "La suscripción es una cuota fija (incluye también VPN). Tiene límites de uso, pero para un uso normal no se notan."
     },
     {
      "id": "chat-15",
@@ -1648,7 +1669,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "chat",
    "empieza": {
     "titulo": "¿Es tu primera vez? Empieza por una de estas",
@@ -2285,22 +2306,23 @@
      "nombre": "Krea",
      "empresa": "Krea",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Basic 9 $/mes (5 $ en pago anual)",
      "nivel": 2,
      "nota": 74,
      "desc": "Genera y mejora imágenes en tiempo real mientras dibujas. Reúne varios modelos.",
      "para": "Diseñadores que quieren experimentar.",
      "ejemplos": [
       "Mejorar resolución",
-      "Dibujo en vivo"
+      "Dibujo en vivo",
+      "Probar estilos de imagen"
      ],
      "novedad": "",
      "web": "https://www.krea.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "krea.ai",
-     "gratisTipo": "util",
-     "gratisTxt": "Uso gratis con límites diarios.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "100 unidades de cálculo al día para crear imágenes con Krea 2; sin vídeo ni uso comercial.",
      "plataformas": [
       "web"
      ],
@@ -2321,28 +2343,29 @@
      ],
      "slug": "krea",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": 9,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Basic da 5.000 unidades al mes y cada imagen o vídeo gasta varias (los vídeos, muchas). Si generas mucho, tendrás que comprar más o subir de plan."
     },
     {
      "id": "imagen-15",
      "nombre": "Freepik AI",
      "empresa": "Freepik",
      "precio": "freemium",
-     "precioTxt": "Gratis · Premium de pago",
+     "precioTxt": "Gratis limitado · Essential desde 7,50 $/mes (pago anual)",
      "nivel": 1,
      "nota": 76,
      "desc": "Plataforma española con muchos modelos de imagen y vídeo en un solo sitio.",
      "para": "Creadores que quieren variedad en un solo lugar.",
      "ejemplos": [
       "Imágenes para redes",
-      "Mockups"
+      "Mockups",
+      "Fondos para una presentación"
      ],
      "novedad": "",
      "web": "https://www.freepik.com/ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "freepik.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Créditos gratis escasos; lo útil está en Premium.",
@@ -2367,9 +2390,9 @@
      ],
      "slug": "freepik-ai",
      "afiliado": "",
-     "precioMes": 12,
+     "precioMes": 8,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Cada plan da créditos al mes (Essential, unos 8.000) y cada imagen o vídeo gasta varios; no se acumulan de un mes a otro. Si generas mucho, tendrás que comprar más o subir de plan."
     },
     {
      "id": "imagen-16",
@@ -3056,7 +3079,7 @@
      "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "imagen",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -4583,7 +4606,7 @@
       "Explorar estilos",
       "Bocetos"
      ],
-     "novedad": "Descargas desactivadas tras su acuerdo con Universal.",
+     "novedad": "",
      "web": "https://www.udio.com",
      "verificado": true,
      "actualizado": "2026-09-29",
@@ -4942,7 +4965,7 @@
      "ejemplos": [
       "Canciones sin límite"
      ],
-     "novedad": "Antes se llamaba Sonauto.",
+     "novedad": "",
      "web": "https://treblo.com",
      "verificado": true,
      "actualizado": "2026-09-29",
@@ -5825,7 +5848,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "musica",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -6795,22 +6818,23 @@
      "nombre": "Wispr Flow",
      "empresa": "Wispr",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Pro de pago",
+     "precioTxt": "Gratis (2.000 palabras/semana) · Pro 15 $/mes (12 $ en pago anual)",
      "nivel": 1,
      "nota": 72,
      "desc": "Dicta en cualquier app y la IA limpia el texto (quita muletillas, puntúa).",
      "para": "Quien escribe mucho y prefiere hablar.",
      "ejemplos": [
       "Dictar emails",
-      "Escribir notas hablando"
+      "Escribir notas hablando",
+      "Responder mensajes sin teclear"
      ],
      "novedad": "",
      "web": "https://wisprflow.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "wisprflow.ai",
      "gratisTipo": "limitado",
-     "gratisTxt": "Palabras limitadas a la semana.",
+     "gratisTxt": "2.000 palabras a la semana, sin tarjeta; gratis sin límite para estudiantes.",
      "plataformas": [
       "movil",
       "escritorio"
@@ -6833,26 +6857,28 @@
      "slug": "wispr-flow",
      "afiliado": "",
      "precioMes": 12,
-     "consumo": "creditos",
-     "consumoTxt": "Cada plan incluye unos minutos de audio al mes. Si los superas, hay que subir de plan o pagar más."
+     "consumo": "fijo",
+     "consumoTxt": "Pro es una cuota fija con dictado ilimitado: no hay costes extra."
     },
     {
      "id": "voz-23",
      "nombre": "MacWhisper",
      "empresa": "Jordi Bruin",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro de pago",
+     "precioTxt": "Gratis · Pro 64 € (pago único)",
      "nivel": 1,
      "nota": 74,
      "desc": "Transcribe audio en tu Mac, sin subirlo a internet.",
      "para": "Usuarios de Mac.",
      "ejemplos": [
-      "Transcribir entrevistas en privado"
+      "Transcribir entrevistas en privado",
+      "Subtítulos para un vídeo",
+      "Pasar a texto notas de voz"
      ],
      "novedad": "",
      "web": "https://goodsnooze.gumroad.com/l/macwhisper",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "goodsnooze.gumroad.com",
      "gratisTipo": "util",
      "gratisTxt": "Gratis con el modelo básico; los más precisos en Pro.",
@@ -6868,7 +6894,8 @@
      },
      "pros": [
       "Transcribe en tu Mac sin internet",
-      "Privado"
+      "Privado",
+      "Pro se paga una sola vez"
      ],
      "contras": [
       "Solo Mac",
@@ -6876,9 +6903,9 @@
      ],
      "slug": "macwhisper",
      "afiliado": "",
-     "precioMes": 6,
+     "precioMes": 5,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Pro es un pago único de 64 €: sin cuotas ni costes extra."
     },
     {
      "id": "voz-24",
@@ -7191,7 +7218,7 @@
      "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "voz",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -7278,12 +7305,13 @@
      "para": "Programadores que quieren un editor completo.",
      "ejemplos": [
       "Editar muchos archivos a la vez",
-      "Refactorizar"
+      "Refactorizar",
+      "Encontrar y arreglar fallos"
      ],
-     "novedad": "SpaceX acordó comprarlo por 60.000 M$. Cursor Router elige el modelo para ahorrar.",
+     "novedad": "Desde el 24 ago 2026 el modo Auto se cobra al precio del modelo que elige (se acabó la tarifa plana).",
      "web": "https://cursor.com",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-04",
      "dominio": "cursor.com",
      "gratisTipo": "util",
      "gratisTxt": "Plan gratis con límite de peticiones.",
@@ -7308,8 +7336,8 @@
      "slug": "cursor",
      "afiliado": "",
      "precioMes": 20,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija con límite de uso. Si programas muchas horas al día puede quedarse corto y hay que subir a un plan superior."
+     "consumo": "creditos",
+     "consumoTxt": "Pro incluye un saldo de uso al mes y cada petición gasta según el modelo. Si programas muchas horas, se acaba y pagas el extra o subes de plan."
     },
     {
      "id": "codigo-03",
@@ -7461,7 +7489,7 @@
      "ejemplos": [
       "Planificar y programar funciones"
      ],
-     "novedad": "Windsurf pasó a llamarse Devin Desktop (2 jun 2026). Mismos planes: gratis, Pro 20 $ y Max 200 $.",
+     "novedad": "",
      "web": "https://devin.ai",
      "verificado": true,
      "actualizado": "2026-10-03",
@@ -7554,10 +7582,10 @@
      "novedad": "Sept 2026: tus apps ya pueden usar Claude y GPT-6 sin claves propias; la voz en apps gasta créditos.",
      "web": "https://lovable.dev",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-04",
      "dominio": "lovable.dev",
      "gratisTipo": "limitado",
-     "gratisTxt": "Pocos mensajes gratis al día.",
+     "gratisTxt": "5 créditos al día, hasta 30 al mes: da para probar una web sencilla.",
      "plataformas": [
       "web"
      ],
@@ -7580,29 +7608,30 @@
      "afiliado": "",
      "precioMes": 30,
      "consumo": "creditos",
-     "consumoTxt": "Cada plan da un número de mensajes o créditos al mes. Una web con muchos cambios los gasta rápido y hay que comprar más."
+     "consumoTxt": "Pro (25 $/mes) da 100 créditos al mes más 5 al día. Cada cambio gasta créditos: una web con muchos ajustes los agota y hay que comprar más."
     },
     {
      "id": "codigo-09",
      "nombre": "Bolt.new",
      "empresa": "StackBlitz",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis (1 M de tokens al mes) · Pro desde 25 $/mes",
      "nivel": 1,
      "nota": 76,
      "desc": "Construye y publica apps web desde el navegador hablando con la IA.",
      "para": "Principiantes que quieren publicar rápido.",
      "ejemplos": [
       "Landing page",
-      "App sencilla"
+      "App sencilla",
+      "Prototipo para enseñar una idea"
      ],
      "novedad": "",
      "web": "https://bolt.new",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-04",
      "dominio": "bolt.new",
      "gratisTipo": "limitado",
-     "gratisTxt": "Límite diario de uso.",
+     "gratisTxt": "1 millón de tokens al mes, con un máximo de 300.000 al día.",
      "plataformas": [
       "web"
      ],
@@ -7623,31 +7652,32 @@
      ],
      "slug": "bolt-new",
      "afiliado": "",
-     "precioMes": 20,
+     "precioMes": 25,
      "consumo": "creditos",
-     "consumoTxt": "Cada plan incluye un número de mensajes o créditos. Los proyectos grandes los gastan rápido y hay que comprar más."
+     "consumoTxt": "Pro da 10 millones de tokens al mes (los que sobran pasan al mes siguiente). Un proyecto grande los gasta rápido y hay que comprar más o subir de plan."
     },
     {
      "id": "codigo-10",
      "nombre": "v0",
      "empresa": "Vercel",
      "precio": "freemium",
-     "precioTxt": "Gratis · desde 5 $/mes",
+     "precioTxt": "Gratis (5 $ en créditos al mes) · Team 30 $/mes",
      "nivel": 1,
-     "nota": 74,
+     "nota": 72,
      "desc": "Genera interfaces y webs bonitas a partir de texto o capturas.",
      "para": "Diseñadores y frontends.",
      "ejemplos": [
       "Convertir un boceto en web",
-      "Componentes de interfaz"
+      "Componentes de interfaz",
+      "Página de inicio de un producto"
      ],
-     "novedad": "",
+     "novedad": "Sept 2026: el plan Premium de 20 $ ya no se vende a usuarios nuevos; el siguiente escalón es Team (30 $/mes).",
      "web": "https://v0.app",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-04",
      "dominio": "v0.app",
      "gratisTipo": "limitado",
-     "gratisTxt": "Créditos gratis mensuales.",
+     "gratisTxt": "5 $ en créditos al mes y un máximo de 7 mensajes al día.",
      "plataformas": [
       "web"
      ],
@@ -7655,7 +7685,7 @@
      "notas": {
       "calidad": 8,
       "facilidad": 9,
-      "precio": 7,
+      "precio": 6,
       "versatilidad": 5
      },
      "pros": [
@@ -7664,11 +7694,11 @@
      ],
      "contras": [
       "Centrado en diseño web",
-      "Créditos escasos"
+      "Créditos escasos y el plan de pago sube a 30 $/mes"
      ],
      "slug": "v0",
      "afiliado": "",
-     "precioMes": 5,
+     "precioMes": 30,
      "consumo": "creditos",
      "consumoTxt": "Cada plan incluye un número de mensajes o créditos. Los proyectos grandes los gastan rápido y hay que comprar más."
     },
@@ -8174,7 +8204,7 @@
       "Revisar y arreglar errores",
       "Trabajar con modelos gratis"
      ],
-     "novedad": "Recoge a muchos usuarios de Roo Code, que cerró el 15 de mayo de 2026.",
+     "novedad": "",
      "web": "https://kilo.ai",
      "verificado": true,
      "actualizado": "2026-10-03",
@@ -8523,22 +8553,23 @@
      "nombre": "Framer AI",
      "empresa": "Framer",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Basic 10 $/mes",
      "nivel": 1,
      "nota": 74,
      "desc": "Crea y publica webs bonitas a partir de una descripción.",
      "para": "Diseñadores y portfolios.",
      "ejemplos": [
       "Portfolio personal",
-      "Web de un evento"
+      "Web de un evento",
+      "Web para un pequeño negocio"
      ],
      "novedad": "",
      "web": "https://www.framer.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "framer.com",
      "gratisTipo": "util",
-     "gratisTxt": "Gratis para webs con dominio de Framer.",
+     "gratisTxt": "Webs gratis con dominio de Framer y 1 GB de tráfico.",
      "plataformas": [
       "web",
       "escritorio"
@@ -8565,7 +8596,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "codigo",
    "empieza": {
     "titulo": "¿No sabes programar? Empieza por estas",
@@ -8690,22 +8721,23 @@
      "nombre": "Consensus",
      "empresa": "Consensus",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Premium de pago",
+     "precioTxt": "Gratis limitado · Pro 20 $/mes (12 $ en pago anual)",
      "nivel": 1,
      "nota": 72,
      "desc": "Responde preguntas con lo que dicen los estudios científicos.",
      "para": "Quien quiere saber qué dice la ciencia.",
      "ejemplos": [
       "¿Es bueno el café?",
-      "Evidencia sobre un tema"
+      "Evidencia sobre un tema",
+      "Fuentes para un trabajo de clase"
      ],
      "novedad": "",
      "web": "https://consensus.app",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "consensus.app",
      "gratisTipo": "limitado",
-     "gratisTxt": "Búsquedas avanzadas gratis limitadas.",
+     "gratisTxt": "Búsquedas de artículos ilimitadas; 10 respuestas Pro y 3 revisiones a fondo al mes.",
      "plataformas": [
       "web",
       "movil"
@@ -8727,9 +8759,9 @@
      ],
      "slug": "consensus",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": 12,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Pro es una cuota fija con respuestas ilimitadas; solo las revisiones a fondo tienen tope (15 al mes)."
     },
     {
      "id": "estudio-04",
@@ -9000,22 +9032,23 @@
      "nombre": "Khanmigo",
      "empresa": "Khan Academy",
      "precio": "freemium",
-     "precioTxt": "Gratis para docentes · de pago para alumnos",
+     "precioTxt": "Gratis para docentes · 4 $/mes para alumnos y familias (solo EE. UU.)",
      "nivel": 1,
      "nota": 74,
      "desc": "Tutor que guía paso a paso sin darte la respuesta directamente.",
      "para": "Estudiantes y profesores.",
      "ejemplos": [
       "Aprender matemáticas",
-      "Preparar clases"
+      "Preparar clases",
+      "Repasar para un examen"
      ],
      "novedad": "",
      "web": "https://www.khanmigo.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "khanmigo.ai",
      "gratisTipo": "limitado",
-     "gratisTxt": "Gratis para profesores; para alumnos es de pago según país.",
+     "gratisTxt": "Gratis para profesores (en inglés); para alumnos y familias cuesta 4 $/mes y solo se vende en EE. UU.",
      "plataformas": [
       "web",
       "movil"
@@ -9037,7 +9070,7 @@
      ],
      "slug": "khanmigo",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 4,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -9181,22 +9214,23 @@
      "nombre": "Quizlet",
      "empresa": "Quizlet",
      "precio": "freemium",
-     "precioTxt": "Gratis · Plus de pago",
+     "precioTxt": "Gratis · Plus desde 2,99 $/mes (pago anual, 35,99 $/año)",
      "nivel": 1,
-     "nota": 70,
+     "nota": 72,
      "desc": "Crea fichas y tests a partir de tus apuntes.",
      "para": "Estudiantes de secundaria y universidad.",
      "ejemplos": [
       "Tarjetas para memorizar",
-      "Tests de repaso"
+      "Tests de repaso",
+      "Fichas a partir de tus apuntes"
      ],
      "novedad": "",
      "web": "https://quizlet.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "quizlet.com",
      "gratisTipo": "util",
-     "gratisTxt": "Fichas gratis; las funciones de IA más útiles son Plus.",
+     "gratisTxt": "Fichas, preguntas de práctica y juegos gratis; las funciones de IA más útiles son de Plus.",
      "plataformas": [
       "web",
       "movil"
@@ -9205,7 +9239,7 @@
      "notas": {
       "calidad": 7,
       "facilidad": 10,
-      "precio": 7,
+      "precio": 8,
       "versatilidad": 4
      },
      "pros": [
@@ -9218,7 +9252,7 @@
      ],
      "slug": "quizlet",
      "afiliado": "",
-     "precioMes": 8,
+     "precioMes": 3,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -9227,21 +9261,23 @@
      "nombre": "Photomath",
      "empresa": "Google",
      "precio": "freemium",
-     "precioTxt": "Gratis · Plus de pago",
+     "precioTxt": "Gratis · Plus 9,99 $/mes o 69,99 $/año",
      "nivel": 1,
      "nota": 74,
      "desc": "Escanea un problema de matemáticas y te explica cómo resolverlo.",
      "para": "Estudiantes y padres.",
      "ejemplos": [
-      "Entender un ejercicio"
+      "Entender un ejercicio",
+      "Comprobar tus deberes",
+      "Ver la solución paso a paso"
      ],
      "novedad": "",
      "web": "https://photomath.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "photomath.com",
      "gratisTipo": "util",
-     "gratisTxt": "Soluciones gratis; explicaciones detalladas en Plus.",
+     "gratisTxt": "Escanea y resuelve problemas sin límite, con los pasos; las explicaciones animadas y las soluciones de libros de texto son de Plus.",
      "plataformas": [
       "movil"
      ],
@@ -9257,7 +9293,7 @@
       "Muy fácil"
      ],
      "contras": [
-      "Explicaciones completas de pago",
+      "Explicaciones animadas de pago",
       "Puede usarse para copiar"
      ],
      "slug": "photomath",
@@ -9271,19 +9307,20 @@
      "nombre": "Wolfram Alpha",
      "empresa": "Wolfram",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro de pago",
+     "precioTxt": "Gratis · Pro para estudiantes desde 5,25 €/mes (pago anual)",
      "nivel": 2,
      "nota": 72,
      "desc": "Motor de cálculo exacto: matemáticas, física, datos.",
      "para": "Estudiantes de ciencias.",
      "ejemplos": [
       "Resolver ecuaciones",
-      "Datos exactos"
+      "Datos exactos",
+      "Dibujar una gráfica"
      ],
      "novedad": "",
      "web": "https://www.wolframalpha.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "wolframalpha.com",
      "gratisTipo": "util",
      "gratisTxt": "Resultados gratis; pasos detallados en Pro.",
@@ -9308,7 +9345,7 @@
      ],
      "slug": "wolfram-alpha",
      "afiliado": "",
-     "precioMes": 7,
+     "precioMes": 5,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -9946,7 +9983,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "estudio",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -10023,22 +10060,23 @@
      "nombre": "Notion AI",
      "empresa": "Notion",
      "precio": "pago",
-     "precioTxt": "Incluido en planes Business",
+     "precioTxt": "Business 20 $/mes por persona (incluye la IA)",
      "nivel": 1,
      "nota": 72,
      "desc": "IA dentro de Notion: resume, escribe y busca en todos tus documentos.",
      "para": "Equipos y personas organizadas en Notion.",
      "ejemplos": [
       "Actas de reunión",
-      "Buscar en tu wiki"
+      "Buscar en tu wiki",
+      "Resumir documentos largos"
      ],
      "novedad": "",
      "web": "https://www.notion.com/product/ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "notion.com",
      "gratisTipo": "prueba",
-     "gratisTxt": "Pruebas limitadas; la IA completa va en planes Business.",
+     "gratisTxt": "Free y Plus solo traen unas pocas respuestas de IA para probar; la IA completa va en Business.",
      "plataformas": [
       "web",
       "movil",
@@ -10118,21 +10156,23 @@
      "nombre": "Grammarly",
      "empresa": "Grammarly",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro de pago",
+     "precioTxt": "Gratis · Pro 12 $/mes (pago anual) o 30 $ mes a mes",
      "nivel": 1,
      "nota": 70,
      "desc": "Corrige y mejora tus textos en inglés mientras escribes.",
      "para": "Quien escribe en inglés en el trabajo.",
      "ejemplos": [
-      "Emails en inglés sin errores"
+      "Emails en inglés sin errores",
+      "Mejorar el tono de un texto",
+      "Corregir un texto en español"
      ],
      "novedad": "",
      "web": "https://www.grammarly.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "grammarly.com",
      "gratisTipo": "util",
-     "gratisTxt": "Correcciones básicas gratis; reescrituras avanzadas en Pro.",
+     "gratisTxt": "Corrige errores y te dice el tono, con 100 peticiones de IA al mes; también en español.",
      "plataformas": [
       "web",
       "movil",
@@ -10146,12 +10186,12 @@
       "versatilidad": 4
      },
      "pros": [
-      "Corrige tu inglés mientras escribes",
+      "Corrige mientras escribes, también en español",
       "Funciona en todas partes"
      ],
      "contras": [
-      "Solo inglés",
-      "Lo avanzado es de pago"
+      "Mejor en inglés que en otros idiomas",
+      "Pro caro si pagas mes a mes"
      ],
      "slug": "grammarly",
      "afiliado": "",
@@ -10164,18 +10204,20 @@
      "nombre": "Otter.ai",
      "empresa": "Otter",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis (300 min/mes) · Pro desde 8,33 $/mes (pago anual)",
      "nivel": 1,
      "nota": 70,
      "desc": "Graba y transcribe reuniones con resumen automático.",
      "para": "Quien tiene muchas reuniones.",
      "ejemplos": [
-      "Acta automática de una reunión"
+      "Acta automática de una reunión",
+      "Transcribir una clase",
+      "Buscar qué se dijo en una reunión"
      ],
      "novedad": "",
      "web": "https://otter.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "otter.ai",
      "gratisTipo": "limitado",
      "gratisTxt": "300 minutos al mes y 30 minutos por reunión.",
@@ -10201,9 +10243,9 @@
      ],
      "slug": "otter-ai",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": 8,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Pro da 1.200 minutos al mes y reuniones de hasta 90 minutos. Si grabas más, tendrás que subir a Business."
     },
     {
      "id": "trabajo-06",
@@ -10300,21 +10342,23 @@
      "nombre": "Fathom",
      "empresa": "Fathom",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · planes desde 15 $/mes",
      "nivel": 1,
      "nota": 74,
      "desc": "Grabador de reuniones gratuito con resúmenes.",
      "para": "Quien busca una opción gratis.",
      "ejemplos": [
-      "Resúmenes de Zoom o Meet"
+      "Resúmenes de Zoom o Meet",
+      "Tareas pendientes tras una llamada",
+      "Grabar reuniones sin tomar notas"
      ],
      "novedad": "",
      "web": "https://fathom.video",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "fathom.video",
      "gratisTipo": "util",
-     "gratisTxt": "Grabación y resúmenes gratis para uso individual.",
+     "gratisTxt": "Grabaciones y transcripciones ilimitadas; resúmenes avanzados solo en 5 reuniones al mes.",
      "plataformas": [
       "web",
       "escritorio"
@@ -10336,7 +10380,7 @@
      ],
      "slug": "fathom",
      "afiliado": "",
-     "precioMes": 0,
+     "precioMes": 15,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -10435,21 +10479,23 @@
      "nombre": "Make",
      "empresa": "Make",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis (1.000 créditos/mes) · Core desde unos 9–12 $/mes",
      "nivel": 2,
      "nota": 76,
      "desc": "Automatizaciones visuales más flexibles y baratas que Zapier.",
      "para": "Usuarios que quieren flujos complejos.",
      "ejemplos": [
-      "Flujos con varias condiciones"
+      "Flujos con varias condiciones",
+      "Guardar adjuntos del correo en Drive",
+      "Publicar en redes automáticamente"
      ],
      "novedad": "",
      "web": "https://www.make.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "make.com",
      "gratisTipo": "util",
-     "gratisTxt": "1.000 operaciones al mes gratis.",
+     "gratisTxt": "1.000 créditos al mes, sin tarjeta y sin límite de tiempo (cada acción de una automatización gasta 1).",
      "plataformas": [
       "web"
      ],
@@ -10472,7 +10518,7 @@
      "afiliado": "",
      "precioMes": 10,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Core da 10.000 créditos al mes y cada paso de una automatización gasta uno. Si automatizas mucho, tendrás que subir de nivel de créditos."
     },
     {
      "id": "trabajo-12",
@@ -11021,21 +11067,23 @@
      "nombre": "Manus",
      "empresa": "Manus",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis limitado · Pro desde 20 $/mes",
      "nivel": 2,
      "nota": 74,
      "desc": "Agente que ejecuta tareas completas: investiga, crea archivos y webs.",
      "para": "Quien quiere delegar tareas largas.",
      "ejemplos": [
-      "Informe de mercado completo"
+      "Informe de mercado completo",
+      "Crear una web sencilla",
+      "Preparar una presentación"
      ],
      "novedad": "Manus 2.0 (28 sept 2026): más rápido y barato de ejecutar, automatizaciones y editor de vídeo.",
      "web": "https://manus.im",
-     "verificado": false,
-     "actualizado": "2026-10-03",
+     "verificado": true,
+     "actualizado": "2026-10-04",
      "dominio": "manus.im",
      "gratisTipo": "limitado",
-     "gratisTxt": "Créditos gratis limitados.",
+     "gratisTxt": "300 créditos al día (máximo 1.500 al mes) y 1.000 de regalo al registrarte: da para pocas tareas.",
      "plataformas": [
       "web",
       "movil"
@@ -11059,7 +11107,7 @@
      "afiliado": "",
      "precioMes": 20,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Pro da 4.000 créditos al mes y cada tarea gasta muchos, según lo larga que sea. Si le encargas mucho, tendrás que comprar créditos o subir de plan."
     },
     {
      "id": "trabajo-25",
@@ -11334,7 +11382,7 @@
      "consumoTxt": "La licencia cubre el uso diario, pero desde octubre de 2026 las funciones avanzadas (agentes como Cowork) se cobran aparte con créditos según el uso."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-04",
    "id": "trabajo",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -11579,7 +11627,7 @@
      "rol": "Fichas y tests de repaso",
      "gratis": "Fichas gratis",
      "plan": "Plus",
-     "precio": 8
+     "precio": 3
     },
     {
      "ia": "Claude",
@@ -11597,7 +11645,7 @@
     }
    ],
    "notaGratis": "Este pack funciona muy bien gratis: Gemini Notebook es gratis y el resto tiene planes gratuitos útiles.",
-   "total": 39
+   "total": 34
   },
   {
    "id": "programar",
