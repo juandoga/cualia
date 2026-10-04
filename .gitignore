@@ -1,5 +1,8 @@
 # Se generan al publicar (tools/build_pages.py)
 /ia/
 /pack/
+/mejores/
+/og/
 /sitemap.xml
 /robots.txt
+__pycache__/

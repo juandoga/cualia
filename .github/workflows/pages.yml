@@ -26,7 +26,12 @@ jobs:
       - uses: actions/checkout@v4
       - id: pages
         uses: actions/configure-pages@v5
-      - name: Generar páginas por IA y por pack
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar Pillow (imágenes de vista previa)
+        run: pip install --quiet pillow
+      - name: Generar páginas por IA, por pack, rankings e imágenes
         run: python3 tools/build_pages.py
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}

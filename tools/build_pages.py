@@ -2,8 +2,14 @@
 Se ejecuta en cada publicación (GitHub Actions). No hace falta tocarlo al actualizar datos."""
 import json, os, html, datetime
 
+try:  # imágenes de vista previa al compartir (opcional: si falta Pillow, se publican sin imagen propia)
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from og_images import tarjeta
+except Exception as err:
+    print("Aviso: sin imágenes de vista previa ->", err); tarjeta = None
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = os.environ.get("SITE_URL", "https://juandoga.github.io/brujula-ia").rstrip("/")
+SITE = os.environ.get("SITE_URL", "https://juandoga.github.io/cualia").rstrip("/")
 d = json.load(open(os.path.join(RAIZ, "data", "brujula.json"), encoding="utf-8"))
 e = lambda s: html.escape(str(s or ""), quote=True)
 
@@ -32,10 +38,24 @@ ul{padding-left:1.2em;margin:6px 0}table{width:100%;border-collapse:collapse}td{
 .cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:12px;margin:8px 8px 0 0}
 .small{font-size:13px;color:var(--muted)}.list a{display:block;padding:8px 0;border-top:1px solid var(--rule);text-decoration:none;color:var(--ink);font-weight:700}.list a span{color:var(--muted);font-weight:400;font-size:14px}"""
 
-def pagina(ruta, titulo, desc, cuerpo, canon):
+DOMINIO = SITE.split("://", 1)[-1]
+def imagen(ruta, *args, **kw):
+    """Genera og/<ruta>.png y devuelve su URL; si no se puede, la imagen general."""
+    if tarjeta:
+        try:
+            tarjeta(os.path.join(RAIZ, "og", ruta + ".png"), *args, dominio=DOMINIO, **kw)
+            return f"{SITE}/og/{ruta}.png"
+        except Exception as err:
+            print("Aviso: imagen", ruta, "->", err)
+    return f"{SITE}/og/cualia.png"
+
+def pagina(ruta, titulo, desc, cuerpo, canon, img=None):
     doc = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(titulo)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(canon)}">
 <meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="article"><meta property="og:url" content="{e(canon)}">
+<meta property="og:site_name" content="Cualia"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="{e(img or SITE + '/og/cualia.png')}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(img or SITE + '/og/cualia.png')}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%235B3FD9'/%3E%3Ccircle cx='50' cy='50' r='25' fill='none' stroke='%23fff' stroke-width='13' stroke-linecap='round' stroke-dasharray='117.8 157.1'/%3E%3Ccircle cx='67.7' cy='32.3' r='8' fill='%23FFC94A'/%3E%3C/svg%3E">
 <style>{CSS}</style></head><body><div class="w">
 <div class="top"><a class="logo" href="{SITE}/"><svg width="30" height="30" viewBox="0 0 100 100" aria-hidden="true" style="flex:0 0 auto"><rect width="100" height="100" rx="24" fill="#5B3FD9"/><circle cx="50" cy="50" r="25" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-dasharray="117.8 157.1"/><circle cx="67.7" cy="32.3" r="8" fill="#FFC94A"/></svg><b>Cual<span>ia</span></b></a><a href="{SITE}/">¿Qué IA uso para esto?</a></div>
@@ -47,6 +67,9 @@ def pagina(ruta, titulo, desc, cuerpo, canon):
     open(destino, "w", encoding="utf-8").write(doc)
 
 urls = [(SITE + "/", d["meta"].get("ultimaRevision"))]
+TOTAL = sum(len(c["herramientas"]) for c in d["cats"])
+imagen("cualia", "Guía de IAs en español", "¿Qué IA uso para esto?",
+       [f"{TOTAL} IAs", "Qué incluye lo gratis", "Revisado cada semana"], pie="Te decimos qué IA usar y cuánto cuesta de verdad")
 por_nombre = {}
 for c in d["cats"]:
     for h in c["herramientas"]:
@@ -75,11 +98,13 @@ for c in d["cats"]:
 <h2>Nota de Cualia: {h['nota']}/100</h2><p>Calidad {n.get('calidad')}/10 · Versatilidad {n.get('versatilidad')}/10 · Facilidad {n.get('facilidad')}/10 · Precio {n.get('precio')}/10. <a href="{SITE}/#guia">Cómo se calcula</a>.</p>
 {('<h2>Novedad</h2><p>'+e(h['novedad'])+'</p>') if h.get('novedad') else ''}
 {('<h2>Packs que la incluyen</h2><div class="list">'+''.join(f'<a href="{SITE}/pack/{e(p["id"])}/">{e(p["titulo"])} <span>· ≈ {p["total"]} €/mes completo</span></a>' for p in packs)+'</div>') if packs else ''}
-<h2>Alternativas a {e(h['nombre'])}</h2><div class="list">{''.join(f'<a href="{SITE}/ia/{e(a["slug"])}/">{e(a["nombre"])} <span>· nota {a["nota"]} · {e(GRATIS.get(a["gratisTipo"],""))}</span></a>' for a in alternativas)}</div>
+<h2>Alternativas a {e(h['nombre'])}</h2><div class="list">{''.join(f'<a href="{SITE}/ia/{e(a["slug"])}/">{e(a["nombre"])} <span>· nota {a["nota"]} · {e(GRATIS.get(a["gratisTipo"],""))}</span></a>' for a in alternativas)}<a href="{SITE}/mejores/{e(c['id'])}/">Ver las 30 mejores IAs de {e(c['nombre'].lower())} <span>· ranking completo</span></a></div>
 <p><a class="cta" href="{SITE}/?ia={e(h['slug'])}">Ver ficha completa en Cualia</a>{f'<a class="cta" style="background:var(--soft);color:var(--ink)" href="{e(h.get("afiliado") or h["web"])}" rel="noopener{" sponsored" if h.get("afiliado") else ""}">Ir a {e(h["nombre"])}</a>' if h.get('web') else ''}</p>"""
         titulo = f"{h['nombre']}: precio, si es gratis y alternativas | Cualia"
         desc = f"{h['nombre']} ({c['nombre'].lower()}): {GRATIS.get(h['gratisTipo'],'').lower()}. {h.get('gratisTxt','')} Ventajas, desventajas, precio y alternativas, revisado el {fecha(h['actualizado'])}."
-        pagina(f"ia/{h['slug']}/index.html", titulo, desc[:300], cuerpo, canon)
+        img = imagen(f"ia/{h['slug']}", c["nombre"], h["nombre"],
+                     [f"Nota {h['nota']}/100", GRATIS.get(h["gratisTipo"], "")], pie=f"Precio, si es gratis y alternativas")
+        pagina(f"ia/{h['slug']}/index.html", titulo, desc[:300], cuerpo, canon, img)
         urls.append((canon, h["actualizado"]))
 
 # Páginas por pack
@@ -97,8 +122,47 @@ for p in d.get("packs", []):
 <p><a class="cta" href="{SITE}/#proyectos">Ver todos los packs</a></p>"""
     titulo = f"{p['titulo']}: IAs necesarias y precio total | Cualia"
     desc = f"{p['titulo']} con inteligencia artificial: qué IAs usar en cada paso, qué se puede hacer gratis y cuánto cuesta la versión completa (≈ {p['total']} €/mes)."
-    pagina(f"pack/{p['id']}/index.html", titulo, desc, cuerpo, canon)
+    img = imagen(f"pack/{p['id']}", "Pack de IAs paso a paso", p["titulo"],
+                 ["Versión gratis: 0 €", f"Completa: ≈ {p['total']} €/mes"], pie=f"{len(p['pasos'])} IAs y el precio total")
+    pagina(f"pack/{p['id']}/index.html", titulo, desc, cuerpo, canon, img)
     urls.append((canon, d["meta"].get("ultimaRevision")))
+
+# Páginas «Las mejores IAs de …» (una por tema)
+ANO = (d["meta"].get("ultimaRevision") or str(datetime.date.today()))[:4]
+FILA = lambda h, i: (f"<tr><td class=\"n\" style=\"text-align:left;width:2.2em;color:var(--muted)\">{i}</td>"
+    f"<td><b><a href=\"{SITE}/ia/{e(h['slug'])}/\">{e(h['nombre'])}</a></b><br><span class=\"small\">{e(h['desc'])}</span><br>"
+    f"<span class=\"small\"><b>{e(GRATIS.get(h['gratisTipo'],''))}</b> · {e(h['precioTxt'])}</span></td><td class=\"n\">{h['nota']}</td></tr>")
+for c in d["cats"]:
+    canon = f"{SITE}/mejores/{c['id']}/"
+    orden = sorted(c["herramientas"], key=lambda x: -x["nota"])
+    gratis = [h for h in orden if h["gratisTipo"] in ("libre", "util")][:5]
+    picks = [(por_nombre.get(n), t) for n, t in (c.get("empieza") or {}).get("picks", [])]
+    packs = [p for p in d.get("packs", []) if any(s["ia"] in {h["nombre"] for h in c["herramientas"]} for s in p["pasos"])][:4]
+    tema = c["nombre"].lower()
+    cuerpo = f"""<p class="small">Ranking · {e(c['nombre'])}</p>
+<h1>Las mejores IAs de {e(tema)} en {ANO}</h1>
+<p class="sub">30 herramientas comparadas · revisado el {fecha(c.get('actualizado'))}</p>
+<p class="lead">{e(c['desc'])} Estas son las que mejor funcionan hoy, con lo que incluye de verdad su versión gratis y cuánto cuestan.</p>
+{('<h2>'+e(c['empieza']['titulo'])+'</h2><div class="list">'+''.join(f'<a href="{SITE}/ia/{e(h["slug"])}/">{e(h["nombre"])} <span>· {e(t)}</span></a>' for h, t in picks if h)+'</div>') if picks else ''}
+{('<h2>Las mejores gratis</h2><div class="list">'+''.join(f'<a href="{SITE}/ia/{e(h["slug"])}/">{e(h["nombre"])} <span>· {e(GRATIS[h["gratisTipo"]])}: {e(h["gratisTxt"])}</span></a>' for h in gratis)+'</div>') if gratis else ''}
+<h2>Ranking completo</h2><div class="card"><table>{''.join(FILA(h, i) for i, h in enumerate(orden, 1))}</table></div>
+<p class="small">La nota va de 0 a 100: calidad (40 %), versatilidad, facilidad de uso y relación calidad-precio (20 % cada una). <a href="{SITE}/#guia">Cómo puntuamos</a>.</p>
+{('<h2>Proyectos que usan estas IAs</h2><div class="list">'+''.join(f'<a href="{SITE}/pack/{e(p["id"])}/">{e(p["titulo"])} <span>· ≈ {p["total"]} €/mes completo</span></a>' for p in packs)+'</div>') if packs else ''}
+<h2>Otros temas</h2><div class="list">{''.join(f'<a href="{SITE}/mejores/{e(o["id"])}/">Mejores IAs de {e(o["nombre"].lower())}</a>' for o in d["cats"] if o["id"] != c["id"])}</div>
+<p><a class="cta" href="{SITE}/#explorar">Filtrar en Cualia</a></p>"""
+    titulo = f"Las mejores IAs de {tema} en {ANO}: gratis y de pago | Cualia"
+    desc = (f"Las 30 mejores herramientas de IA de {tema} comparadas: cuáles son gratis de verdad, precio, nota y para quién es cada una. "
+            f"Revisado el {fecha(c.get('actualizado'))}.")
+    img = imagen(f"mejores/{c['id']}", "Ranking " + ANO, f"Las mejores IAs de {tema}",
+                 ["30 comparadas", "Gratis y de pago"], pie="Qué incluye lo gratis, precio y nota")
+    pagina(f"mejores/{c['id']}/index.html", titulo, desc, cuerpo, canon, img)
+    urls.append((canon, c.get("actualizado")))
+pagina("mejores/index.html", f"Las mejores IAs por tema en {ANO} | Cualia",
+       "Rankings de herramientas de inteligencia artificial por tema: chat, imágenes, vídeo, música, voz, programar, estudiar y trabajo.",
+       f"<h1>Las mejores IAs por tema</h1><p class=\"sub\">Revisado el {fecha(d['meta'].get('ultimaRevision'))}</p><div class=\"list\">"
+       + "".join(f"<a href=\"{SITE}/mejores/{e(c['id'])}/\">Mejores IAs de {e(c['nombre'].lower())} <span>· {e(c['desc'])}</span></a>" for c in d["cats"]) + "</div>",
+       f"{SITE}/mejores/")
+urls.append((f"{SITE}/mejores/", d["meta"].get("ultimaRevision")))
 
 # Índices
 lista_ias = "".join(f"<h2>{e(c['nombre'])}</h2><div class=\"list\">" + "".join(
@@ -106,7 +170,7 @@ lista_ias = "".join(f"<h2>{e(c['nombre'])}</h2><div class=\"list\">" + "".join(
     for h in sorted(c["herramientas"], key=lambda x: -x["nota"])) + "</div>" for c in d["cats"])
 pagina("ia/index.html", "Todas las IAs: precios, si son gratis y alternativas | Cualia",
        "Catálogo de 240 herramientas de inteligencia artificial en español: qué incluye de verdad su versión gratis, precio, ventajas y desventajas.",
-       f"<h1>Todas las IAs</h1><p class=\"sub\">Revisado el {fecha(d['meta'].get('ultimaRevision'))}</p>{lista_ias}", f"{SITE}/ia/")
+       f"<h1>Todas las IAs</h1><p class=\"sub\">Revisado el {fecha(d['meta'].get('ultimaRevision'))} · <a href=\"{SITE}/mejores/\">Rankings por tema</a></p>{lista_ias}", f"{SITE}/ia/")
 urls.append((f"{SITE}/ia/", d["meta"].get("ultimaRevision")))
 pagina("pack/index.html", "Packs de IAs para cada proyecto, con precio total | Cualia",
        "Combinaciones de herramientas de IA para hacer un corto, un videoclip, un podcast o un negocio online, con lo que se puede hacer gratis y el precio total.",
