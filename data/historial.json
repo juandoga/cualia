@@ -21,6 +21,12 @@
     "precioTxt": "Gratis · Pro 20 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Uso diario con límite de mensajes que se renueva cada pocas horas."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Pro 20 $/mes (17 $/mes en pago anual: 200 $/año) · Max desde 100 $/mes (5x y 20x)",
+    "gratisTipo": "util",
+    "gratisTxt": "Uso diario con límite de mensajes que se renueva cada pocas horas."
    }
   ],
   "chat-03": [
@@ -121,6 +127,12 @@
     "precioTxt": "Gratis · suscripción de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos mensajes diarios con los mejores modelos."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · suscripciones desde 4,99 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Puntos gratis cada día que no se acumulan; los mejores modelos gastan muchos por mensaje."
    }
   ],
   "chat-14": [
@@ -215,6 +227,12 @@
     "precioTxt": "Pago por uso",
     "gratisTipo": "prueba",
     "gratisTxt": "Algún modelo gratis; lo normal es pagar por uso."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis (modelos gratis, 50 peticiones al día) · Pago por uso con saldo prepago (comisión del 5,5 % al recargar)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Más de 25 modelos gratis con un límite de 50 peticiones al día (1.000 al día si has comprado al menos 10 $ de saldo)."
    }
   ],
   "chat-25": [
@@ -401,6 +419,12 @@
     "precioTxt": "Gratis limitado · Essential 10 $/mes · Premium 20 $/mes · Premium+ 45 $/mes (más baratos en pago anual)",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis escasos; lo útil está en Premium."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis limitado · Premium 20 $/mes (14,50 $ en pago anual) · Premium+ 45 $/mes (33,75 $) · Pro Starter 110 $/mes (82,50 $)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Créditos gratis escasos; lo útil está en Premium."
    }
   ],
   "imagen-16": [
@@ -447,6 +471,12 @@
     "precioTxt": "Incluido en Dreamina/CapCut",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis en Dreamina/CapCut."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis en Dreamina (120 créditos al día) · Basic 15 $/mes · Standard 36 $/mes · Advanced 159 $/mes · Ultra 520 $/mes (40 % menos en pago anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "120 créditos gratis al día en Dreamina, la web de ByteDance donde se usa Seedream."
    }
   ],
   "imagen-21": [
@@ -455,6 +485,12 @@
     "precioTxt": "Gratis · modelo abierto",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis en Qwen Chat o instalándolo."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · modelo abierto",
+    "gratisTipo": "libre",
+    "gratisTxt": "Modelo abierto: se descarga e instala gratis, y hay una demo gratis en Hugging Face. La versión 2.1 tiene licencia de investigación: revisa si permite uso comercial."
    }
   ],
   "imagen-22": [
@@ -479,6 +515,12 @@
     "precioTxt": "Gratis y de código abierto",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis y de código abierto."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis en tu ordenador (código abierto) · Comfy Cloud opcional: Standard 20 $/mes (16 $ en pago anual) · Creator 35 $/mes (28 $) · Pro 100 $/mes (80 $)",
+    "gratisTipo": "libre",
+    "gratisTxt": "La app para el ordenador es gratis y sin límites. En la nube (Comfy Cloud) hay 5 ejecuciones gratis."
    }
   ],
   "imagen-25": [
@@ -681,6 +723,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Funciones básicas gratis; lo interesante es de pago."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis limitado · Basic 9,99 $/mes (200 créditos) · Max 24,99 $/mes (500 créditos) · Frontier 69,99 $/mes (1.400 créditos), también 139,99 y 279,99 $/mes · precios de iPhone; Lite 4,99 $/mes solo en Android",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Herramientas básicas de edición y una plantilla de subtítulos; muy pocos o ningún crédito de IA."
    }
   ],
   "video-18": [
@@ -941,6 +989,12 @@
     "precioTxt": "Prueba gratis · paquetes de pago",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba de pocos minutos; luego paquetes de pago."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis 10 min (cola lenta) · Lite 7,5 $/mes (90 $/año) · Pro 15 $/mes (180 $/año)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "10 minutos de audio en la cola lenta, archivos de hasta 200 MB."
    }
   ],
   "musica-19": [
@@ -987,6 +1041,12 @@
     "precioTxt": "Suscripción",
     "gratisTipo": "no",
     "gratisTxt": "Suscripción."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Creator 19,99 $/mes (200 créditos; primer mes 4,99 $) · Sounds 12,99 $/mes en pago anual (100 créditos) · INSTRUMENT 12,99 $/mes",
+    "gratisTipo": "no",
+    "gratisTxt": "No tiene plan gratis; el primer mes de Creator cuesta 4,99 $."
    }
   ],
   "musica-24": [
@@ -1215,6 +1275,12 @@
     "precioTxt": "Gratis limitado · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos minutos gratis al día."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Core 16 $/mes (8 $ en pago anual) · Advanced 30 $/mes (15 $ en pago anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Pocos minutos gratis al día."
    }
   ],
   "voz-21": [
@@ -1223,6 +1289,12 @@
     "precioTxt": "2 h gratis/mes · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "2 horas gratis al mes."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "2 h gratis/mes · planes de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "2 horas de audio al mes, con la sintonía de Auphonic y sin procesar en lote."
    }
   ],
   "voz-22": [
@@ -1283,6 +1355,12 @@
     "precioTxt": "Demo gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Demo gratis."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis (app para iPhone y Android)",
+    "gratisTipo": "libre",
+    "gratisTxt": "La app es gratis y sin compras dentro por ahora."
    }
   ],
   "voz-28": [
@@ -1369,6 +1447,12 @@
     "precioTxt": "Gratis en vista previa",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis mientras está en vista previa."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis (límites semanales) · más uso con Google AI Pro o Ultra · Business desde 30 $/mes por persona",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis para particulares, con límites de uso semanales."
    }
   ],
   "codigo-08": [
@@ -1449,6 +1533,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis limitado."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis (50 créditos/mes) · Pro 20 $/mes (1.000 créditos) · Pro+ 40 $/mes (2.000) · Pro Max 100 $/mes (5.000) · Power 200 $/mes (10.000)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "50 créditos al mes con algunos modelos y límites de velocidad."
    }
   ],
   "codigo-15": [
@@ -1473,6 +1563,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Gratis con IA limitada."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Pro 10 $/mes · Business 30 $/mes por persona",
+    "gratisTipo": "util",
+    "gratisTxt": "Editor gratis con 2.000 sugerencias de código aceptadas; IA sin límite si usas tus propias claves."
    }
   ],
   "codigo-18": [
@@ -1481,6 +1577,12 @@
     "precioTxt": "Incluido en planes de JetBrains",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba; incluido en planes de pago."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Incluido en planes de JetBrains",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Junie Lite: un modelo de IA gratis en cualquier cuenta de JetBrains, sin tarjeta."
    }
   ],
   "codigo-19": [
@@ -1497,6 +1599,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con IA limitada."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Build 20 $/mes (18 $ en pago anual) · Max 200 $/mes (180 $) · Business 50 $/mes por persona (45 $)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "La terminal es gratis; la IA solo con tu propia clave o pagando por uso."
    }
   ],
   "codigo-21": [
@@ -1521,6 +1629,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos mensajes gratis."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Starter 20 $/mes (16 $ en pago anual) · Builder 50 $/mes (40 $) · Pro 100 $/mes (80 $) · Elite 200 $/mes (160 $)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "25 créditos de mensajes al mes (máximo 5 al día) y hasta 5 apps."
    }
   ],
   "codigo-24": [
@@ -1605,6 +1719,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Búsquedas gratis limitadas."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis limitado · planes de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Búsqueda en más de 138 millones de artículos, resúmenes y chat ilimitados; agente e informes limitados."
    }
   ],
   "estudio-03": [
@@ -1777,6 +1897,12 @@
     "precioTxt": "Gratis limitado · Plus de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos PDFs y preguntas al día."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis limitado · Plus de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "2 documentos al día gratis."
    }
   ],
   "estudio-20": [
@@ -1793,6 +1919,12 @@
     "precioTxt": "Desde unos 5 $/mes",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba de 100 búsquedas; luego suscripción."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Starter 5 $/mes (4,50 $ en pago anual) · Professional 10 $/mes (9 $) · Ultimate 25 $/mes (22,50 $)",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba de 100 búsquedas y 100 usos del asistente; no hay plan gratis permanente."
    }
   ],
   "estudio-22": [
@@ -1955,6 +2087,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Transcripciones limitadas."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Pro 10 $/mes · Business 19 $/mes · Enterprise 39 $/mes (por persona, pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Transcripción de reuniones con 400 minutos de almacenamiento y grabaciones de hasta 2 horas; resúmenes con IA limitados."
    }
   ],
   "trabajo-07": [
@@ -2043,6 +2181,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con créditos mensuales."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis · Plus 9 $/mes por persona · Pro 22 $/mes por persona (25 % menos en pago anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "500 créditos de IA a la semana, edición y exportación PNG/PDF ilimitadas; los visuales llevan la marca de Napkin."
    }
   ],
   "trabajo-15": [
@@ -2151,6 +2295,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos mensajes gratis al mes."
+   },
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis limitado · Plus 20 $/mes (16 $ en pago anual) · Pro 45 $/mes (37 $) · Max 200 $/mes (166 $) · Business 450 $/mes (375 $)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Unos pocos créditos gratis con los modelos ligeros (Julius Lite)."
    }
   ],
   "trabajo-27": [
@@ -2191,6 +2341,14 @@
     "precioTxt": "Gratis · pagas el modelo que uses",
     "gratisTipo": "libre",
     "gratisTxt": "La extensión es gratis y ofrece algunos modelos gratis; también puedes usar tu propia clave."
+   }
+  ],
+  "codigo-32": [
+   {
+    "fecha": "2026-10-11",
+    "precioTxt": "Gratis (pagas solo si conectas una clave de pago de la API)",
+    "gratisTipo": "libre",
+    "gratisTxt": "Usarlo es gratis con una cuenta de Google; puedes publicar hasta 2 apps sin cuenta de facturación."
    }
   ]
  }

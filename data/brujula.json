@@ -1,13 +1,63 @@
 {
  "meta": {
-  "ultimaRevision": "2026-10-04",
-  "proximaRevision": "2026-10-11",
+  "ultimaRevision": "2026-10-11",
+  "proximaRevision": "2026-10-18",
   "frecuencia": "semanal",
   "totalFichas": 240,
   "nombre": "Cualia",
   "formulaNota": "calidad×4 + versatilidad×2 + facilidad×2 + precio×2"
  },
  "novedades": [
+  {
+   "fecha": "2026-10-11",
+   "ia": "Cualia",
+   "texto": "Revisión semanal: 39 fichas actualizadas, 16 verificadas por primera vez, 1 sustituida (Firebase Studio → Google AI Studio). Sin cambios en los proyectos."
+  },
+  {
+   "fecha": "2026-10-11",
+   "ia": "Google AI Studio",
+   "texto": "Entra en el catálogo en lugar de Firebase Studio, que ya no admite usuarios nuevos y cerrará en marzo de 2027."
+  },
+  {
+   "fecha": "2026-10-11",
+   "ia": "Magnific (antes Freepik)",
+   "texto": "Actualizamos la ficha de Freepik, que se llama Magnific desde abril de 2026. Precios nuevos: Premium 20 $/mes, Premium+ 45 $/mes."
+  },
+  {
+   "fecha": "2026-10-11",
+   "ia": "Antigravity",
+   "texto": "Ya no está en vista previa: gratis con límites semanales y más uso con Google AI Pro o Ultra."
+  },
+  {
+   "fecha": "2026-10-08",
+   "ia": "Midjourney",
+   "texto": "Prueba un «modo de pensamiento» que corrige fallos y textos de las imágenes."
+  },
+  {
+   "fecha": "2026-10-07",
+   "ia": "ChatGPT",
+   "texto": "Llega GPT-6, con respuestas que mezclan texto, gráficos y elementos interactivos. En el plan gratis, desde el 8 de octubre."
+  },
+  {
+   "fecha": "2026-10-07",
+   "ia": "Claude",
+   "texto": "Nuevo modelo Claude Haiku 5.5."
+  },
+  {
+   "fecha": "2026-10-06",
+   "ia": "Gamma",
+   "texto": "Gamma 5: agente que edita contigo, más estilos e importación y exportación de PowerPoint y PDF, en todos los planes."
+  },
+  {
+   "fecha": "2026-10-06",
+   "ia": "Nano Banana 2",
+   "texto": "Google lanza Nano Banana 2.1, con imágenes de hasta 4K."
+  },
+  {
+   "fecha": "2026-10-06",
+   "ia": "Suno",
+   "texto": "Italia investiga si las condiciones de uso de Suno son abusivas para los consumidores."
+  },
   {
    "fecha": "2026-10-04",
    "ia": "Cualia",
@@ -47,6 +97,16 @@
    "fecha": "2026-10-03",
    "ia": "CapCut",
    "texto": "CapCut Pro cuesta 19,99 $/mes según su web (varía por país)."
+  },
+  {
+   "fecha": "2026-10-01",
+   "ia": "JetBrains AI (Junie)",
+   "texto": "Llega Junie Lite, una IA gratis para cualquier cuenta de JetBrains."
+  },
+  {
+   "fecha": "2026-10-01",
+   "ia": "Lovable",
+   "texto": "Si eliges servidores en la UE, cada petición gasta más créditos."
   },
   {
    "fecha": "2026-10-01",
@@ -221,10 +281,10 @@
       "Resumir un PDF",
       "Planificar un viaje"
      ],
-     "novedad": "29 sept 2026 (DevDay): llegan los «dots», agentes que trabajan solos en segundo plano, solo en Pro y Business Premium (de momento no en la UE). GPT-6.1 Sol en los planes de pago.",
+     "novedad": "7 oct 2026: llega GPT-6 a ChatGPT, con respuestas que mezclan texto, gráficos y elementos interactivos (Sol en planes de pago; Luna en Gratis y Go desde el 8 oct). 29 sept (DevDay): «dots», agentes en segundo plano solo en Pro y Business Premium.",
      "web": "https://chatgpt.com",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-10-11",
      "dominio": "chatgpt.com",
      "gratisTipo": "util",
      "gratisTxt": "Chat ilimitado con el modelo básico; límites diarios en el modelo avanzado, imágenes y archivos.",
@@ -282,7 +342,7 @@
      "nombre": "Claude",
      "empresa": "Anthropic",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro 20 $/mes",
+     "precioTxt": "Gratis · Pro 20 $/mes (17 $/mes en pago anual: 200 $/año) · Max desde 100 $/mes (5x y 20x)",
      "nivel": 1,
      "nota": 94,
      "desc": "Escribe con mucha naturalidad, razona bien con documentos largos y datos, y desde la app crea webs y apps completas sin que sepas programar.",
@@ -292,10 +352,10 @@
       "Analizar un contrato",
       "Crear una pequeña web"
      ],
-     "novedad": "Sonnet 5.5 y Opus 5.5 (finales de sept 2026). Desde el 23 sept, tienda de complementos (Marketplace) con más de 2.000 plugins.",
+     "novedad": "7 oct 2026: nuevo modelo Claude Haiku 5.5. Max 5x y Max 20x incluyen ahora 100 o 200 $ al mes de crédito para la API. Sonnet 5.5 y Opus 5.5 desde finales de sept.",
      "web": "https://claude.ai",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-11",
      "dominio": "claude.ai",
      "gratisTipo": "util",
      "gratisTxt": "Uso diario con límite de mensajes que se renueva cada pocas horas.",
@@ -851,22 +911,23 @@
      "nombre": "Poe",
      "empresa": "Quora",
      "precio": "freemium",
-     "precioTxt": "Gratis · suscripción de pago",
+     "precioTxt": "Gratis · suscripciones desde 4,99 $/mes",
      "nivel": 1,
      "nota": 72,
      "desc": "Una sola app para probar muchos modelos distintos (GPT, Claude, Gemini y más).",
      "para": "Quien quiere comparar IAs sin abrir diez cuentas.",
      "ejemplos": [
       "Comparar respuestas de varias IAs",
-      "Crear bots propios"
+      "Crear bots propios",
+      "Probar un modelo nuevo sin suscribirte a él"
      ],
      "novedad": "",
      "web": "https://poe.com",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "poe.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Pocos mensajes diarios con los mejores modelos.",
+     "gratisTxt": "Puntos gratis cada día que no se acumulan; los mejores modelos gastan muchos por mensaje.",
      "plataformas": [
       "web",
       "movil",
@@ -889,9 +950,9 @@
      ],
      "slug": "poe",
      "afiliado": "",
-     "precioMes": 20,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija. Tiene límites de uso, pero para un uso normal no se notan; si lo usas muchísimo te pedirá esperar unas horas o subir de plan."
+     "precioMes": 5,
+     "consumo": "creditos",
+     "consumoTxt": "Funciona con puntos: cada mensaje gasta puntos según el modelo. Si se acaban, puedes comprar más (unos 30 $ por millón de puntos) o subir de plan."
     },
     {
      "id": "chat-14",
@@ -1361,22 +1422,23 @@
      "nombre": "OpenRouter",
      "empresa": "OpenRouter",
      "precio": "freemium",
-     "precioTxt": "Pago por uso",
+     "precioTxt": "Gratis (modelos gratis, 50 peticiones al día) · Pago por uso con saldo prepago (comisión del 5,5 % al recargar)",
      "nivel": 3,
      "nota": 74,
      "desc": "Acceso a cientos de modelos con una sola cuenta, pagando solo lo que usas.",
      "para": "Usuarios avanzados y desarrolladores.",
      "ejemplos": [
       "Probar modelos nuevos el mismo día",
-      "Conectar apps propias"
+      "Conectar apps propias",
+      "Comparar precios entre modelos"
      ],
      "novedad": "",
      "web": "https://openrouter.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "openrouter.ai",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Algún modelo gratis; lo normal es pagar por uso.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "Más de 25 modelos gratis con un límite de 50 peticiones al día (1.000 al día si has comprado al menos 10 $ de saldo).",
      "plataformas": [
       "web"
      ],
@@ -1399,7 +1461,7 @@
      "afiliado": "",
      "precioMes": null,
      "consumo": "uso",
-     "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
+     "consumoTxt": "No hay cuota: recargas saldo y cada mensaje se cobra según el modelo que uses. Los modelos potentes gastan mucho más que los baratos; el saldo puede caducar al año."
     },
     {
      "id": "chat-25",
@@ -1412,7 +1474,9 @@
      "desc": "Chat muy rápido que reúne los mejores modelos por una cuota pequeña.",
      "para": "Quien quiere varios modelos sin pagar varias suscripciones.",
      "ejemplos": [
-      "Cambiar de modelo en la misma conversación"
+      "Cambiar de modelo en la misma conversación",
+      "Respuestas muy rápidas",
+      "Usar varios modelos con una sola cuota"
      ],
      "novedad": "",
      "web": "https://t3.chat",
@@ -1457,7 +1521,8 @@
      "para": "Quien quiere privacidad total y tiene un ordenador potente.",
      "ejemplos": [
       "Usar IA sin conexión",
-      "Probar modelos abiertos"
+      "Probar modelos abiertos",
+      "Chatear con tus documentos sin subirlos"
      ],
      "novedad": "",
      "web": "https://lmstudio.ai",
@@ -1669,7 +1734,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "chat",
    "empieza": {
     "titulo": "¿Es tu primera vez? Empieza por una de estas",
@@ -1710,10 +1775,10 @@
       "Crear una ilustración",
       "Probar ideas rápidas"
      ],
-     "novedad": "",
+     "novedad": "6 oct 2026: Google lanza Nano Banana 2.1, con imágenes de hasta 4K y nuevos formatos muy alargados; sustituye a Nano Banana 2 en la API y Google lo anuncia también para la app Gemini.",
      "web": "https://gemini.google.com",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "gemini.google.com",
      "gratisTipo": "util",
      "gratisTxt": "Gratis dentro de Gemini con un número limitado de imágenes al día.",
@@ -1806,10 +1871,10 @@
       "Portadas",
       "Moodboards"
      ],
-     "novedad": "",
+     "novedad": "8 oct 2026: prueba el «modo de pensamiento» (solo en su web alfa): repite una imagen razonando para corregir fallos y textos.",
      "web": "https://www.midjourney.com",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "midjourney.com",
      "gratisTipo": "no",
      "gratisTxt": "Sin versión gratis; desde unos 10 $/mes.",
@@ -1942,7 +2007,8 @@
      "para": "Proyectos donde la calidad importa más que la velocidad.",
      "ejemplos": [
       "Imágenes 4K",
-      "Diseños complejos"
+      "Diseños complejos",
+      "Infografía con texto legible"
      ],
      "novedad": "",
      "web": "https://gemini.google.com",
@@ -2220,7 +2286,8 @@
      "para": "Usuarios de X y Grok.",
      "ejemplos": [
       "Imágenes rápidas",
-      "Memes"
+      "Memes",
+      "Animar una imagen en vídeo"
      ],
      "novedad": "",
      "web": "https://grok.com",
@@ -2266,7 +2333,8 @@
      "para": "Quien hace publicaciones, carteles o presentaciones.",
      "ejemplos": [
       "Post para Instagram",
-      "Cartel de evento"
+      "Cartel de evento",
+      "Ilustración para una presentación"
      ],
      "novedad": "",
      "web": "https://www.canva.com",
@@ -2349,24 +2417,24 @@
     },
     {
      "id": "imagen-15",
-     "nombre": "Freepik AI",
-     "empresa": "Freepik",
+     "nombre": "Magnific (antes Freepik)",
+     "empresa": "Magnific (antes Freepik)",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Essential 10 $/mes · Premium 20 $/mes · Premium+ 45 $/mes (más baratos en pago anual)",
+     "precioTxt": "Gratis limitado · Premium 20 $/mes (14,50 $ en pago anual) · Premium+ 45 $/mes (33,75 $) · Pro Starter 110 $/mes (82,50 $)",
      "nivel": 1,
      "nota": 76,
-     "desc": "Plataforma española con muchos modelos de imagen y vídeo en un solo sitio.",
+     "desc": "La plataforma de IA de Freepik, que ahora se llama Magnific: muchos modelos de imagen y vídeo en un solo sitio.",
      "para": "Creadores que quieren variedad en un solo lugar.",
      "ejemplos": [
       "Imágenes para redes",
       "Mockups",
       "Fondos para una presentación"
      ],
-     "novedad": "",
-     "web": "https://www.freepik.com/ai",
+     "novedad": "Freepik se llama Magnific desde el 28 abr 2026; freepik.com lleva a magnific.com. Ya no existe el plan Essential.",
+     "web": "https://www.magnific.com",
      "verificado": true,
-     "actualizado": "2026-10-04",
-     "dominio": "freepik.com",
+     "actualizado": "2026-10-11",
+     "dominio": "magnific.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Créditos gratis escasos; lo útil está en Premium.",
      "plataformas": [
@@ -2390,9 +2458,9 @@
      ],
      "slug": "freepik-ai",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": 20,
      "consumo": "creditos",
-     "consumoTxt": "Cada plan da créditos al mes (Essential, unos 8.000) y cada imagen o vídeo gasta varios; no se acumulan de un mes a otro. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Cada plan da créditos (Premium, 240.000 al año) y cada imagen o vídeo gasta varios según el modelo. Si generas mucho, tendrás que comprar más o subir de plan."
     },
     {
      "id": "imagen-16",
@@ -2406,7 +2474,8 @@
      "para": "Quien necesita imprimir en grande.",
      "ejemplos": [
       "Ampliar una foto pequeña",
-      "Añadir detalle"
+      "Añadir detalle",
+      "Preparar una imagen para imprimir en grande"
      ],
      "novedad": "",
      "web": "https://magnific.ai",
@@ -2497,7 +2566,8 @@
      "para": "Tiendas online y vendedores de Wallapop o Vinted.",
      "ejemplos": [
       "Foto de producto con fondo blanco",
-      "Fondos de estudio"
+      "Fondos de estudio",
+      "Fotos para vender en Wallapop"
      ],
      "novedad": "",
      "web": "https://www.photoroom.com",
@@ -2582,27 +2652,27 @@
      "nombre": "Seedream",
      "empresa": "ByteDance",
      "precio": "freemium",
-     "precioTxt": "Incluido en Dreamina/CapCut",
+     "precioTxt": "Gratis en Dreamina (120 créditos al día) · Basic 15 $/mes · Standard 36 $/mes · Advanced 159 $/mes · Ultra 520 $/mes (40 % menos en pago anual)",
      "nivel": 1,
      "nota": 72,
      "desc": "Generador de ByteDance, muy bueno con texto y estilos variados.",
      "para": "Usuarios de CapCut y TikTok.",
      "ejemplos": [
       "Portadas para vídeos",
-      "Ilustraciones"
+      "Ilustraciones",
+      "Póster con texto"
      ],
      "novedad": "",
      "web": "https://dreamina.capcut.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "dreamina.capcut.com",
      "gratisTipo": "util",
-     "gratisTxt": "Créditos gratis en Dreamina/CapCut.",
+     "gratisTxt": "120 créditos gratis al día en Dreamina, la web de ByteDance donde se usa Seedream.",
      "plataformas": [
-      "web",
-      "movil"
+      "web"
      ],
-     "mejorEn": "movil",
+     "mejorEn": "ambos",
      "notas": {
       "calidad": 8,
       "facilidad": 8,
@@ -2619,9 +2689,9 @@
      ],
      "slug": "seedream",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 15,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Los planes dan créditos al mes (Basic, 1.575) y cada imagen gasta según el modelo y la calidad. Si generas mucho, tendrás que subir de plan."
     },
     {
      "id": "imagen-21",
@@ -2635,15 +2705,16 @@
      "para": "Usuarios técnicos.",
      "ejemplos": [
       "Texto en chino e inglés",
-      "Edición de imágenes"
+      "Edición de imágenes",
+      "Carteles con mucho texto"
      ],
-     "novedad": "",
+     "novedad": "20 sept 2026: Qwen-Image 2.1, nueva versión abierta (con licencia de investigación).",
      "web": "https://chat.qwen.ai",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "chat.qwen.ai",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis en Qwen Chat o instalándolo.",
+     "gratisTxt": "Modelo abierto: se descarga e instala gratis, y hay una demo gratis en Hugging Face. La versión 2.1 tiene licencia de investigación: revisa si permite uso comercial.",
      "plataformas": [
       "web",
       "escritorio"
@@ -2660,8 +2731,8 @@
       "Buen texto en imágenes"
      ],
      "contras": [
-      "Menos conocido",
-      "Instalarlo requiere conocimientos"
+      "Instalarlo requiere conocimientos",
+      "Licencia de la 2.1 con límites para uso comercial"
      ],
      "slug": "qwen-image",
      "afiliado": "",
@@ -2765,24 +2836,26 @@
      "nombre": "ComfyUI",
      "empresa": "Comfy Org",
      "precio": "gratis",
-     "precioTxt": "Gratis y de código abierto",
+     "precioTxt": "Gratis en tu ordenador (código abierto) · Comfy Cloud opcional: Standard 20 $/mes (16 $ en pago anual) · Creator 35 $/mes (28 $) · Pro 100 $/mes (80 $)",
      "nivel": 3,
      "nota": 76,
      "desc": "Editor por nodos para montar flujos de imagen y vídeo con modelos abiertos.",
      "para": "Usuarios avanzados que quieren control total.",
      "ejemplos": [
       "Flujos personalizados",
-      "Combinar varios modelos"
+      "Combinar varios modelos",
+      "Generar muchas variantes en lote"
      ],
      "novedad": "",
      "web": "https://www.comfy.org",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "comfy.org",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis y de código abierto.",
+     "gratisTxt": "La app para el ordenador es gratis y sin límites. En la nube (Comfy Cloud) hay 5 ejecuciones gratis.",
      "plataformas": [
-      "escritorio"
+      "escritorio",
+      "web"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -2803,7 +2876,7 @@
      "afiliado": "",
      "precioMes": 0,
      "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "consumoTxt": "En tu ordenador no cuesta nada. Si usas Comfy Cloud, los planes dan créditos que se gastan por tiempo de cálculo y no se acumulan de un mes a otro."
     },
     {
      "id": "imagen-25",
@@ -3079,7 +3152,7 @@
      "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "imagen",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -3117,7 +3190,8 @@
      "para": "Creadores y cineastas que buscan realismo.",
      "ejemplos": [
       "Plano cinematográfico con diálogo",
-      "Anuncio realista"
+      "Anuncio realista",
+      "Escena con sonido ambiente"
      ],
      "novedad": "Muy usado dentro de Canva, Adobe Firefly y HeyGen.",
      "web": "https://labs.google/flow",
@@ -3163,7 +3237,8 @@
      "para": "Redes sociales y cortos con personas.",
      "ejemplos": [
       "Animar una foto",
-      "Vídeo vertical para TikTok"
+      "Vídeo vertical para TikTok",
+      "Escena corta para un cortometraje"
      ],
      "novedad": "Kling 4.0 en acceso anticipado desde el 28 sept 2026 (solo plan Ultra anual); el modelo completo llegará en octubre.",
      "web": "https://klingai.com",
@@ -3210,7 +3285,8 @@
      "para": "Quien cuenta historias con varias tomas.",
      "ejemplos": [
       "Escena con varios planos",
-      "Videoclip"
+      "Videoclip",
+      "Pequeña historia de 30 segundos"
      ],
      "novedad": "Seedance 2.5 genera hasta 30 s en una sola pasada.",
      "web": "https://dreamina.capcut.com",
@@ -3303,7 +3379,8 @@
      "para": "Formación, marketing y comunicación interna.",
      "ejemplos": [
       "Vídeo explicativo con presentador",
-      "Doblar un vídeo a otro idioma"
+      "Doblar un vídeo a otro idioma",
+      "Vídeo de formación para empleados"
      ],
      "novedad": "30 sept 2026: HeyGen Video, su primer modelo para crear vídeos desde texto o imagen (clips de 5 a 15 s con sonido).",
      "web": "https://www.heygen.com",
@@ -3394,12 +3471,13 @@
      "para": "Creativos que quieren transiciones controladas.",
      "ejemplos": [
       "Transición entre dos imágenes",
-      "Animar un concepto"
+      "Animar un concepto",
+      "Versiones de un anuncio en varios tamaños"
      ],
-     "novedad": "Se reorienta hacia su plataforma Luma Agents.",
+     "novedad": "8 oct 2026: las animaciones hechas con Claude se pueden abrir en Luma para retocarlas. 1 oct: «Luma Variants» crea versiones de un anuncio en otros tamaños e idiomas.",
      "web": "https://lumalabs.ai",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "lumalabs.ai",
      "gratisTipo": "limitado",
      "gratisTxt": "Pocos vídeos gratis y con marca de agua.",
@@ -3440,7 +3518,8 @@
      "para": "Creadores de contenido para redes.",
      "ejemplos": [
       "Escenas de acción",
-      "Animar ilustraciones"
+      "Animar ilustraciones",
+      "Vídeo corto para redes"
      ],
      "novedad": "",
      "web": "https://hailuoai.video",
@@ -3623,7 +3702,8 @@
      "para": "Creadores que iteran mucho.",
      "ejemplos": [
       "Variantes de un anuncio",
-      "Clips para redes"
+      "Clips para redes",
+      "Animar una foto con efectos"
      ],
      "novedad": "PixVerse V6.",
      "web": "https://pixverse.ai",
@@ -3668,7 +3748,9 @@
      "desc": "Agrupa varios modelos (Veo, Kling, Seedance) con efectos de cámara listos.",
      "para": "Quien quiere varios modelos en una suscripción.",
      "ejemplos": [
-      "Movimientos de cámara espectaculares"
+      "Movimientos de cámara espectaculares",
+      "Anuncio corto para redes",
+      "Probar varios modelos de vídeo"
      ],
      "novedad": "",
      "web": "https://higgsfield.ai",
@@ -3714,7 +3796,8 @@
      "para": "Cualquiera que edite vídeos para redes.",
      "ejemplos": [
       "Subtítulos automáticos",
-      "Montaje rápido para TikTok"
+      "Montaje rápido para TikTok",
+      "Quitar el fondo de un vídeo"
      ],
      "novedad": "",
      "web": "https://www.capcut.com",
@@ -3762,7 +3845,8 @@
      "para": "Podcasters y youtubers.",
      "ejemplos": [
       "Quitar muletillas",
-      "Editar borrando texto"
+      "Editar borrando texto",
+      "Añadir subtítulos a un vídeo"
      ],
      "novedad": "",
      "web": "https://www.descript.com",
@@ -3807,7 +3891,9 @@
      "desc": "Corta un vídeo largo en clips cortos virales automáticamente.",
      "para": "Youtubers y podcasters.",
      "ejemplos": [
-      "Sacar reels de un podcast"
+      "Sacar reels de un podcast",
+      "Clips para TikTok de un directo",
+      "Subtítulos automáticos en cada clip"
      ],
      "novedad": "",
      "web": "https://www.opus.pro",
@@ -3844,27 +3930,28 @@
     {
      "id": "video-17",
      "nombre": "Captions",
-     "empresa": "Captions",
+     "empresa": "Mirage",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis limitado · Basic 9,99 $/mes (200 créditos) · Max 24,99 $/mes (500 créditos) · Frontier 69,99 $/mes (1.400 créditos), también 139,99 y 279,99 $/mes · precios de iPhone; Lite 4,99 $/mes solo en Android",
      "nivel": 1,
      "nota": 70,
      "desc": "App móvil para editar vídeos hablados con subtítulos y efectos.",
      "para": "Creadores que graban con el móvil.",
      "ejemplos": [
       "Subtítulos animados",
-      "Contacto visual corregido"
+      "Contacto visual corregido",
+      "Vídeo hablando a cámara para Reels"
      ],
      "novedad": "",
      "web": "https://www.captions.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "captions.ai",
      "gratisTipo": "limitado",
-     "gratisTxt": "Funciones básicas gratis; lo interesante es de pago.",
+     "gratisTxt": "Herramientas básicas de edición y una plantilla de subtítulos; muy pocos o ningún crédito de IA.",
      "plataformas": [
-      "web",
-      "movil"
+      "movil",
+      "web"
      ],
      "mejorEn": "movil",
      "notas": {
@@ -3885,7 +3972,7 @@
      "afiliado": "",
      "precioMes": 10,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Cada plan da créditos al mes y las funciones de IA los gastan. Los que sobran se guardan hasta 2 meses. Si editas mucho, tendrás que subir de plan."
     },
     {
      "id": "video-18",
@@ -3943,7 +4030,9 @@
      "desc": "Genera clips con Veo dentro de Canva y los monta con plantillas.",
      "para": "Principiantes y equipos de marketing.",
      "ejemplos": [
-      "Vídeo para redes con plantilla"
+      "Vídeo para redes con plantilla",
+      "Clip corto generado con IA",
+      "Anuncio sencillo para un negocio"
      ],
      "novedad": "",
      "web": "https://www.canva.com",
@@ -4472,7 +4561,7 @@
      "consumoTxt": "Se paga por minutos de vídeo doblado: doblar mucho contenido sube el precio."
     }
    ],
-   "actualizado": "2026-10-03",
+   "actualizado": "2026-10-11",
    "id": "video",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -4513,10 +4602,10 @@
       "Maqueta de una idea",
       "Jingle"
      ],
-     "novedad": "1 oct 2026: Suno Speech (beta) crea voz hablada con música de fondo. Suno V6 desde el 9 sept.",
+     "novedad": "6 oct 2026: la autoridad de consumo italiana investiga si sus condiciones son abusivas. 5 oct: ya puedes publicar tus canciones como álbum. 1 oct: Suno Speech (beta).",
      "web": "https://suno.com",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-11",
      "dominio": "suno.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Unas 10 canciones al día, sin uso comercial y con descargas limitadas.",
@@ -4558,7 +4647,8 @@
      "para": "Quien quiere publicar en Spotify o usar música en anuncios.",
      "ejemplos": [
       "Canción para publicar",
-      "Música para un anuncio"
+      "Música para un anuncio",
+      "Banda sonora para un vídeo"
      ],
      "novedad": "Music v2.5 (11 sept 2026).",
      "web": "https://elevenlabs.io/music",
@@ -4649,7 +4739,8 @@
      "para": "Usuarios de Google que quieren música segura.",
      "ejemplos": [
       "Música de fondo",
-      "Instrumentales"
+      "Instrumentales",
+      "Sintonía para un podcast"
      ],
      "novedad": "",
      "web": "https://labs.google/flow",
@@ -4694,7 +4785,8 @@
      "para": "Alternativa a Suno para descargar sin límites.",
      "ejemplos": [
       "Canción con tu estilo",
-      "Clonar un estilo vocal"
+      "Clonar un estilo vocal",
+      "Música para un vídeo de YouTube"
      ],
      "novedad": "",
      "web": "https://www.mureka.ai",
@@ -5272,27 +5364,29 @@
      "nombre": "LALAL.AI",
      "empresa": "LALAL.AI",
      "precio": "freemium",
-     "precioTxt": "Prueba gratis · paquetes de pago",
+     "precioTxt": "Gratis 10 min (cola lenta) · Lite 7,5 $/mes (90 $/año) · Pro 15 $/mes (180 $/año)",
      "nivel": 1,
      "nota": 70,
      "desc": "Separación de pistas de alta calidad.",
      "para": "Productores y DJs.",
      "ejemplos": [
       "Extraer una voz",
-      "Aislar instrumentos"
+      "Aislar instrumentos",
+      "Crear una pista de karaoke"
      ],
      "novedad": "",
      "web": "https://www.lalal.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "lalal.ai",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Prueba de pocos minutos; luego paquetes de pago.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "10 minutos de audio en la cola lenta, archivos de hasta 200 MB.",
      "plataformas": [
       "web",
-      "escritorio"
+      "escritorio",
+      "movil"
      ],
-     "mejorEn": "ordenador",
+     "mejorEn": "ambos",
      "notas": {
       "calidad": 9,
       "facilidad": 9,
@@ -5304,14 +5398,14 @@
       "Muy fácil"
      ],
      "contras": [
-      "Se paga por minutos",
+      "Lo gratis da para muy poco",
       "Solo separa pistas"
      ],
      "slug": "lalal-ai",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "creditos",
-     "consumoTxt": "Se paga por minutos de audio procesado."
+     "precioMes": 8,
+     "consumo": "fijo",
+     "consumoTxt": "Cuota fija con minutos rápidos al mes (90 en Lite, 250 en Pro). Si se acaban, sigues sin límite en una cola más lenta con la misma calidad, o compras minutos extra."
     },
     {
      "id": "musica-19",
@@ -5413,7 +5507,9 @@
      "desc": "Estudio online gratis con ideas de canciones generadas por IA.",
      "para": "Principiantes que quieren aprender a producir.",
      "ejemplos": [
-      "Empezar una canción desde una idea"
+      "Empezar una canción desde una idea",
+      "Probar ritmos de distintos estilos",
+      "Grabar tu voz sobre una base"
      ],
      "novedad": "",
      "web": "https://www.bandlab.com",
@@ -5497,24 +5593,26 @@
      "nombre": "Splice",
      "empresa": "Splice",
      "precio": "pago",
-     "precioTxt": "Suscripción",
+     "precioTxt": "Creator 19,99 $/mes (200 créditos; primer mes 4,99 $) · Sounds 12,99 $/mes en pago anual (100 créditos) · INSTRUMENT 12,99 $/mes",
      "nivel": 2,
      "nota": 66,
      "desc": "Biblioteca de sonidos con herramientas de IA para combinar samples.",
      "para": "Productores.",
      "ejemplos": [
-      "Encontrar samples que encajan"
+      "Encontrar samples que encajan",
+      "Descargar loops de batería",
+      "Buscar sonidos parecidos a uno que te gusta"
      ],
      "novedad": "",
      "web": "https://splice.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "splice.com",
      "gratisTipo": "no",
-     "gratisTxt": "Suscripción.",
+     "gratisTxt": "No tiene plan gratis; el primer mes de Creator cuesta 4,99 $.",
      "plataformas": [
-      "web",
-      "escritorio"
+      "escritorio",
+      "movil"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -5533,9 +5631,9 @@
      ],
      "slug": "splice",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 13,
+     "consumo": "creditos",
+     "consumoTxt": "Cada plan da créditos al mes y cada sonido cuesta 1 (MIDI y presets, hasta 3). Los que sobran se acumulan mientras sigas suscrito, pero se pierden si cancelas."
     },
     {
      "id": "musica-24",
@@ -5549,7 +5647,8 @@
      "para": "Quien aprende guitarra, ukelele o piano.",
      "ejemplos": [
       "Tocar tu canción favorita",
-      "Aprender acordes"
+      "Aprender acordes",
+      "Practicar a menor velocidad"
      ],
      "novedad": "",
      "web": "https://chordify.net",
@@ -5848,7 +5947,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "musica",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -5979,7 +6078,8 @@
      "para": "Desarrolladores y usuarios de Google.",
      "ejemplos": [
       "Podcast con dos voces",
-      "Narración"
+      "Narración",
+      "Audioguía de un museo"
      ],
      "novedad": "Gemini 3.8 Flash TTS y Gemini 3.8 Live (sept 2026).",
      "web": "https://ai.google.dev",
@@ -6024,7 +6124,8 @@
      "para": "Quien prefiere hablar a escribir.",
      "ejemplos": [
       "Practicar un idioma hablando",
-      "Pensar en voz alta"
+      "Pensar en voz alta",
+      "Preguntar una receta mientras cocinas"
      ],
      "novedad": "Finales de sept 2026: el modo voz ya puede usar tus apps conectadas (correo, calendario) pidiéndote permiso en pantalla.",
      "web": "https://chatgpt.com",
@@ -6204,7 +6305,8 @@
      "para": "Estudiantes, personas con dislexia, quien lee mucho.",
      "ejemplos": [
       "Escuchar un PDF",
-      "Leer artículos mientras caminas"
+      "Leer artículos mientras caminas",
+      "Repasar apuntes en el coche"
      ],
      "novedad": "",
      "web": "https://speechify.com",
@@ -6250,7 +6352,9 @@
      "desc": "Estudio de locución con muchas voces para presentaciones y vídeos.",
      "para": "Formadores y marketing.",
      "ejemplos": [
-      "Locución de un curso"
+      "Locución de un curso",
+      "Narrar una presentación",
+      "Probar voces en varios idiomas"
      ],
      "novedad": "",
      "web": "https://murf.ai",
@@ -6559,7 +6663,8 @@
      "para": "Periodistas, estudiantes, investigadores.",
      "ejemplos": [
       "Transcribir una entrevista",
-      "Subtítulos"
+      "Subtítulos",
+      "Pasar a texto una clase grabada"
      ],
      "novedad": "",
      "web": "https://github.com/openai/whisper",
@@ -6691,7 +6796,9 @@
      "desc": "Limpia el audio grabado con el móvil para que suene como en un estudio.",
      "para": "Podcasters y quien graba entrevistas.",
      "ejemplos": [
-      "Quitar eco y ruido de una grabación"
+      "Quitar eco y ruido de una grabación",
+      "Mejorar el audio de un podcast",
+      "Limpiar una nota de voz grabada en la calle"
      ],
      "novedad": "",
      "web": "https://podcast.adobe.com",
@@ -6729,24 +6836,26 @@
      "nombre": "Krisp",
      "empresa": "Krisp",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Pro de pago",
+     "precioTxt": "Core 16 $/mes (8 $ en pago anual) · Advanced 30 $/mes (15 $ en pago anual) · Enterprise a medida",
      "nivel": 1,
      "nota": 70,
      "desc": "Elimina ruidos de fondo en tus videollamadas y toma notas.",
      "para": "Teletrabajo.",
      "ejemplos": [
-      "Llamadas sin ruido de fondo"
+      "Llamadas sin ruido de fondo",
+      "Notas automáticas de una reunión",
+      "Quitar el eco en videollamadas"
      ],
      "novedad": "",
      "web": "https://krisp.ai",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "krisp.ai",
      "gratisTipo": "limitado",
      "gratisTxt": "Pocos minutos gratis al día.",
      "plataformas": [
-      "web",
-      "escritorio"
+      "escritorio",
+      "movil"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -6765,7 +6874,7 @@
      ],
      "slug": "krisp",
      "afiliado": "",
-     "precioMes": 8,
+     "precioMes": 16,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -6780,17 +6889,20 @@
      "desc": "Nivela y mejora audio de podcasts automáticamente.",
      "para": "Podcasters.",
      "ejemplos": [
-      "Igualar volúmenes de varias voces"
+      "Igualar volúmenes de varias voces",
+      "Quitar ruido de un podcast",
+      "Preparar el audio para publicarlo"
      ],
      "novedad": "",
      "web": "https://auphonic.com",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "auphonic.com",
      "gratisTipo": "util",
-     "gratisTxt": "2 horas gratis al mes.",
+     "gratisTxt": "2 horas de audio al mes, con la sintonía de Auphonic y sin procesar en lote.",
      "plataformas": [
-      "web"
+      "web",
+      "movil"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -6810,8 +6922,8 @@
      "slug": "auphonic",
      "afiliado": "",
      "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumo": "creditos",
+     "consumoTxt": "Los planes dan horas de audio al mes que no se acumulan. Si procesas más, tendrás que subir de plan o comprar horas sueltas (esas no caducan)."
     },
     {
      "id": "voz-22",
@@ -7044,23 +7156,25 @@
      "nombre": "Sesame",
      "empresa": "Sesame",
      "precio": "gratis",
-     "precioTxt": "Demo gratis",
+     "precioTxt": "Gratis (app para iPhone y Android)",
      "nivel": 1,
      "nota": 76,
-     "desc": "Asistente de voz con conversación muy natural.",
+     "desc": "App de voz con conversaciones muy naturales, como hablar con una persona.",
      "para": "Curiosos que quieren probar voz conversacional.",
      "ejemplos": [
-      "Charlar por voz"
+      "Charlar por voz",
+      "Practicar una conversación",
+      "Contar tu día a un asistente"
      ],
      "novedad": "",
      "web": "https://www.sesame.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "sesame.com",
      "gratisTipo": "libre",
-     "gratisTxt": "Demo gratis.",
+     "gratisTxt": "La app es gratis y sin compras dentro por ahora.",
      "plataformas": [
-      "web"
+      "movil"
      ],
      "mejorEn": "movil",
      "notas": {
@@ -7074,8 +7188,8 @@
       "Gratis"
      ],
      "contras": [
-      "Es una demo",
-      "No sirve para locuciones"
+      "No sirve para locuciones",
+      "Producto nuevo: puede cambiar de condiciones"
      ],
      "slug": "sesame",
      "afiliado": "",
@@ -7218,7 +7332,7 @@
      "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "voz",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -7308,10 +7422,10 @@
       "Refactorizar",
       "Encontrar y arreglar fallos"
      ],
-     "novedad": "Desde el 24 ago 2026 el modo Auto se cobra al precio del modelo que elige (se acabó la tarifa plana).",
+     "novedad": "6 oct 2026: desde la app de iPhone puedes ver y responder a los agentes que trabajan en tu ordenador. Desde el 24 ago el modo Auto se cobra al precio del modelo que elige.",
      "web": "https://cursor.com",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-10-11",
      "dominio": "cursor.com",
      "gratisTipo": "util",
      "gratisTxt": "Plan gratis con límite de peticiones.",
@@ -7351,7 +7465,8 @@
      "para": "Programadores que no quieren atarse a una empresa.",
      "ejemplos": [
       "Programar con modelos locales",
-      "Cambiar de modelo libremente"
+      "Cambiar de modelo libremente",
+      "Automatizar tareas en la terminal"
      ],
      "novedad": "Más de 160.000 estrellas en GitHub.",
      "web": "https://opencode.ai",
@@ -7396,7 +7511,8 @@
      "para": "Usuarios de ChatGPT que programan.",
      "ejemplos": [
       "Delegar tareas de código",
-      "Revisar cambios"
+      "Revisar cambios",
+      "Arreglar errores mientras haces otra cosa"
      ],
      "novedad": "29 sept 2026 (DevDay): entornos en la nube reutilizables entre dispositivos y órdenes por voz.",
      "web": "https://openai.com/codex",
@@ -7442,12 +7558,13 @@
      "para": "Programadores que usan VS Code o GitHub.",
      "ejemplos": [
       "Autocompletar código",
-      "Explicar funciones"
+      "Explicar funciones",
+      "Pedir que arregle un error"
      ],
-     "novedad": "1 oct 2026: Copilot puede manejar apps del ordenador (vista previa en Mac y Windows).",
+     "novedad": "7 oct 2026: Claude Haiku 5.5 disponible en los planes de pago. 1 oct: Copilot puede manejar apps del ordenador (vista previa).",
      "web": "https://github.com/features/copilot",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-11",
      "dominio": "github.com",
      "gratisTipo": "util",
      "gratisTxt": "Plan gratis con límite mensual de sugerencias.",
@@ -7487,7 +7604,9 @@
      "desc": "Editor de código con agentes de IA. Antes se llamaba Windsurf.",
      "para": "Programadores que buscan alternativa a Cursor.",
      "ejemplos": [
-      "Planificar y programar funciones"
+      "Planificar y programar funciones",
+      "Entender un proyecto ajeno",
+      "Arreglar errores con un agente"
      ],
      "novedad": "",
      "web": "https://devin.ai",
@@ -7524,22 +7643,24 @@
      "id": "codigo-07",
      "nombre": "Antigravity",
      "empresa": "Google",
-     "precio": "gratis",
-     "precioTxt": "Gratis en vista previa",
+     "precio": "freemium",
+     "precioTxt": "Gratis (límites semanales) · más uso con Google AI Pro o Ultra · Business desde 30 $/mes por persona",
      "nivel": 2,
      "nota": 78,
      "desc": "Entorno de Google con agentes que programan y prueban en el navegador.",
      "para": "Quien quiere probar agentes potentes gratis.",
      "ejemplos": [
-      "Crear una web y probarla automáticamente"
+      "Crear una web y probarla automáticamente",
+      "Pedir a varios agentes tareas a la vez",
+      "Revisar una app en el navegador integrado"
      ],
-     "novedad": "",
+     "novedad": "Ya no está en vista previa: disponible para todos, gratis con límites.",
      "web": "https://antigravity.google",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "antigravity.google",
-     "gratisTipo": "libre",
-     "gratisTxt": "Gratis mientras está en vista previa.",
+     "gratisTipo": "util",
+     "gratisTxt": "Gratis para particulares, con límites de uso semanales.",
      "plataformas": [
       "escritorio"
      ],
@@ -7555,14 +7676,14 @@
       "Prueba la web en el navegador"
      ],
      "contras": [
-      "Puede dejar de ser gratis",
+      "Límites semanales en el plan gratis",
       "Algo técnico"
      ],
      "slug": "antigravity",
      "afiliado": "",
-     "precioMes": 0,
-     "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "precioMes": 20,
+     "consumo": "fijo",
+     "consumoTxt": "Para usarlo más necesitas Google AI Pro o Ultra (cuota fija). Si llegas al límite, toca esperar a que se renueve o subir de plan."
     },
     {
      "id": "codigo-08",
@@ -7579,10 +7700,10 @@
       "Prototipo de app",
       "Página de reservas"
      ],
-     "novedad": "Sept 2026: tus apps ya pueden usar Claude y GPT-6 sin claves propias; la voz en apps gasta créditos.",
+     "novedad": "1 oct 2026: si eliges servidores en la UE, cada petición gasta más créditos. 5 oct: tus apps pueden crear música (gasta créditos por canción).",
      "web": "https://lovable.dev",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-10-11",
      "dominio": "lovable.dev",
      "gratisTipo": "limitado",
      "gratisTxt": "5 créditos al día, hasta 30 al mes: da para probar una web sencilla.",
@@ -7625,10 +7746,10 @@
       "App sencilla",
       "Prototipo para enseñar una idea"
      ],
-     "novedad": "",
+     "novedad": "7 oct 2026: activa por defecto el uso de tu contenido para entrenar su IA (salvo en la UE, Reino Unido y Suiza); se puede desactivar en ajustes.",
      "web": "https://bolt.new",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-10-11",
      "dominio": "bolt.new",
      "gratisTipo": "limitado",
      "gratisTxt": "1 millón de tokens al mes, con un máximo de 300.000 al día.",
@@ -7714,12 +7835,13 @@
      "para": "Principiantes y estudiantes.",
      "ejemplos": [
       "App con base de datos",
-      "Bot de Telegram"
+      "Bot de Telegram",
+      "Web para reservar citas"
      ],
-     "novedad": "",
+     "novedad": "9 oct 2026: app para Windows en vista previa privada. 2 oct: llegan GPT-6.1 Sol y Claude Sonnet 5.5.",
      "web": "https://replit.com",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-11",
      "dominio": "replit.com",
      "gratisTipo": "util",
      "gratisTxt": "Créditos diarios para el agente con tope mensual y 1 app publicada con el sello de Replit.",
@@ -7802,7 +7924,9 @@
      "desc": "Agente de código de los creadores de Kimi, muy barato.",
      "para": "Programadores con poco presupuesto.",
      "ejemplos": [
-      "Programar con modelos abiertos"
+      "Programar con modelos abiertos",
+      "Tareas de código baratas",
+      "Revisar un proyecto completo"
      ],
      "novedad": "",
      "web": "https://www.kimi.com",
@@ -7841,23 +7965,26 @@
      "nombre": "Kiro",
      "empresa": "Amazon",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis (50 créditos/mes) · Pro 20 $/mes (1.000 créditos) · Pro+ 40 $/mes (2.000) · Pro Max 100 $/mes (5.000) · Power 200 $/mes (10.000)",
      "nivel": 2,
      "nota": 70,
      "desc": "Editor de Amazon que parte de especificaciones antes de programar.",
      "para": "Programadores que quieren orden y documentación.",
      "ejemplos": [
-      "Convertir requisitos en código"
+      "Convertir requisitos en código",
+      "Planificar una app paso a paso",
+      "Generar pruebas automáticas"
      ],
-     "novedad": "",
+     "novedad": "2 oct 2026: Claude Sonnet 5.5 en Pro y superiores (gasta 1,3 veces más créditos).",
      "web": "https://kiro.dev",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "kiro.dev",
-     "gratisTipo": "util",
-     "gratisTxt": "Plan gratis limitado.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "50 créditos al mes con algunos modelos y límites de velocidad.",
      "plataformas": [
-      "escritorio"
+      "escritorio",
+      "web"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -7876,9 +8003,9 @@
      ],
      "slug": "kiro",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 20,
+     "consumo": "creditos",
+     "consumoTxt": "Pro da 1.000 créditos al mes y cada petición gasta según el modelo (los mejores, el doble). No se acumulan; los extra cuestan 0,04 $ cada uno."
     },
     {
      "id": "codigo-15",
@@ -7891,7 +8018,9 @@
      "desc": "Agente de código abierto dentro de VS Code.",
      "para": "Programadores de VS Code.",
      "ejemplos": [
-      "Tareas de código con aprobación paso a paso"
+      "Tareas de código con aprobación paso a paso",
+      "Usar el modelo que prefieras",
+      "Crear una función nueva en VS Code"
      ],
      "novedad": "",
      "web": "https://cline.bot",
@@ -7973,21 +8102,23 @@
      "nombre": "Zed",
      "empresa": "Zed Industries",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro de pago",
+     "precioTxt": "Gratis · Pro 10 $/mes · Business 30 $/mes por persona",
      "nivel": 2,
      "nota": 66,
      "desc": "Editor de código muy rápido con IA integrada.",
      "para": "Programadores que valoran la velocidad.",
      "ejemplos": [
-      "Editar con ayuda de IA"
+      "Editar con ayuda de IA",
+      "Programar con tus propias claves de IA",
+      "Trabajar en equipo en el mismo código"
      ],
      "novedad": "",
      "web": "https://zed.dev",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "zed.dev",
      "gratisTipo": "util",
-     "gratisTxt": "Gratis con IA limitada.",
+     "gratisTxt": "Editor gratis con 2.000 sugerencias de código aceptadas; IA sin límite si usas tus propias claves.",
      "plataformas": [
       "escritorio"
      ],
@@ -8008,30 +8139,32 @@
      ],
      "slug": "zed",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 10,
+     "consumo": "uso",
+     "consumoTxt": "Pro incluye 5 $ de uso de IA al mes; a partir de ahí pagas lo que gastes (precio de la API + 10 %). Puedes fijar un tope."
     },
     {
      "id": "codigo-18",
      "nombre": "JetBrains AI (Junie)",
      "empresa": "JetBrains",
-     "precio": "pago",
+     "precio": "freemium",
      "precioTxt": "Incluido en planes de JetBrains",
      "nivel": 2,
      "nota": 68,
      "desc": "Asistente y agente dentro de IntelliJ, PyCharm y compañía.",
      "para": "Usuarios de JetBrains.",
      "ejemplos": [
-      "Programar en Java o Python"
+      "Programar en Java o Python",
+      "Explicar código heredado",
+      "Generar pruebas automáticas"
      ],
-     "novedad": "",
+     "novedad": "1 oct 2026: llega Junie Lite, una IA gratis para todas las cuentas de JetBrains.",
      "web": "https://www.jetbrains.com/ai/",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "jetbrains.com",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Prueba; incluido en planes de pago.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "Junie Lite: un modelo de IA gratis en cualquier cuenta de JetBrains, sin tarjeta.",
      "plataformas": [
       "escritorio"
      ],
@@ -8047,7 +8180,7 @@
       "Agente integrado"
      ],
      "contras": [
-      "De pago",
+      "Lo mejor es de pago",
       "Solo en editores JetBrains"
      ],
      "slug": "jetbrains-ai-junie",
@@ -8105,22 +8238,23 @@
      "nombre": "Warp",
      "empresa": "Warp",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Build 20 $/mes (18 $ en pago anual) · Max 200 $/mes (180 $) · Business 50 $/mes por persona (45 $)",
      "nivel": 2,
      "nota": 68,
      "desc": "Terminal moderno con agentes que ejecutan comandos por ti.",
      "para": "Programadores que usan mucho la terminal.",
      "ejemplos": [
       "Explicar un comando",
-      "Automatizar tareas"
+      "Automatizar tareas",
+      "Pedir a un agente que instale un proyecto"
      ],
      "novedad": "",
      "web": "https://www.warp.dev",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "warp.dev",
-     "gratisTipo": "util",
-     "gratisTxt": "Plan gratis con IA limitada.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "La terminal es gratis; la IA solo con tu propia clave o pagando por uso.",
      "plataformas": [
       "escritorio"
      ],
@@ -8141,9 +8275,9 @@
      ],
      "slug": "warp",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 20,
+     "consumo": "uso",
+     "consumoTxt": "Build incluye 20 $ de uso de agentes al mes. Si los gastas, pagas el uso extra; puedes poner un tope."
     },
     {
      "id": "codigo-21",
@@ -8156,12 +8290,14 @@
      "desc": "Asistente abierto para VS Code y JetBrains con cualquier modelo.",
      "para": "Programadores que quieren personalizar.",
      "ejemplos": [
-      "Usar modelos locales al programar"
+      "Usar modelos locales al programar",
+      "Autocompletar código en VS Code",
+      "Preguntar sobre tu proyecto"
      ],
-     "novedad": "",
+     "novedad": "Cursor ha comprado Continue (así lo indica su web).",
      "web": "https://www.continue.dev",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "continue.dev",
      "gratisTipo": "libre",
      "gratisTxt": "Gratis y de código abierto.",
@@ -8242,22 +8378,23 @@
      "nombre": "Base44",
      "empresa": "Wix",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Starter 20 $/mes (16 $ en pago anual) · Builder 50 $/mes (40 $) · Pro 100 $/mes (80 $) · Elite 200 $/mes (160 $)",
      "nivel": 1,
      "nota": 70,
      "desc": "Crea apps con base de datos y usuarios describiéndolas.",
      "para": "Pequeños negocios sin programador.",
      "ejemplos": [
       "App interna",
-      "Gestor de clientes"
+      "Gestor de clientes",
+      "App para reservar clases"
      ],
      "novedad": "",
      "web": "https://base44.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "base44.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Pocos mensajes gratis.",
+     "gratisTxt": "25 créditos de mensajes al mes (máximo 5 al día) y hasta 5 apps.",
      "plataformas": [
       "web"
      ],
@@ -8280,7 +8417,7 @@
      "afiliado": "",
      "precioMes": 20,
      "consumo": "creditos",
-     "consumoTxt": "Cada plan incluye un número de mensajes o créditos. Los proyectos grandes los gastan rápido y hay que comprar más."
+     "consumoTxt": "Starter da 100 créditos de mensajes al mes y cada cambio que pides gasta. Si se acaban, esperas al mes siguiente o subes de plan."
     },
     {
      "id": "codigo-24",
@@ -8328,48 +8465,51 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
     {
-     "id": "codigo-25",
-     "nombre": "Firebase Studio",
+     "id": "codigo-32",
+     "slug": "google-ai-studio",
+     "nombre": "Google AI Studio",
      "empresa": "Google",
      "precio": "gratis",
-     "precioTxt": "Gratis en vista previa",
+     "precioTxt": "Gratis (pagas solo si conectas una clave de pago de la API)",
+     "precioMes": 0,
      "nivel": 2,
-     "nota": 68,
-     "desc": "Crea prototipos de apps con Gemini y publícalos en Firebase.",
-     "para": "Desarrolladores del ecosistema Google.",
+     "desc": "La web de Google para probar Gemini y crear apps pidiéndolas con palabras (modo Build).",
+     "para": "Quien quiere crear una app o web sencilla gratis con Gemini.",
      "ejemplos": [
-      "Prototipo con base de datos"
+      "Crear una app pidiéndola con palabras",
+      "Hacer una app de Android sin instalar nada",
+      "Probar los modelos de Gemini gratis"
      ],
-     "novedad": "",
-     "web": "https://firebase.studio",
-     "verificado": false,
-     "actualizado": "2026-09-29",
-     "dominio": "firebase.studio",
+     "novedad": "Sustituye a Firebase Studio, que no admite usuarios nuevos desde el 22 jun 2026 y cerrará el 22 mar 2027.",
+     "web": "https://aistudio.google.com",
+     "afiliado": "",
+     "dominio": "aistudio.google.com",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis en vista previa.",
+     "gratisTxt": "Usarlo es gratis con una cuenta de Google; puedes publicar hasta 2 apps sin cuenta de facturación.",
+     "consumo": "gratis",
+     "consumoTxt": "Es gratis mientras no conectes una clave de pago; si la conectas, se cobra lo que uses según los precios de la API de Gemini.",
      "plataformas": [
       "web"
      ],
      "mejorEn": "ordenador",
-     "notas": {
-      "calidad": 7,
-      "facilidad": 6,
-      "precio": 9,
-      "versatilidad": 5
-     },
      "pros": [
-      "Prototipos con Gemini",
-      "Base de datos incluida"
+      "Gratis y sin tarjeta",
+      "Crea apps web y de Android con palabras",
+      "Acceso a los últimos modelos de Gemini"
      ],
      "contras": [
-      "Técnico",
-      "Puede cambiar de condiciones"
+      "Pensado para desarrolladores: algo técnico",
+      "Si conectas facturación, puede costar dinero"
      ],
-     "slug": "firebase-studio",
-     "afiliado": "",
-     "precioMes": 0,
-     "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "notas": {
+      "calidad": 8,
+      "versatilidad": 6,
+      "facilidad": 7,
+      "precio": 9
+     },
+     "nota": 76
     },
     {
      "id": "codigo-26",
@@ -8514,7 +8654,9 @@
      "desc": "Convierte diseños de Figma en prototipos funcionales con IA.",
      "para": "Diseñadores de producto.",
      "ejemplos": [
-      "Prototipo interactivo desde un diseño"
+      "Prototipo interactivo desde un diseño",
+      "Probar una idea de app antes de programarla",
+      "Web sencilla a partir de un boceto"
      ],
      "novedad": "",
      "web": "https://www.figma.com/make/",
@@ -8596,7 +8738,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "codigo",
    "empieza": {
     "titulo": "¿No sabes programar? Empieza por estas",
@@ -8683,15 +8825,16 @@
      "para": "Universitarios e investigadores.",
      "ejemplos": [
       "Revisión bibliográfica",
-      "Comparar estudios"
+      "Comparar estudios",
+      "Tabla con datos de varios artículos"
      ],
      "novedad": "",
      "web": "https://elicit.com",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "elicit.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Búsquedas gratis limitadas.",
+     "gratisTxt": "Búsqueda en más de 138 millones de artículos, resúmenes y chat ilimitados; agente e informes limitados.",
      "plataformas": [
       "web"
      ],
@@ -8713,8 +8856,8 @@
      "slug": "elicit",
      "afiliado": "",
      "precioMes": 12,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumo": "creditos",
+     "consumoTxt": "Cuota fija con un cupo mensual para el agente de investigación y los informes. Si lo agotas, en Pro puedes comprar más uso."
     },
     {
      "id": "estudio-03",
@@ -9131,7 +9274,9 @@
      "desc": "Practica hablar inglés con un tutor de IA.",
      "para": "Quien quiere soltarse hablando inglés.",
      "ejemplos": [
-      "Simular una entrevista en inglés"
+      "Simular una entrevista en inglés",
+      "Practicar conversaciones de viaje",
+      "Mejorar la pronunciación"
      ],
      "novedad": "",
      "web": "https://www.speak.com",
@@ -9451,17 +9596,20 @@
      "para": "Quien necesita entender un documento rápido.",
      "ejemplos": [
       "Preguntar a un manual",
-      "Resumir un informe"
+      "Resumir un informe",
+      "Repasar un tema con tus apuntes en PDF"
      ],
      "novedad": "",
      "web": "https://www.chatpdf.com",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "chatpdf.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Pocos PDFs y preguntas al día.",
+     "gratisTxt": "2 documentos al día gratis.",
      "plataformas": [
-      "web"
+      "web",
+      "escritorio",
+      "movil"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -9533,22 +9681,23 @@
      "nombre": "Kagi",
      "empresa": "Kagi",
      "precio": "pago",
-     "precioTxt": "Desde unos 5 $/mes",
+     "precioTxt": "Starter 5 $/mes (4,50 $ en pago anual) · Professional 10 $/mes (9 $) · Ultimate 25 $/mes (22,50 $)",
      "nivel": 2,
      "nota": 70,
      "desc": "Buscador sin publicidad con asistente de IA.",
      "para": "Quien quiere búsquedas limpias.",
      "ejemplos": [
       "Buscar sin anuncios",
-      "Resumir resultados"
+      "Resumir resultados",
+      "Bloquear webs que no te gustan en los resultados"
      ],
      "novedad": "",
      "web": "https://kagi.com",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "kagi.com",
      "gratisTipo": "prueba",
-     "gratisTxt": "Prueba de 100 búsquedas; luego suscripción.",
+     "gratisTxt": "Prueba de 100 búsquedas y 100 usos del asistente; no hay plan gratis permanente.",
      "plataformas": [
       "web",
       "movil"
@@ -9572,7 +9721,7 @@
      "afiliado": "",
      "precioMes": 5,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija. Starter da 300 búsquedas al mes; Professional y Ultimate, ilimitadas. El asistente tiene más uso en planes superiores."
     },
     {
      "id": "estudio-22",
@@ -9630,12 +9779,14 @@
      "desc": "Lector de artículos con asistente que resume y responde.",
      "para": "Lectores intensivos.",
      "ejemplos": [
-      "Resumir artículos guardados"
+      "Resumir artículos guardados",
+      "Guardar artículos para leer luego",
+      "Escuchar un artículo en voz alta"
      ],
-     "novedad": "",
+     "novedad": "2 oct 2026: voces más naturales para escuchar artículos (beta) y temas de lectura en el móvil.",
      "web": "https://readwise.io/read",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-10-11",
      "dominio": "readwise.io",
      "gratisTipo": "prueba",
      "gratisTxt": "Prueba de 30 días; suscripción.",
@@ -9722,7 +9873,8 @@
      "para": "Todo el mundo que traduce textos.",
      "ejemplos": [
       "Traducir un email",
-      "Mejorar un texto en inglés"
+      "Mejorar un texto en inglés",
+      "Traducir un documento Word entero"
      ],
      "novedad": "",
      "web": "https://www.deepl.com",
@@ -9769,7 +9921,8 @@
      "para": "Cualquiera con móvil.",
      "ejemplos": [
       "Traducir un menú",
-      "Identificar una planta"
+      "Identificar una planta",
+      "Resolver un ejercicio con una foto"
      ],
      "novedad": "",
      "web": "https://lens.google",
@@ -9983,7 +10136,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "estudio",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -10021,12 +10174,13 @@
      "para": "Quien hace presentaciones a menudo.",
      "ejemplos": [
       "Presentación para clase",
-      "Propuesta comercial"
+      "Propuesta comercial",
+      "Convertir un documento en diapositivas"
      ],
-     "novedad": "",
+     "novedad": "6 oct 2026: Gamma 5, con un agente que edita contigo, lienzo libre, más estilos e importación y exportación de PowerPoint y PDF. Para todos los planes.",
      "web": "https://gamma.app",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-10-11",
      "dominio": "gamma.app",
      "gratisTipo": "limitado",
      "gratisTxt": "400 créditos al registrarte (no se recargan), hasta 10 diapositivas por presentación.",
@@ -10252,23 +10406,26 @@
      "nombre": "Fireflies",
      "empresa": "Fireflies.ai",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis · Pro 10 $/mes · Business 19 $/mes · Enterprise 39 $/mes (por persona, pago anual)",
      "nivel": 1,
      "nota": 68,
      "desc": "Asistente que se une a tus reuniones y toma notas.",
      "para": "Equipos comerciales y de proyecto.",
      "ejemplos": [
-      "Resumen y tareas de cada reunión"
+      "Resumen y tareas de cada reunión",
+      "Buscar qué se dijo en una llamada",
+      "Compartir notas con el equipo"
      ],
      "novedad": "",
      "web": "https://fireflies.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "fireflies.ai",
      "gratisTipo": "limitado",
-     "gratisTxt": "Transcripciones limitadas.",
+     "gratisTxt": "Transcripción de reuniones con 400 minutos de almacenamiento y grabaciones de hasta 2 horas; resúmenes con IA limitados.",
      "plataformas": [
       "web",
+      "escritorio",
       "movil"
      ],
      "mejorEn": "ordenador",
@@ -10290,7 +10447,7 @@
      "afiliado": "",
      "precioMes": 10,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Cuota fija por persona para transcribir. Las funciones de IA (preguntas, resúmenes extra) gastan créditos; si se acaban, hay que añadir un paquete mensual (desde 5 $ por 50)."
     },
     {
      "id": "trabajo-07",
@@ -10303,7 +10460,9 @@
      "desc": "Toma notas de reuniones sin bot visible y las mejora con IA.",
      "para": "Profesionales con reuniones seguidas.",
      "ejemplos": [
-      "Notas limpias tras cada llamada"
+      "Notas limpias tras cada llamada",
+      "Lista de tareas de una reunión",
+      "Preguntar qué se decidió la semana pasada"
      ],
      "novedad": "",
      "web": "https://www.granola.ai",
@@ -10441,7 +10600,8 @@
      "para": "Quien repite tareas entre apps.",
      "ejemplos": [
       "Guardar adjuntos de Gmail en Drive",
-      "Avisos automáticos"
+      "Avisos automáticos",
+      "Pasar respuestas de un formulario a una hoja"
      ],
      "novedad": "23 sept 2026: «Next Gen Zaps», automatizaciones que puedes crear hablando con Claude o ChatGPT (planes de pago).",
      "web": "https://zapier.com",
@@ -10532,7 +10692,8 @@
      "para": "Usuarios técnicos y empresas europeas.",
      "ejemplos": [
       "Agente que clasifica emails",
-      "Automatizar facturas"
+      "Automatizar facturas",
+      "Resumen diario de noticias por correo"
      ],
      "novedad": "",
      "web": "https://n8n.io",
@@ -10615,21 +10776,23 @@
      "nombre": "Napkin AI",
      "empresa": "Napkin",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Plus 9 $/mes por persona · Pro 22 $/mes por persona (25 % menos en pago anual)",
      "nivel": 1,
      "nota": 72,
      "desc": "Convierte un texto en esquemas y gráficos visuales.",
      "para": "Quien quiere explicar ideas con dibujos.",
      "ejemplos": [
-      "Diagrama a partir de un párrafo"
+      "Diagrama a partir de un párrafo",
+      "Esquema para una presentación",
+      "Infografía para un post"
      ],
      "novedad": "",
      "web": "https://www.napkin.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "napkin.ai",
      "gratisTipo": "util",
-     "gratisTxt": "Plan gratis con créditos mensuales.",
+     "gratisTxt": "500 créditos de IA a la semana, edición y exportación PNG/PDF ilimitadas; los visuales llevan la marca de Napkin.",
      "plataformas": [
       "web"
      ],
@@ -10650,9 +10813,9 @@
      ],
      "slug": "napkin-ai",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": 9,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Plus da 10.000 créditos al mes y cada visual gasta más o menos un crédito por palabra. Si se acaban, puedes comprar más."
     },
     {
      "id": "trabajo-15",
@@ -11120,7 +11283,9 @@
      "desc": "Agente todo en uno: presentaciones, hojas de cálculo e investigación.",
      "para": "Quien quiere resultados terminados.",
      "ejemplos": [
-      "Presentación a partir de una idea"
+      "Presentación a partir de una idea",
+      "Hoja de cálculo comparando productos",
+      "Informe sobre un tema"
      ],
      "novedad": "",
      "web": "https://www.genspark.ai",
@@ -11159,21 +11324,23 @@
      "nombre": "Julius AI",
      "empresa": "Julius",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis limitado · Plus 20 $/mes (16 $ en pago anual) · Pro 45 $/mes (37 $) · Max 200 $/mes (166 $) · Business 450 $/mes (375 $)",
      "nivel": 1,
      "nota": 72,
      "desc": "Analiza hojas de cálculo y crea gráficos preguntando en lenguaje natural.",
      "para": "Quien trabaja con datos sin saber programar.",
      "ejemplos": [
-      "Gráfico de ventas desde un Excel"
+      "Gráfico de ventas desde un Excel",
+      "Encontrar tendencias en una encuesta",
+      "Limpiar una hoja de datos desordenada"
      ],
      "novedad": "",
      "web": "https://julius.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-10-11",
      "dominio": "julius.ai",
      "gratisTipo": "limitado",
-     "gratisTxt": "Pocos mensajes gratis al mes.",
+     "gratisTxt": "Unos pocos créditos gratis con los modelos ligeros (Julius Lite).",
      "plataformas": [
       "web"
      ],
@@ -11196,7 +11363,7 @@
      "afiliado": "",
      "precioMes": 20,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Plus da 2.000 créditos al mes que no se acumulan; cada análisis gasta según su complejidad. No se pueden comprar más: hay que subir de plan."
     },
     {
      "id": "trabajo-27",
@@ -11346,7 +11513,8 @@
      "para": "Empresas con Microsoft 365.",
      "ejemplos": [
       "Presentación desde un documento Word",
-      "Análisis en Excel"
+      "Análisis en Excel",
+      "Resumir un hilo largo de Outlook"
      ],
      "novedad": "Sept 2026: las funciones avanzadas pasan a pagarse por uso con créditos de octubre a diciembre de 2026.",
      "web": "https://www.microsoft.com/microsoft-365/copilot",
@@ -11382,7 +11550,7 @@
      "consumoTxt": "La licencia cubre el uso diario, pero desde octubre de 2026 las funciones avanzadas (agentes como Cowork) se cobran aparte con créditos según el uso."
     }
    ],
-   "actualizado": "2026-10-04",
+   "actualizado": "2026-10-11",
    "id": "trabajo",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
