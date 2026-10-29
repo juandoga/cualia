@@ -2452,6 +2452,14 @@
     "gratisTipo": "libre",
     "gratisTxt": "Usarlo es gratis con una cuenta de Google; puedes publicar hasta 2 apps sin cuenta de facturación."
    }
+  ],
+  "imagen-31": [
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis en tu ordenador · Upscayl Cloud: Pro 24,99 $ (300 créditos al mes) · Business y a medida",
+    "gratisTipo": "libre",
+    "gratisTxt": "La app de escritorio es gratis y sin límites; necesita una tarjeta gráfica compatible (Vulkan)."
+   }
   ]
  }
 }

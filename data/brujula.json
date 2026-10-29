@@ -11,7 +11,12 @@
   {
    "fecha": "2026-10-29",
    "ia": "Cualia",
-   "texto": "Revisión: 50 fichas actualizadas, 21 verificadas, 2 renombradas (Kling 4.0 y Mistral Vibe). Logotipo nuevo."
+   "texto": "Revisión: 52 fichas actualizadas, 22 verificadas, 2 renombradas (Kling 4.0 y Mistral Vibe) y 1 sustituida (Magnific → Upscayl). Logotipo nuevo."
+  },
+  {
+   "fecha": "2026-10-29",
+   "ia": "Upscayl",
+   "texto": "Entra en el catálogo en lugar del ampliador Magnific, que ya forma parte de la ficha de Magnific (antes Freepik). Upscayl amplía fotos gratis en tu ordenador."
   },
   {
    "fecha": "2026-10-29",
@@ -44,9 +49,9 @@
    "texto": "Gemini 4 Argon llega a la app de Gemini para los planes AI Pro y Ultra."
   },
   {
-   "fecha": "2026-10-13",
+   "fecha": "2026-10-12",
    "ia": "Character.AI",
-   "texto": "Se declara en concurso de acreedores y busca comprador; la app sigue abierta por ahora."
+   "texto": "Inicia un concurso de acreedores para venderse; la app sigue abierta y, si no hay comprador, cerrará."
   },
   {
    "fecha": "2026-10-12",
@@ -302,11 +307,6 @@
    "fecha": "2026-07-09",
    "ia": "ChatGPT",
    "texto": "Llega ChatGPT Work, el modo agente para tareas largas."
-  },
-  {
-   "fecha": "2026-06-16",
-   "ia": "Cursor",
-   "texto": "SpaceX acuerda comprar Cursor por 60.000 millones de dólares."
   }
  ],
  "cats": [
@@ -1440,7 +1440,7 @@
       "Practicar idiomas con un personaje",
       "Inventar una historia con personajes"
      ],
-     "novedad": "13 oct 2026: la empresa se declara en concurso de acreedores en EE. UU. y busca comprador. La app sigue funcionando, pero podría cerrar si nadie la compra.",
+     "novedad": "12 oct 2026: inicia un concurso de acreedores en EE. UU. para venderse. La app y las suscripciones siguen funcionando; si no aparece comprador, cerrará. Se sabrá a finales de noviembre o principios de diciembre.",
      "web": "https://character.ai",
      "verificado": false,
      "actualizado": "2026-10-29",
@@ -2522,50 +2522,51 @@
      "consumoTxt": "Cada plan da créditos (Premium, 240.000 al año) y cada imagen o vídeo gasta varios según el modelo. Si generas mucho, tendrás que comprar más o subir de plan."
     },
     {
-     "id": "imagen-16",
-     "nombre": "Magnific",
-     "empresa": "Freepik",
-     "precio": "pago",
-     "precioTxt": "Desde unos 39 $/mes",
+     "id": "imagen-31",
+     "nombre": "Upscayl",
+     "empresa": "Upscayl (código abierto)",
+     "precio": "freemium",
+     "precioTxt": "Gratis en tu ordenador · Upscayl Cloud: Pro 24,99 $ (300 créditos al mes) · Business y a medida",
      "nivel": 2,
-     "nota": 62,
-     "desc": "Aumenta la resolución de imágenes añadiendo detalle realista.",
-     "para": "Quien necesita imprimir en grande.",
+     "nota": 68,
+     "desc": "Amplía y mejora fotos con IA en tu ordenador, gratis y de código abierto.",
+     "para": "Quien quiere ampliar fotos sin pagar y sin subirlas a internet.",
      "ejemplos": [
-      "Ampliar una foto pequeña",
-      "Añadir detalle",
-      "Preparar una imagen para imprimir en grande"
+      "Ampliar una foto pequeña para imprimirla",
+      "Mejorar fotos antiguas escaneadas",
+      "Agrandar muchas imágenes de golpe"
      ],
      "novedad": "",
-     "web": "https://magnific.ai",
-     "verificado": false,
-     "actualizado": "2026-09-29",
-     "dominio": "magnific.ai",
-     "gratisTipo": "no",
-     "gratisTxt": "Sin versión gratis; desde unos 39 $/mes.",
+     "web": "https://upscayl.org",
+     "verificado": true,
+     "actualizado": "2026-10-29",
+     "dominio": "upscayl.org",
+     "gratisTipo": "libre",
+     "gratisTxt": "La app de escritorio es gratis y sin límites; necesita una tarjeta gráfica compatible (Vulkan).",
      "plataformas": [
-      "web"
+      "escritorio"
      ],
      "mejorEn": "ordenador",
      "notas": {
-      "calidad": 9,
-      "facilidad": 7,
-      "precio": 4,
+      "calidad": 7,
+      "facilidad": 8,
+      "precio": 10,
       "versatilidad": 2
      },
      "pros": [
-      "Amplía imágenes con mucho detalle",
-      "Ideal para imprimir"
+      "Gratis y sin límites en tu ordenador",
+      "Tus fotos no salen de tu equipo",
+      "Muy fácil: arrastras la foto y la amplías"
      ],
      "contras": [
-      "Caro",
-      "Sin plan gratis"
+      "Necesita una tarjeta gráfica compatible",
+      "Solo sirve para ampliar imágenes"
      ],
-     "slug": "magnific",
+     "slug": "upscayl",
      "afiliado": "",
-     "precioMes": 39,
-     "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "precioMes": 25,
+     "consumo": "gratis",
+     "consumoTxt": "En tu ordenador no tiene costes. La versión en la nube es opcional y va con créditos: Pro da 300 al mes y los que no gastas se acumulan."
     },
     {
      "id": "imagen-17",
