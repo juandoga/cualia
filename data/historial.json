@@ -65,6 +65,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Uso gratis con límites diarios dentro de X y en su app."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Plus 8 $/mes · Premium 30 $/mes · Super 100 $/mes · Ultra 200 $/mes (X Subscription: incluye también Cursor y X Premium)",
+    "gratisTipo": "util",
+    "gratisTxt": "Uso diario de Grok con límites, en su app y en X."
    }
   ],
   "chat-07": [
@@ -95,6 +101,12 @@
     "precioTxt": "Gratis · Pro 14,99 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Mensajes y búsquedas limitados, con creación de imágenes."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Pro 14,99 $/mes · Team 24,99 $/mes por persona",
+    "gratisTipo": "util",
+    "gratisTxt": "Mensajes, búsquedas y sesiones de programación limitadas; imágenes básicas y hasta 5 tareas programadas."
    }
   ],
   "chat-10": [
@@ -155,6 +167,12 @@
     "precioTxt": "Gratis · plan de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con límites semanales."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Lumo Plus 9,99 $/mes en pago anual (119,88 $/año)",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis sin tarjeta, con límites de mensajes, historial, imágenes y un solo proyecto."
    }
   ],
   "chat-16": [
@@ -177,6 +195,12 @@
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis · Premium de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "Uso gratis con límites dentro del navegador Brave."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Premium 14,99 $/mes o 149,99 $/año",
     "gratisTipo": "util",
     "gratisTxt": "Uso gratis con límites dentro del navegador Brave."
    }
@@ -203,6 +227,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Uso gratis con límites diarios."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Pro 18 $/mes · Pro+ 68 $/mes · Max 200 $/mes (10 % menos en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "10 mensajes de texto y 15 imágenes al día con los modelos gratis."
    }
   ],
   "chat-22": [
@@ -249,6 +279,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis; funciona en tu ordenador."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis en tu equipo · Bionic+ 20 $/mes · Pro 100 $/mes (modelos en la nube)",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis; funciona en tu ordenador."
    }
   ],
   "chat-27": [
@@ -257,6 +293,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis y de código abierto."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis en tu equipo · nube: pago por uso, Pro 20 $/mes (200 $/año) o Max 100 $/mes",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis e ilimitado ejecutando los modelos en tu propio ordenador."
    }
   ],
   "chat-28": [
@@ -441,6 +483,12 @@
     "precioTxt": "Gratis con cuenta Microsoft",
     "gratisTipo": "util",
     "gratisTxt": "Gratis con cuenta Microsoft y créditos diarios."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis con cuenta Microsoft · más créditos con Microsoft 365 Personal (9,99 $/mes), Family (12,99 $/mes) o Premium (19,99 $/mes)",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis con cuenta Microsoft y créditos que se renuevan cada mes (cada imagen gasta 1)."
    }
   ],
   "imagen-18": [
@@ -463,6 +511,12 @@
     "precioTxt": "Gratis limitado · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos usos gratis al día."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis (20 usos al día por herramienta) · Pro de pago (1.000 usos al día)",
+    "gratisTipo": "util",
+    "gratisTxt": "Cada día, 20 usos de quitar fondo, ampliar, borrar objetos y reiluminar, y 50 de borrar texto."
    }
   ],
   "imagen-20": [
@@ -537,6 +591,12 @@
     "precioTxt": "Gratis en baja resolución",
     "gratisTipo": "limitado",
     "gratisTxt": "Gratis solo en baja resolución."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis en baja resolución · suscripción o créditos sueltos para alta resolución",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Gratis en la web en baja resolución (hasta 0,25 megapíxeles) y solo para uso personal; 50 vistas previas al mes en la app o la API."
    }
   ],
   "imagen-27": [
@@ -617,6 +677,12 @@
     "precioTxt": "Desde unos 29 $/mes",
     "gratisTipo": "prueba",
     "gratisTxt": "Demo gratuita; uso real de pago."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis (Basic) · Starter 19 $/mes · Pro 89 $/mes · Enterprise a medida (descuento en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "10 minutos de vídeo al mes con marca de agua y sin descargas."
    }
   ],
   "video-07": [
@@ -641,6 +707,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos créditos gratis."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Starter 10 $/mes (8 $ en pago anual) · Creator 35 $/mes (28 $ anual) · Fancy desde 95 $/mes · paquetes de créditos desde 25 $",
+    "gratisTipo": "no",
+    "gratisTxt": "La cuenta gratis no trae créditos: hay que comprar paquetes o suscribirse. Sin marca de agua, pero sin uso comercial."
    }
   ],
   "video-10": [
@@ -673,6 +745,12 @@
     "precioTxt": "Planes de pago",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba limitada; uso real de pago."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis (sin créditos) · Starter 15 $/mes · Plus 49 $/mes · Ultra 129 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Sin créditos al mes: uso limitado de algunos modelos de imagen, un trabajo cada vez y sin uso comercial."
    }
   ],
   "video-14": [
@@ -737,6 +815,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos minutos gratis con marca de agua."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Starter 20 $/mes (10 $ en pago anual) · Plus 60 $/mes (30 $ anual) · Max 150 $/mes (75 $ anual), por persona",
+    "gratisTipo": "no",
+    "gratisTxt": "Su página de precios ya no muestra plan gratis: solo planes de pago."
    }
   ],
   "video-19": [
@@ -1281,6 +1365,12 @@
     "precioTxt": "Core 16 $/mes (8 $ en pago anual) · Advanced 30 $/mes (15 $ en pago anual) · Enterprise a medida",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos minutos gratis al día."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Core 16 $/mes (8 $ en pago anual) · Advanced 30 $/mes (15 $ en pago anual) · Enterprise a medida, por persona",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba gratis de 7 días sin tarjeta; después, de pago."
    }
   ],
   "voz-21": [
@@ -1293,6 +1383,12 @@
    {
     "fecha": "2026-10-11",
     "precioTxt": "2 h gratis/mes · planes de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "2 horas de audio al mes, con la sintonía de Auphonic y sin procesar en lote."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "2 h gratis/mes · planes mensuales de 9 a 250 h (20 % menos en pago anual) · horas sueltas que no caducan",
     "gratisTipo": "util",
     "gratisTxt": "2 horas de audio al mes, con la sintonía de Auphonic y sin procesar en lote."
    }
@@ -1401,6 +1497,12 @@
     "precioTxt": "Gratis · Pro desde 20 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con límite de peticiones."
+   },
+   {
+    "fecha": "2026-10-29",
+    "precioTxt": "Gratis · Plus 8 $/mes (solo modelos Grok) · Premium 30 $/mes · Super 100 $/mes · Ultra 200 $/mes (planes de la X Subscription)",
+    "gratisTipo": "util",
+    "gratisTxt": "Un cupo inicial para los agentes de programación, con límites."
    }
   ],
   "codigo-03": [

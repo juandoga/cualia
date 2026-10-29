@@ -53,14 +53,29 @@ def _ajustar_titulo(d, txt, ancho, tamanos=(92, 80, 68, 58), max_lineas=2):
     return f, _partir(d, txt, f, ancho, max_lineas), tamanos[-1]
 
 
+def _destello(cx, cy, r, pasos=12):
+    """Estrella de cuatro puntas con lados curvos (el destello del logo)."""
+    pts = []
+    puntas = [(cx, cy - r), (cx + r, cy), (cx, cy + r), (cx - r, cy)]
+    for i in range(4):
+        a, b = puntas[i], puntas[(i + 1) % 4]
+        for k in range(pasos):
+            t = k / pasos
+            # curva cuadrática con control cerca del centro
+            px = (1 - t) ** 2 * a[0] + 2 * (1 - t) * t * cx + t ** 2 * b[0]
+            py = (1 - t) ** 2 * a[1] + 2 * (1 - t) * t * cy + t ** 2 * b[1]
+            pts.append((px, py))
+    return pts
+
+
 def _logo(d, x, y, s=64):
-    r = s * 0.24
-    d.rounded_rectangle([x, y, x + s, y + s], radius=r, fill=BLANCO)
-    c, rad, grosor = (x + s / 2, y + s / 2), s * 0.25, max(4, int(s * 0.13))
-    d.arc([c[0] - rad, c[1] - rad, c[0] + rad, c[1] + rad], start=-45 + 90, end=-45 + 90 + 270, fill=MORADO, width=grosor)
-    pr = s * 0.08
-    px, py = x + s * 0.677, y + s * 0.323
-    d.ellipse([px - pr, py - pr, px + pr, py + pr], fill=AMARILLO)
+    k = s / 100
+    d.rounded_rectangle([x, y, x + s, y + s], radius=s * 0.24, fill=BLANCO)
+    # Bocadillo morado con destello blanco y destello amarillo arriba a la derecha
+    d.rounded_rectangle([x + 16 * k, y + 26 * k, x + 78 * k, y + 72 * k], radius=14 * k, fill=MORADO)
+    d.polygon([(x + 26 * k, y + 64 * k), (x + 26 * k, y + 84 * k), (x + 44 * k, y + 70 * k)], fill=MORADO)
+    d.polygon(_destello(x + 47 * k, y + 45 * k, 14 * k), fill=BLANCO)
+    d.polygon(_destello(x + 80 * k, y + 17 * k, 11 * k), fill=AMARILLO)
     f = _titular(46)
     d.text((x + s + 16, y + s / 2), "Cual", font=f, fill=BLANCO, anchor="lm")
     d.text((x + s + 16 + d.textlength("Cual", font=f), y + s / 2), "ia", font=f, fill=AMARILLO, anchor="lm")
@@ -77,9 +92,9 @@ def _pastilla(d, x, y, txt, fondo=BLANCO, tinta=MORADO_OSC):
 def tarjeta(destino, etiqueta, titulo, pastillas=(), pie="¿Qué IA uso para esto?", dominio="juandoga.github.io/cualia"):
     img = Image.new("RGB", (W, H), MORADO)
     d = ImageDraw.Draw(img)
-    # Decoración: el anillo del logo, grande y recortado a la derecha
-    d.arc([930, -230, 1430, 270], start=135, end=405, fill=MORADO_OSC, width=60)
-    d.ellipse([1124, 52, 1184, 112], fill=AMARILLO)
+    # Decoración: los destellos del logo, grandes y recortados a la derecha
+    d.polygon(_destello(1130, 40, 230), fill=MORADO_OSC)
+    d.polygon(_destello(1100, 330, 34), fill=AMARILLO)
 
     _logo(d, 72, 64)
     y = 200
