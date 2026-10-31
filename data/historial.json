@@ -181,6 +181,12 @@
     "precioTxt": "Gratis en iPhone compatibles",
     "gratisTipo": "libre",
     "gratisTxt": "Incluido gratis en iPhone, iPad y Mac compatibles."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis en dispositivos Apple compatibles (con límite diario en las funciones que usan la nube)",
+    "gratisTipo": "util",
+    "gratisTxt": "Incluido en iPhone 15 Pro, iPhone 16 o posteriores, y en iPad y Mac con chip M1 o posterior. Las funciones en la nube tienen un límite al día; Apple avisa de que más uso será de pago en el futuro."
    }
   ],
   "chat-17": [
@@ -361,6 +367,12 @@
    {
     "fecha": "2026-09-30",
     "precioTxt": "Gratis limitado · Pro 19,99 $/mes",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Pocos créditos gratis al mes."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis limitado · Standard 9,99 $/mes · Pro 19,99 $/mes · Pro Plus 49,99 $/mes · Premium 199,99 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos créditos gratis al mes."
    }
@@ -545,6 +557,12 @@
     "precioTxt": "Gratis · modelo abierto",
     "gratisTipo": "libre",
     "gratisTxt": "Modelo abierto: se descarga e instala gratis, y hay una demo gratis en Hugging Face. La versión 2.1 tiene licencia de investigación: revisa si permite uso comercial."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis · modelo abierto (solo uso no comercial) · API Turbo ~0,014–0,016 $ y Pro ~0,035–0,04 $ por imagen",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Se descarga gratis (también la versión rápida Turbo) y hay demo en Hugging Face, pero la licencia de la versión 2.1 solo permite uso no comercial (investigación o pruebas)."
    }
   ],
   "imagen-22": [
@@ -843,6 +861,12 @@
     "precioTxt": "Planes de Firefly",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos créditos gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis limitado · Standard 9,99 $/mes (2.000 créditos) · Pro 19,99 $/mes (4.000) · Pro Plus 49,99 $/mes (10.000) · Premium 199,99 $/mes (50.000)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Unas pocas generaciones gratis para probar; la web de Adobe no da una cifra clara."
    }
   ],
   "video-21": [
@@ -875,6 +899,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos créditos gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Planes Basic, Pro y Ultra desde 20 $/mes · API de pago por uso",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Pocos créditos gratis."
    }
   ],
   "video-25": [
@@ -891,6 +921,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Gratis con marca de agua y límite de duración."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis con marca de agua · Creator, Pro y Studio desde 20 $/mes por persona (pago mensual o anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Gratis, pero los vídeos se exportan con la marca de agua de VEED."
    }
   ],
   "video-27": [
@@ -1087,6 +1123,12 @@
     "precioTxt": "Planes de pago",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba limitada; masterizar exige pagar."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Escuchar el máster gratis · 10 $ por canción suelta · suscripción LANDR Studio (Essentials, Standard o Pro; pago mensual o anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Puedes masterizar y escuchar el resultado gratis todas las veces que quieras, pero para descargarlo hay que pagar."
    }
   ],
   "musica-20": [
@@ -1265,6 +1307,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos minutos gratis sin descarga."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis limitado · planes Creator, Growth y Business (33 % menos en pago anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "10 minutos de voz y 10 de transcripción para probar, pero no puedes descargar el audio ni usarlo con fines comerciales."
    }
   ],
   "voz-10": [
@@ -1321,6 +1369,12 @@
     "precioTxt": "Gratis · código abierto",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis y de código abierto."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis · código abierto (licencia MIT)",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis y de código abierto (licencia MIT): lo instalas en tu ordenador y lo usas sin límites. Usarlo a través de la API de OpenAI se paga aparte."
    }
   ],
   "voz-17": [
@@ -1649,6 +1703,12 @@
     "precioTxt": "Gratis · pagas el modelo",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis; pagas el modelo."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis (pagas el modelo que uses) · ClinePass opcional 9,99 $/mes · Enterprise a medida",
+    "gratisTipo": "libre",
+    "gratisTxt": "La extensión es gratis y de código abierto; solo pagas lo que gaste el modelo de IA (con tu propia clave o a precio de coste con Cline)."
    }
   ],
   "codigo-16": [
@@ -1685,6 +1745,12 @@
     "precioTxt": "Incluido en planes de JetBrains",
     "gratisTipo": "limitado",
     "gratisTxt": "Junie Lite: un modelo de IA gratis en cualquier cuenta de JetBrains, sin tarjeta."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "AI Free gratis · AI Pro desde 10 $/mes · AI Ultimate desde 30 $/mes · AI Enterprise 60 $/mes (empresas)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "AI Free: 3 créditos de IA cada 30 días (1 crédito = 1 $), sin recargas. No funciona en Android Studio ni en las ediciones Community."
    }
   ],
   "codigo-19": [
@@ -1791,6 +1857,12 @@
     "precioTxt": "Incluido en planes de Figma",
     "gratisTipo": "limitado",
     "gratisTxt": "Uso limitado en planes gratis de Figma."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis (Starter) · Professional 16 $/mes · Organization 55 $/mes · Enterprise 90 $/mes (por persona; Organization y Enterprise en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Con el plan gratis tienes hasta 150 créditos de IA al día y 500 al mes; solo puedes publicar en la web si también lo compartes en la Comunidad de Figma."
    }
   ],
   "codigo-30": [
@@ -1827,6 +1899,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Búsqueda en más de 138 millones de artículos, resúmenes y chat ilimitados; agente e informes limitados."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis (Basic) · Plus 11 $/mes · Pro desde 39 $/mes · Scale desde 89 $/mes (por persona, pago anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Búsqueda en más de 138 millones de artículos, resúmenes y chat ilimitados; agente e informes limitados."
    }
   ],
   "estudio-03": [
@@ -1857,6 +1935,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis del todo: buscador, resúmenes de una línea (solo de informática y biomedicina), alertas por correo y lector de artículos de arXiv."
    }
   ],
   "estudio-06": [
@@ -1873,6 +1957,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis · RR+ 10 $/mes en pago anual (120 $/año) o 12,50 $ mes a mes · descuentos según el país",
+    "gratisTipo": "util",
+    "gratisTxt": "Búsquedas, biblioteca y colecciones ilimitadas; puedes partir de hasta 50 artículos."
    }
   ],
   "estudio-08": [
@@ -2005,6 +2095,12 @@
     "precioTxt": "Gratis limitado · Plus de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "2 documentos al día gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis limitado · Plus de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "2 documentos al día gratis, sin crear cuenta; con cuenta gratis guardas el historial."
    }
   ],
   "estudio-20": [
@@ -2297,6 +2393,12 @@
     "precioTxt": "Incluido en planes de Figma",
     "gratisTipo": "limitado",
     "gratisTxt": "IA limitada en planes gratis."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis (Starter, 500 créditos de IA al mes) · Professional 16 $/mes · Organization 55 $/mes · Enterprise 90 $/mes (por persona)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "IA limitada en planes gratis."
    }
   ],
   "trabajo-16": [
@@ -2305,6 +2407,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos de IA limitados."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis · Starter 8 $/mes · Business 20 $/mes (por persona, pago anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "3 pizarras editables y pocos créditos de IA."
    }
   ],
   "trabajo-17": [
@@ -2329,6 +2437,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis útil para uso personal."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis (Lite) · Starter 10–12 $/mes · Business 15–18 $/mes · Enterprise 22 $/mes (por persona; más barato en pago anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "Plan Lite gratis para 1 persona: planifica hasta 1 semana vista, con 2 calendarios conectados y 1 enlace para que te reserven citas."
    }
   ],
   "trabajo-20": [
@@ -2427,6 +2541,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Plan gratis con IA limitada."
+   },
+   {
+    "fecha": "2026-10-31",
+    "precioTxt": "Gratis · Pro 10 $/mes (20 $ mes a mes) · Business 25 $/mes · Max 100 $/mes · Enterprise 250 $/mes (precios en pago anual)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Proyectos ilimitados y 1 agente de IA, pero sin créditos de IA al empezar ni cada mes (se pueden ganar poco a poco)."
    }
   ],
   "trabajo-30": [
