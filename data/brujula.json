@@ -1,13 +1,73 @@
 {
  "meta": {
-  "ultimaRevision": "2026-10-31",
-  "proximaRevision": "2026-11-07",
+  "ultimaRevision": "2026-11-07",
+  "proximaRevision": "2026-11-14",
   "frecuencia": "semanal",
   "totalFichas": 240,
   "nombre": "Cualia",
   "formulaNota": "calidad×4 + versatilidad×2 + facilidad×2 + precio×2"
  },
  "novedades": [
+  {
+   "fecha": "2026-11-07",
+   "ia": "Cualia",
+   "texto": "Revisión: 17 fichas verificadas con fuentes oficiales (Runway, Midjourney, Kling, Kapwing, LTX Studio, Deepgram, AssemblyAI y más), precios y plan gratis corregidos en 18 fichas y novedades de ChatGPT, Claude, Cursor, GitHub Copilot, Suno, ElevenLabs y Duolingo."
+  },
+  {
+   "fecha": "2026-11-06",
+   "ia": "Suno",
+   "texto": "Nuevo reto diario: una idea de canción cada día, en todos los planes."
+  },
+  {
+   "fecha": "2026-11-06",
+   "ia": "Cursor",
+   "texto": "Ya puedes hablar por voz con los agentes de programación."
+  },
+  {
+   "fecha": "2026-11-05",
+   "ia": "Cursor",
+   "texto": "Crea apps y publícalas con un enlace, con alojamiento y base de datos incluidos (planes de pago)."
+  },
+  {
+   "fecha": "2026-11-05",
+   "ia": "Claude",
+   "texto": "En beta y solo en EE. UU.: conecta tus cuentas del banco y pregúntale por tus gastos (planes de pago)."
+  },
+  {
+   "fecha": "2026-11-05",
+   "ia": "Meta AI",
+   "texto": "La app Muse de Meta estrena conversaciones por voz y avatares expresivos, primero en EE. UU."
+  },
+  {
+   "fecha": "2026-11-04",
+   "ia": "GPT Image 2",
+   "texto": "Llega GPT Image 2.6: GIF animados, imágenes de referencia guardadas y un 50 % más rápido."
+  },
+  {
+   "fecha": "2026-11-04",
+   "ia": "Suno",
+   "texto": "Puedes empezar una canción desde un archivo MIDI (Pro y Premier)."
+  },
+  {
+   "fecha": "2026-11-04",
+   "ia": "GitHub Copilot",
+   "texto": "Llega en prueba a Xcode. El 16 de noviembre se retiran algunos modelos antiguos."
+  },
+  {
+   "fecha": "2026-11-03",
+   "ia": "Duolingo Max",
+   "texto": "Duolingo deja de vender Max este mes; sus suscriptores pasan a Super Family al mismo precio."
+  },
+  {
+   "fecha": "2026-11-02",
+   "ia": "ElevenLabs",
+   "texto": "SFX v3 es ya el modelo de efectos por defecto y crea bucles sin cortes."
+  },
+  {
+   "fecha": "2026-11-02",
+   "ia": "Microsoft 365 Copilot",
+   "texto": "Copilot Chat gratis tiene límites de uso justo en empresas de hasta 2.000 puestos."
+  },
   {
    "fecha": "2026-10-31",
    "ia": "Cualia",
@@ -247,66 +307,6 @@
    "fecha": "2026-09-29",
    "ia": "ChatGPT",
    "texto": "GPT-6.1 Sol llega a los planes de pago y nace el plan Pro de 500 $/mes."
-  },
-  {
-   "fecha": "2026-09-29",
-   "ia": "Cualia",
-   "texto": "Primera revisión: 240 fichas en 8 campos, con fecha de revisión en cada una."
-  },
-  {
-   "fecha": "2026-09-28",
-   "ia": "ElevenLabs",
-   "texto": "Eleven v4: más de 90 idiomas y clonación de voz con 10 segundos de audio."
-  },
-  {
-   "fecha": "2026-09-28",
-   "ia": "Kling 3.0",
-   "texto": "Kling 4.0 abre en acceso anticipado para el plan Ultra anual."
-  },
-  {
-   "fecha": "2026-09-28",
-   "ia": "Manus",
-   "texto": "Llega Manus 2.0, más rápido y barato de ejecutar."
-  },
-  {
-   "fecha": "2026-09-28",
-   "ia": "Claude",
-   "texto": "Anthropic lanza Claude Sonnet 5.5; Opus 5.5 llegó días antes en la misma oleada."
-  },
-  {
-   "fecha": "2026-09-26",
-   "ia": "Microsoft 365 Copilot",
-   "texto": "Las funciones avanzadas pasarán a cobrarse por uso con créditos."
-  },
-  {
-   "fecha": "2026-09-24",
-   "ia": "Sora",
-   "texto": "Cierra la API de Sora. La app ya se cerró en abril; por eso no aparece en el catálogo."
-  },
-  {
-   "fecha": "2026-09-23",
-   "ia": "Topaz Video AI",
-   "texto": "Adobe completa la compra de Topaz Labs; sus apps siguen existiendo."
-  },
-  {
-   "fecha": "2026-09-23",
-   "ia": "Zapier",
-   "texto": "Presenta «Next Gen Zaps», automatizaciones que se crean hablando con la IA."
-  },
-  {
-   "fecha": "2026-09-21",
-   "ia": "Grok",
-   "texto": "xAI publica Grok 4.7."
-  },
-  {
-   "fecha": "2026-09-15",
-   "ia": "Gemini",
-   "texto": "Gemini 3.8 Live pasa a liderar los rankings de conversación por voz."
-  },
-  {
-   "fecha": "2026-09-11",
-   "ia": "ElevenLabs Music",
-   "texto": "Music v2.5 pasa a ser el modelo por defecto."
   }
  ],
  "cats": [
@@ -331,10 +331,10 @@
       "Resumir un PDF",
       "Planificar un viaje"
      ],
-     "novedad": "7 oct 2026: llega GPT-6 a ChatGPT, con respuestas que mezclan texto, gráficos y elementos interactivos (Sol en planes de pago; Luna en Gratis y Go desde el 8 oct). 29 sept (DevDay): «dots», agentes en segundo plano solo en Pro y Business Premium.",
+     "novedad": "4 nov 2026: Images 2.6 en ChatGPT: imágenes un 50 % más rápidas, GIF animados y fotos de referencia guardadas (tú, tu mascota) para reutilizarlas. 7 oct 2026: llega GPT-6 a ChatGPT, con respuestas que mezclan texto, gráficos y elementos interactivos (Sol en planes de pago; Luna en Gratis y Go desde el 8 oct). 29 sept (DevDay): «dots», agentes en segundo plano solo en Pro y Business Premium.",
      "web": "https://chatgpt.com",
      "verificado": true,
-     "actualizado": "2026-10-11",
+     "actualizado": "2026-11-07",
      "dominio": "chatgpt.com",
      "gratisTipo": "util",
      "gratisTxt": "Chat ilimitado con el modelo básico; límites diarios en el modelo avanzado, imágenes y archivos.",
@@ -402,10 +402,10 @@
       "Analizar un contrato",
       "Crear una pequeña web"
      ],
-     "novedad": "8 oct 2026: crear documentos, presentaciones y diseños (Docs, Slides y Design) pasa a ser gratis en todos los planes; los paneles de datos (Dashboards), en beta para planes de pago. 7 oct: nuevo modelo Claude Haiku 5.5.",
+     "novedad": "5 nov 2026: en beta y solo en EE. UU., los planes de pago pueden conectar cuentas del banco para ver gastos y preguntarle a Claude por ellos. 8 oct 2026: crear documentos, presentaciones y diseños (Docs, Slides y Design) pasa a ser gratis en todos los planes; los paneles de datos (Dashboards), en beta para planes de pago. 7 oct: nuevo modelo Claude Haiku 5.5.",
      "web": "https://claude.ai",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-07",
      "dominio": "claude.ai",
      "gratisTipo": "util",
      "gratisTxt": "Uso diario con límite de mensajes que se renueva cada pocas horas.",
@@ -683,10 +683,10 @@
       "Crear una imagen para una felicitación",
       "Ideas de planes"
      ],
-     "novedad": "Modelo Muse Spark 1.3 (sept 2026) y Muse Image para crear imágenes gratis.",
+     "novedad": "5 nov 2026: la app Muse de Meta estrena conversaciones por voz y avatares expresivos (primero en EE. UU.).",
      "web": "https://www.meta.ai",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-07",
      "dominio": "meta.ai",
      "gratisTipo": "libre",
      "gratisTxt": "Gratis sin suscripción dentro de WhatsApp, Instagram y Facebook.",
@@ -962,7 +962,7 @@
      "nombre": "Poe",
      "empresa": "Quora",
      "precio": "freemium",
-     "precioTxt": "Gratis · suscripciones desde 4,99 $/mes",
+     "precioTxt": "Gratis · suscripciones desde 4,99 $/mes (pago mensual o anual) · puntos extra desde 30 $ por millón",
      "nivel": 1,
      "nota": 72,
      "desc": "Una sola app para probar muchos modelos distintos (GPT, Claude, Gemini y más).",
@@ -974,11 +974,11 @@
      ],
      "novedad": "",
      "web": "https://poe.com",
-     "verificado": false,
-     "actualizado": "2026-10-11",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "poe.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Puntos gratis cada día que no se acumulan; los mejores modelos gastan muchos por mensaje.",
+     "gratisTxt": "Versión gratis con menos puntos que los planes de pago; los mejores modelos gastan muchos por mensaje.",
      "plataformas": [
       "web",
       "movil",
@@ -1003,7 +1003,7 @@
      "afiliado": "",
      "precioMes": 5,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con puntos: cada mensaje gasta puntos según el modelo. Si se acaban, puedes comprar más (unos 30 $ por millón de puntos) o subir de plan."
+     "consumoTxt": "Funciona con puntos que no se acumulan: cada mensaje gasta según el modelo. Si se acaban, compras más (desde 30 $ el millón, duran un año) o subes de plan."
     },
     {
      "id": "chat-14",
@@ -1800,7 +1800,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "chat",
    "empieza": {
     "titulo": "¿Es tu primera vez? Empieza por una de estas",
@@ -1889,10 +1889,10 @@
       "Infografía",
       "Retocar una foto con palabras"
      ],
-     "novedad": "",
+     "novedad": "4 nov 2026: llega GPT Image 2.6 (en ChatGPT, Codex y la API): crea GIF animados, guarda imágenes de referencia, exporta en SVG y es un 50 % más rápido.",
      "web": "https://chatgpt.com",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-07",
      "dominio": "openai.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Pocas imágenes al día en ChatGPT gratis.",
@@ -1927,7 +1927,7 @@
      "nombre": "Midjourney",
      "empresa": "Midjourney",
      "precio": "pago",
-     "precioTxt": "Desde 10 $/mes",
+     "precioTxt": "Basic 10 $/mes · Standard 30 $/mes · Pro 60 $/mes · Mega 120 $/mes (20 % menos en pago anual)",
      "nivel": 2,
      "nota": 76,
      "desc": "El referente en imágenes artísticas y con estilo cinematográfico.",
@@ -1940,10 +1940,10 @@
      "novedad": "8 oct 2026: prueba el «modo de pensamiento» (solo en su web alfa): repite una imagen razonando para corregir fallos y textos.",
      "web": "https://www.midjourney.com",
      "verificado": true,
-     "actualizado": "2026-10-11",
+     "actualizado": "2026-11-07",
      "dominio": "midjourney.com",
      "gratisTipo": "no",
-     "gratisTxt": "Sin versión gratis; desde unos 10 $/mes.",
+     "gratisTxt": "Sin versión gratis ni prueba.",
      "plataformas": [
       "web"
      ],
@@ -2863,7 +2863,7 @@
      "nombre": "Runway (imagen)",
      "empresa": "Runway",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · desde 12 $/mes",
+     "precioTxt": "Gratis limitado · Standard 15 $/mes (12 $ en pago anual) · Pro 28 $/mes en pago anual · Max 76 $/mes en pago anual (sustituye a Unlimited) · Team 69 $/mes por persona (55 $ anual) · Enterprise a medida",
      "nivel": 2,
      "nota": 66,
      "desc": "Crea imágenes con control de estilo y referencias, dentro de la suite de Runway.",
@@ -2875,11 +2875,11 @@
      ],
      "novedad": "",
      "web": "https://runwayml.com",
-     "verificado": false,
-     "actualizado": "2026-10-29",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "runwayml.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Créditos iniciales que no se renuevan.",
+     "gratisTxt": "125 créditos una sola vez que no se renuevan; una imagen gasta entre 2 y 8.",
      "plataformas": [
       "web",
       "movil"
@@ -2901,9 +2901,9 @@
      ],
      "slug": "runway-imagen",
      "afiliado": "",
-     "precioMes": 12,
+     "precioMes": 15,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con créditos: Standard trae 625 al mes, Pro 2.250 y Max 9.500. Los del mes no se acumulan (salvo en Max, un mes); los paquetes extra no caducan."
     },
     {
      "id": "imagen-24",
@@ -3144,7 +3144,7 @@
      "nombre": "Kolors",
      "empresa": "Kuaishou (Kling)",
      "precio": "freemium",
-     "precioTxt": "Incluido en Kling",
+     "precioTxt": "Incluido en Kling: Gratis · Standard 10 $/mes · Pro 37 $/mes · Premier 92 $/mes · Ultra 180 $/mes (precios de lista; el primer periodo sale más barato)",
      "nivel": 1,
      "nota": 66,
      "desc": "Generador de imágenes de los creadores de Kling, útil para preparar vídeos.",
@@ -3156,11 +3156,11 @@
      ],
      "novedad": "",
      "web": "https://klingai.com",
-     "verificado": false,
-     "actualizado": "2026-10-29",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "klingai.com",
      "gratisTipo": "util",
-     "gratisTxt": "Créditos gratis diarios dentro de Kling.",
+     "gratisTxt": "Plan gratis de Kling con créditos limitados; con marca de agua.",
      "plataformas": [
       "web",
       "movil"
@@ -3182,9 +3182,9 @@
      ],
      "slug": "kolors",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 10,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con los créditos de Kling: Standard trae 660 al mes, Pro 3.000, Premier 8.000 y Ultra 26.000. Cada imagen gasta algunos."
     },
     {
      "id": "imagen-30",
@@ -3234,7 +3234,7 @@
      "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "imagen",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -3312,7 +3312,7 @@
      "nombre": "Kling 4.0",
      "empresa": "Kuaishou",
      "precio": "freemium",
-     "precioTxt": "Gratis con créditos diarios · desde ~10 $/mes",
+     "precioTxt": "Gratis · Standard 10 $/mes · Pro 37 $/mes · Premier 92 $/mes · Ultra 180 $/mes (precios de lista; el primer periodo sale más barato)",
      "nivel": 1,
      "nota": 80,
      "desc": "Excelente con movimiento humano y caras. La mejor relación calidad-precio.",
@@ -3325,7 +3325,7 @@
      "novedad": "15 oct 2026: Kling 4.0 ya disponible: vídeos de hasta 30 segundos de una sola vez y color HDR de 10 bits. Anuncian 4K y alargar vídeos hasta 2 minutos para más adelante.",
      "web": "https://klingai.com",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-07",
      "dominio": "klingai.com",
      "gratisTipo": "util",
      "gratisTxt": "Créditos gratis cada día (con marca de agua y cola de espera).",
@@ -3407,7 +3407,7 @@
      "nombre": "Runway",
      "empresa": "Runway",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · desde 12 $/mes",
+     "precioTxt": "Gratis limitado · Standard 15 $/mes (12 $ en pago anual) · Pro 28 $/mes en pago anual · Max 76 $/mes en pago anual (sustituye a Unlimited) · Team 69 $/mes por persona (55 $ anual) · Enterprise a medida",
      "nivel": 2,
      "nota": 74,
      "desc": "El mejor control de cámara y edición. Muy usado en cine y publicidad.",
@@ -3420,10 +3420,10 @@
      "novedad": "Gen-4.5 genera audio junto al vídeo.",
      "web": "https://runwayml.com",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-07",
      "dominio": "runwayml.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "125 créditos iniciales que no se renuevan (unos pocos clips).",
+     "gratisTxt": "125 créditos una sola vez que no se renuevan (unos pocos clips).",
      "plataformas": [
       "web",
       "movil"
@@ -3445,9 +3445,9 @@
      ],
      "slug": "runway",
      "afiliado": "",
-     "precioMes": 12,
+     "precioMes": 15,
      "consumo": "creditos",
-     "consumoTxt": "Los créditos mensuales dan para pocos minutos de vídeo. Trabajar en serio suele exigir el plan ilimitado o comprar más créditos."
+     "consumoTxt": "Funciona con créditos: Standard trae 625 al mes, Pro 2.250 y Max 9.500. Cada vídeo gasta muchos; los paquetes extra no caducan."
     },
     {
      "id": "video-05",
@@ -3594,9 +3594,9 @@
      "nombre": "Hailuo (MiniMax)",
      "empresa": "MiniMax",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Créditos de bienvenida · planes Standard, Pro, Master, Ultra y Max (su web da precios distintos según la página)",
      "nivel": 1,
-     "nota": 72,
+     "nota": 68,
      "desc": "Vídeo con buena física y movimiento a precio contenido.",
      "para": "Creadores de contenido para redes.",
      "ejemplos": [
@@ -3606,11 +3606,11 @@
      ],
      "novedad": "",
      "web": "https://hailuoai.video",
-     "verificado": false,
-     "actualizado": "2026-09-29",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "hailuoai.video",
-     "gratisTipo": "util",
-     "gratisTxt": "Créditos gratis diarios.",
+     "gratisTipo": "prueba",
+     "gratisTxt": "Créditos de bienvenida que caducan a los 3 días; en lanzamientos a veces regala créditos diarios. Vídeos con marca de agua y sin uso comercial.",
      "plataformas": [
       "web",
       "movil"
@@ -3619,7 +3619,7 @@
      "notas": {
       "calidad": 8,
       "facilidad": 8,
-      "precio": 8,
+      "precio": 6,
       "versatilidad": 4
      },
      "pros": [
@@ -3632,9 +3632,9 @@
      ],
      "slug": "hailuo-minimax",
      "afiliado": "",
-     "precioMes": 10,
+     "precioMes": null,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con créditos: un vídeo de 6 s en 768p gasta 25. Los planes van de 1.000 a 20.000 créditos al mes."
     },
     {
      "id": "video-09",
@@ -4210,7 +4210,7 @@
      "nombre": "LTX Studio",
      "empresa": "Lightricks",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis limitado · Lite 15 $/mes (12 $ en pago anual) · Standard 35 $/mes (28 $ anual) · Pro 125 $/mes (100 $ anual) · Enterprise a medida",
      "nivel": 2,
      "nota": 64,
      "desc": "Herramienta para planificar y producir un corto de principio a fin con storyboard.",
@@ -4222,11 +4222,11 @@
      ],
      "novedad": "",
      "web": "https://ltx.studio",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "ltx.studio",
      "gratisTipo": "limitado",
-     "gratisTxt": "Créditos gratis limitados.",
+     "gratisTxt": "800 créditos una sola vez, solo para uso personal (sin uso comercial) y sin herramientas de mejora ni edición.",
      "plataformas": [
       "web"
      ],
@@ -4247,9 +4247,9 @@
      ],
      "slug": "ltx-studio",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 15,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con créditos: Lite trae 8.000 al mes, Standard 28.000 y Pro 110.000. Cada vídeo gasta varios; para uso comercial hace falta Standard o más."
     },
     {
      "id": "video-22",
@@ -4268,11 +4268,11 @@
      ],
      "novedad": "",
      "web": "https://www.vidu.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "vidu.com",
      "gratisTipo": "util",
-     "gratisTxt": "Créditos gratis periódicos.",
+     "gratisTxt": "Créditos gratis cada mes y por entrar a diario (su web da cifras distintas, de 40 a 80 al mes), con marca de agua, 720p y sin uso comercial.",
      "plataformas": [
       "web",
       "movil"
@@ -4296,7 +4296,7 @@
      "afiliado": "",
      "precioMes": null,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con créditos: un clip de 4 s gasta unos 5. Los del plan caducan a los 30 días; los comprados duran 2 años."
     },
     {
      "id": "video-23",
@@ -4349,7 +4349,7 @@
      "nombre": "Hedra",
      "empresa": "Hedra",
      "precio": "freemium",
-     "precioTxt": "Planes Basic, Pro y Ultra desde 20 $/mes · API de pago por uso",
+     "precioTxt": "Planes desde 20 $/mes · API de pago por uso (vídeo desde 1,22 céntimos por segundo)",
      "nivel": 1,
      "nota": 66,
      "desc": "Da voz y expresión a personajes a partir de una imagen.",
@@ -4361,11 +4361,11 @@
      ],
      "novedad": "",
      "web": "https://www.hedra.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "hedra.com",
-     "gratisTipo": "limitado",
-     "gratisTxt": "Pocos créditos gratis.",
+     "gratisTipo": "prueba",
+     "gratisTxt": "Prueba gratis con pocos créditos y sin derechos de uso comercial.",
      "plataformas": [
       "web",
       "movil"
@@ -4389,7 +4389,7 @@
      "afiliado": "",
      "precioMes": 20,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Funciona con créditos mensuales que no se acumulan; los paquetes extra no caducan. Si haces muchos vídeos, se acaban rápido."
     },
     {
      "id": "video-25",
@@ -4490,7 +4490,7 @@
      "nombre": "Kapwing",
      "empresa": "Kapwing",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Pro 24 $/mes (16 $/mes en pago anual) · Business 64 $/mes (50 $/mes en pago anual) · Enterprise a medida · precios por persona",
      "nivel": 1,
      "nota": 64,
      "desc": "Editor online colaborativo con herramientas de IA.",
@@ -4502,11 +4502,11 @@
      ],
      "novedad": "",
      "web": "https://www.kapwing.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "kapwing.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Gratis con marca de agua.",
+     "gratisTxt": "Con marca de agua, 10 créditos para la IA, vídeos en 720p y proyectos que se guardan solo unos días.",
      "plataformas": [
       "web"
      ],
@@ -4527,9 +4527,9 @@
      ],
      "slug": "kapwing",
      "afiliado": "",
-     "precioMes": 16,
+     "precioMes": 24,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Cuota fija con créditos para la IA: Pro trae 1.000 al mes y Business 4.000. Si usas mucho la IA se acaban; solo Business puede comprar más."
     },
     {
      "id": "video-28",
@@ -4582,7 +4582,7 @@
      "nombre": "Midjourney Video",
      "empresa": "Midjourney",
      "precio": "pago",
-     "precioTxt": "Incluido en Midjourney",
+     "precioTxt": "Incluido en Midjourney: Basic 10 $/mes · Standard 30 $/mes · Pro 60 $/mes · Mega 120 $/mes (20 % menos en pago anual)",
      "nivel": 2,
      "nota": 64,
      "desc": "Anima tus imágenes de Midjourney en clips cortos.",
@@ -4594,11 +4594,11 @@
      ],
      "novedad": "",
      "web": "https://www.midjourney.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "midjourney.com",
      "gratisTipo": "no",
-     "gratisTxt": "Solo con suscripción de Midjourney.",
+     "gratisTxt": "Sin versión gratis ni prueba.",
      "plataformas": [
       "web"
      ],
@@ -4621,7 +4621,7 @@
      "afiliado": "",
      "precioMes": 10,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada vídeo gasta varios y los del plan se acaban rápido. Si trabajas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Gasta el tiempo rápido de tu plan: un vídeo cuesta como 8 imágenes y da cuatro clips de 5 s. El modo lento sin límite para vídeo solo está en Pro y Mega."
     },
     {
      "id": "video-30",
@@ -4670,7 +4670,7 @@
      "consumoTxt": "Se paga por minutos de vídeo doblado: doblar mucho contenido sube el precio."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "video",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -4711,10 +4711,10 @@
       "Maqueta de una idea",
       "Jingle"
      ],
-     "novedad": "28 oct 2026: en beta, crear canciones desde Claude o ChatGPT con el conector de Suno (hay que apuntarse; gasta créditos). 15 oct: espacios compartidos para crear en equipo (Pro y Premier).",
+     "novedad": "6 nov 2026: «reto diario»: una idea de canción nueva cada día, en todos los planes. 4 nov: puedes empezar una canción desde un archivo MIDI (Pro y Premier). 28 oct 2026: en beta, crear canciones desde Claude o ChatGPT con el conector de Suno (hay que apuntarse; gasta créditos). 15 oct: espacios compartidos para crear en equipo (Pro y Premier).",
      "web": "https://suno.com",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-07",
      "dominio": "suno.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Unas 10 canciones al día, sin uso comercial y con descargas limitadas.",
@@ -6095,7 +6095,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "musica",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -6136,10 +6136,10 @@
       "Audiolibro",
       "Doblar al inglés"
      ],
-     "novedad": "29 oct 2026: SFX v3, nuevo modelo de efectos de sonido que entiende mejor mezclas de varios sonidos. 28 sept: Eleven v4, con más de 90 idiomas y clonación de voz con unos 10 segundos de audio.",
+     "novedad": "2 nov 2026: SFX v3 pasa a ser el modelo de efectos por defecto y ya crea bucles sin cortes; la clonación profesional de voz funciona con Eleven v4. 29 oct 2026: SFX v3, nuevo modelo de efectos de sonido que entiende mejor mezclas de varios sonidos. 28 sept: Eleven v4, con más de 90 idiomas y clonación de voz con unos 10 segundos de audio.",
      "web": "https://elevenlabs.io",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-07",
      "dominio": "elevenlabs.io",
      "gratisTipo": "limitado",
      "gratisTxt": "Unos 10 minutos de voz al mes, sin uso comercial.",
@@ -6775,7 +6775,7 @@
      "nombre": "Deepgram",
      "empresa": "Deepgram",
      "precio": "pago",
-     "precioTxt": "API con crédito gratis",
+     "precioTxt": "Pago por uso (transcripción desde 0,0077 $/minuto; voz Aura-2 a 0,030 $ por 1.000 caracteres) · Growth desde 4.000 $/año · Enterprise a medida",
      "nivel": 3,
      "nota": 64,
      "desc": "Transcripción y voz muy rápidas para aplicaciones.",
@@ -6787,11 +6787,11 @@
      ],
      "novedad": "",
      "web": "https://deepgram.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "deepgram.com",
      "gratisTipo": "prueba",
-     "gratisTxt": "Crédito inicial gratis.",
+     "gratisTxt": "200 $ de crédito gratis que no caduca, sin tarjeta.",
      "plataformas": [
       "web"
      ],
@@ -6814,7 +6814,7 @@
      "afiliado": "",
      "precioMes": null,
      "consumo": "uso",
-     "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
+     "consumoTxt": "Pagas por minuto de audio o por caracteres de voz, sin cuota mensual. Growth es crédito prepagado hasta un 20 % más barato."
     },
     {
      "id": "voz-16",
@@ -6867,7 +6867,7 @@
      "nombre": "AssemblyAI",
      "empresa": "AssemblyAI",
      "precio": "pago",
-     "precioTxt": "API con crédito gratis",
+     "precioTxt": "Pago por uso desde 0,15 $ por hora de audio (Universal-3.5 Pro 0,21 $/hora; en directo desde 0,15 $/hora) · Custom para empresas",
      "nivel": 3,
      "nota": 64,
      "desc": "Transcripción con detección de hablantes y resúmenes.",
@@ -6879,11 +6879,11 @@
      ],
      "novedad": "",
      "web": "https://www.assemblyai.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "assemblyai.com",
      "gratisTipo": "prueba",
-     "gratisTxt": "Crédito inicial gratis.",
+     "gratisTxt": "Prueba gratis sin tarjeta: hasta 185 horas de transcripción de grabaciones o 333 horas en directo.",
      "plataformas": [
       "web"
      ],
@@ -6906,7 +6906,7 @@
      "afiliado": "",
      "precioMes": null,
      "consumo": "uso",
-     "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
+     "consumoTxt": "Pagas por horas de audio, sin cuota mensual: una hora cuesta entre 0,15 y 0,62 $ según el modelo, más extras como separar quién habla."
     },
     {
      "id": "voz-18",
@@ -7239,7 +7239,7 @@
      "nombre": "Azure AI Speech",
      "empresa": "Microsoft",
      "precio": "pago",
-     "precioTxt": "Pago por uso · capa gratis",
+     "precioTxt": "Capa gratis mensual · pago por uso (por segundo de audio o por carácter) · descuentos por volumen",
      "nivel": 3,
      "nota": 64,
      "desc": "Voz y transcripción de Microsoft para empresas.",
@@ -7251,11 +7251,11 @@
      ],
      "novedad": "1 oct 2026: nuevos modelos MAI-Transcribe-2 y MAI-Voice-2.1 de Microsoft, número 1 en transcripción según Artificial Analysis.",
      "web": "https://azure.microsoft.com/products/ai-services/ai-speech",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "azure.microsoft.com",
      "gratisTipo": "util",
-     "gratisTxt": "Capa gratis mensual para desarrolladores.",
+     "gratisTxt": "Cada mes gratis: 5 horas de transcripción en directo, medio millón de caracteres de voz y 5 horas de traducción.",
      "plataformas": [
       "web"
      ],
@@ -7513,7 +7513,7 @@
      "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "voz",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -7603,10 +7603,10 @@
       "Refactorizar",
       "Encontrar y arreglar fallos"
      ],
-     "novedad": "12 oct 2026: Cursor se contrata ahora con la X Subscription (junto a Grok y X Premium); quien ya tenía Pro puede mantenerlo. 20 oct: «Agent SDK» para crear y probar tus propios agentes.",
+     "novedad": "5 nov 2026: «Build Live Apps»: crea apps y publícalas con un enlace, con alojamiento y base de datos incluidos (planes de pago). 6 nov: hablas por voz con los agentes. 12 oct 2026: Cursor se contrata ahora con la X Subscription (junto a Grok y X Premium); quien ya tenía Pro puede mantenerlo. 20 oct: «Agent SDK» para crear y probar tus propios agentes.",
      "web": "https://cursor.com",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-07",
      "dominio": "cursor.com",
      "gratisTipo": "util",
      "gratisTxt": "Un cupo inicial para los agentes de programación, con límites.",
@@ -7743,10 +7743,10 @@
       "Explicar funciones",
       "Pedir que arregle un error"
      ],
-     "novedad": "28 oct 2026: Copilot Fusion en todos los planes: eliges el nivel de esfuerzo y Copilot escoge los modelos por ti (30 % de descuento temporal en planes de pago). 7 oct: Claude Haiku 5.5 en los planes de pago.",
+     "novedad": "4 nov 2026: Copilot llega en prueba al asistente de Xcode. Aviso: el 16 nov se retiran de Copilot Claude Opus 4.8, Claude Opus 5 y GPT-5.6 Terra. 28 oct 2026: Copilot Fusion en todos los planes: eliges el nivel de esfuerzo y Copilot escoge los modelos por ti (30 % de descuento temporal en planes de pago). 7 oct: Claude Haiku 5.5 en los planes de pago.",
      "web": "https://github.com/features/copilot",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-07",
      "dominio": "github.com",
      "gratisTipo": "util",
      "gratisTxt": "Plan gratis con límite mensual de sugerencias.",
@@ -7882,10 +7882,10 @@
       "Prototipo de app",
       "Página de reservas"
      ],
-     "novedad": "20 oct 2026: tus apps pueden crear imágenes y vídeos con Seedream 5 Pro y Seedance 2.5 (gastan créditos). 14 oct: puedes recuperar proyectos borrados durante 60 días.",
+     "novedad": "6 nov 2026: tus apps pueden usar los nuevos modelos de imagen GPT Image 2.6 (gastan créditos). 20 oct 2026: tus apps pueden crear imágenes y vídeos con Seedream 5 Pro y Seedance 2.5 (gastan créditos). 14 oct: puedes recuperar proyectos borrados durante 60 días.",
      "web": "https://lovable.dev",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-07",
      "dominio": "lovable.dev",
      "gratisTipo": "limitado",
      "gratisTxt": "5 créditos al día, hasta 30 al mes: da para probar una web sencilla.",
@@ -8933,7 +8933,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "codigo",
    "empieza": {
     "titulo": "¿No sabes programar? Empieza por estas",
@@ -9429,7 +9429,7 @@
      "nombre": "Duolingo Max",
      "empresa": "Duolingo",
      "precio": "pago",
-     "precioTxt": "Suscripción",
+     "precioTxt": "Suscripción (Duolingo no publica el precio en su web) · deja de venderse en noviembre de 2026",
      "nivel": 1,
      "nota": 66,
      "desc": "Duolingo con conversaciones y explicaciones de IA.",
@@ -9439,10 +9439,10 @@
       "Explicar errores",
       "Repasar vocabulario con juegos"
      ],
-     "novedad": "",
+     "novedad": "3 nov 2026: Duolingo deja de vender Max este mes. Quien lo tenga pasa a Super Family al mismo precio, y la videollamada con IA llegará a todos los de Super antes de fin de año.",
      "web": "https://www.duolingo.com",
-     "verificado": false,
-     "actualizado": "2026-10-29",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "duolingo.com",
      "gratisTipo": "no",
      "gratisTxt": "Duolingo es gratis, pero las funciones de IA (Max) son de pago.",
@@ -9467,7 +9467,7 @@
      ],
      "slug": "duolingo-max",
      "afiliado": "",
-     "precioMes": 14,
+     "precioMes": null,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -9803,7 +9803,7 @@
      "nombre": "ChatPDF",
      "empresa": "ChatPDF",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Plus de pago",
+     "precioTxt": "Gratis limitado · Plus de pago (su web no publica el precio)",
      "nivel": 1,
      "nota": 66,
      "desc": "Sube un PDF y hazle preguntas.",
@@ -9815,11 +9815,11 @@
      ],
      "novedad": "",
      "web": "https://www.chatpdf.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "chatpdf.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "2 documentos al día gratis, sin crear cuenta; con cuenta gratis guardas el historial.",
+     "gratisTxt": "2 documentos al día gratis; Plus quita ese límite.",
      "plataformas": [
       "web",
       "escritorio",
@@ -9842,7 +9842,7 @@
      ],
      "slug": "chatpdf",
      "afiliado": "",
-     "precioMes": 7,
+     "precioMes": null,
      "consumo": "fijo",
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     },
@@ -10364,7 +10364,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "estudio",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -11430,10 +11430,10 @@
      "id": "trabajo-23",
      "nombre": "Lindy",
      "empresa": "Lindy",
-     "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precio": "pago",
+     "precioTxt": "Prueba gratis de 7 días · Team de pago por usuario · Enterprise a medida",
      "nivel": 2,
-     "nota": 66,
+     "nota": 62,
      "desc": "Crea asistentes que gestionan email, agenda y tareas por ti.",
      "para": "Autónomos y pequeños negocios.",
      "ejemplos": [
@@ -11443,11 +11443,11 @@
      ],
      "novedad": "",
      "web": "https://www.lindy.ai",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-07",
      "dominio": "lindy.ai",
-     "gratisTipo": "limitado",
-     "gratisTxt": "Créditos gratis limitados.",
+     "gratisTipo": "prueba",
+     "gratisTxt": "Prueba de 7 días con 50 $ en créditos y sin tarjeta. Después hay que pagar.",
      "plataformas": [
       "web"
      ],
@@ -11455,7 +11455,7 @@
      "notas": {
       "calidad": 7,
       "facilidad": 7,
-      "precio": 6,
+      "precio": 4,
       "versatilidad": 6
      },
      "pros": [
@@ -11470,7 +11470,7 @@
      "afiliado": "",
      "precioMes": null,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos o un límite de uso al mes. Si lo usas mucho, tendrás que subir de plan."
+     "consumoTxt": "Pagas por usuario y cada tarea del asistente gasta créditos (Team trae 5.000 al mes, que no se acumulan). Si se acaban, recargas a 10 $ por cada 1.000 créditos."
     },
     {
      "id": "trabajo-24",
@@ -11769,10 +11769,10 @@
       "Análisis en Excel",
       "Resumir un hilo largo de Outlook"
      ],
-     "novedad": "Sept 2026: las funciones avanzadas pasan a pagarse por uso con créditos de octubre a diciembre de 2026.",
+     "novedad": "2 nov 2026: Copilot Chat gratis (sin licencia) pasa a tener límites de uso justo en empresas de hasta 2.000 puestos; el pago por uso para nuevas licencias Business se retrasa a 2027. Sept 2026: las funciones avanzadas pasan a pagarse por uso con créditos de octubre a diciembre de 2026.",
      "web": "https://www.microsoft.com/microsoft-365/copilot",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-11-07",
      "dominio": "microsoft.com",
      "gratisTipo": "no",
      "gratisTxt": "Complemento de pago para empresas.",
@@ -11803,7 +11803,7 @@
      "consumoTxt": "La licencia cubre el uso diario, pero desde octubre de 2026 las funciones avanzadas (agentes como Cowork) se cobran aparte con créditos según el uso."
     }
    ],
-   "actualizado": "2026-10-31",
+   "actualizado": "2026-11-07",
    "id": "trabajo",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",

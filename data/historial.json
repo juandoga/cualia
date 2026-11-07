@@ -145,6 +145,12 @@
     "precioTxt": "Gratis · suscripciones desde 4,99 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "Puntos gratis cada día que no se acumulan; los mejores modelos gastan muchos por mensaje."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis · suscripciones desde 4,99 $/mes (pago mensual o anual) · puntos extra desde 30 $ por millón",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Versión gratis con menos puntos que los planes de pago; los mejores modelos gastan muchos por mensaje."
    }
   ],
   "chat-14": [
@@ -353,6 +359,12 @@
     "precioTxt": "Desde 10 $/mes",
     "gratisTipo": "no",
     "gratisTxt": "Sin versión gratis; desde unos 10 $/mes."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Basic 10 $/mes · Standard 30 $/mes · Pro 60 $/mes · Mega 120 $/mes (20 % menos en pago anual)",
+    "gratisTipo": "no",
+    "gratisTxt": "Sin versión gratis ni prueba."
    }
   ],
   "imagen-04": [
@@ -579,6 +591,12 @@
     "precioTxt": "Gratis limitado · desde 12 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos iniciales que no se renuevan."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis limitado · Standard 15 $/mes (12 $ en pago anual) · Pro 28 $/mes en pago anual · Max 76 $/mes en pago anual (sustituye a Unlimited) · Team 69 $/mes por persona (55 $ anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "125 créditos una sola vez que no se renuevan; una imagen gasta entre 2 y 8."
    }
   ],
   "imagen-24": [
@@ -639,6 +657,12 @@
     "precioTxt": "Incluido en Kling",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis diarios dentro de Kling."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Incluido en Kling: Gratis · Standard 10 $/mes · Pro 37 $/mes · Premier 92 $/mes · Ultra 180 $/mes (precios de lista; el primer periodo sale más barato)",
+    "gratisTipo": "util",
+    "gratisTxt": "Plan gratis de Kling con créditos limitados; con marca de agua."
    }
   ],
   "imagen-30": [
@@ -663,6 +687,12 @@
     "precioTxt": "Gratis con créditos diarios · desde ~10 $/mes",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis cada día (con marca de agua y cola de espera)."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis · Standard 10 $/mes · Pro 37 $/mes · Premier 92 $/mes · Ultra 180 $/mes (precios de lista; el primer periodo sale más barato)",
+    "gratisTipo": "util",
+    "gratisTxt": "Créditos gratis cada día (con marca de agua y cola de espera)."
    }
   ],
   "video-03": [
@@ -679,6 +709,12 @@
     "precioTxt": "Gratis limitado · desde 12 $/mes",
     "gratisTipo": "limitado",
     "gratisTxt": "125 créditos iniciales que no se renuevan (unos pocos clips)."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis limitado · Standard 15 $/mes (12 $ en pago anual) · Pro 28 $/mes en pago anual · Max 76 $/mes en pago anual (sustituye a Unlimited) · Team 69 $/mes por persona (55 $ anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "125 créditos una sola vez que no se renuevan (unos pocos clips)."
    }
   ],
   "video-05": [
@@ -717,6 +753,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis diarios."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Créditos de bienvenida · planes Standard, Pro, Master, Ultra y Max (su web da precios distintos según la página)",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Créditos de bienvenida que caducan a los 3 días; en lanzamientos a veces regala créditos diarios. Vídeos con marca de agua y sin uso comercial."
    }
   ],
   "video-09": [
@@ -875,6 +917,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis limitados."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis limitado · Lite 15 $/mes (12 $ en pago anual) · Standard 35 $/mes (28 $ anual) · Pro 125 $/mes (100 $ anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "800 créditos una sola vez, solo para uso personal (sin uso comercial) y sin herramientas de mejora ni edición."
    }
   ],
   "video-22": [
@@ -883,6 +931,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis periódicos."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis limitado · planes de pago",
+    "gratisTipo": "util",
+    "gratisTxt": "Créditos gratis cada mes y por entrar a diario (su web da cifras distintas, de 40 a 80 al mes), con marca de agua, 720p y sin uso comercial."
    }
   ],
   "video-23": [
@@ -905,6 +959,12 @@
     "precioTxt": "Planes Basic, Pro y Ultra desde 20 $/mes · API de pago por uso",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocos créditos gratis."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Planes desde 20 $/mes · API de pago por uso (vídeo desde 1,22 céntimos por segundo)",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba gratis con pocos créditos y sin derechos de uso comercial."
    }
   ],
   "video-25": [
@@ -935,6 +995,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Gratis con marca de agua."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis · Pro 24 $/mes (16 $/mes en pago anual) · Business 64 $/mes (50 $/mes en pago anual) · Enterprise a medida · precios por persona",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Con marca de agua, 10 créditos para la IA, vídeos en 720p y proyectos que se guardan solo unos días."
    }
   ],
   "video-28": [
@@ -951,6 +1017,12 @@
     "precioTxt": "Incluido en Midjourney",
     "gratisTipo": "no",
     "gratisTxt": "Solo con suscripción de Midjourney."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Incluido en Midjourney: Basic 10 $/mes · Standard 30 $/mes · Pro 60 $/mes · Mega 120 $/mes (20 % menos en pago anual)",
+    "gratisTipo": "no",
+    "gratisTxt": "Sin versión gratis ni prueba."
    }
   ],
   "video-30": [
@@ -1361,6 +1433,12 @@
     "precioTxt": "API con crédito gratis",
     "gratisTipo": "prueba",
     "gratisTxt": "Crédito inicial gratis."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Pago por uso (transcripción desde 0,0077 $/minuto; voz Aura-2 a 0,030 $ por 1.000 caracteres) · Growth desde 4.000 $/año · Enterprise a medida",
+    "gratisTipo": "prueba",
+    "gratisTxt": "200 $ de crédito gratis que no caduca, sin tarjeta."
    }
   ],
   "voz-16": [
@@ -1383,6 +1461,12 @@
     "precioTxt": "API con crédito gratis",
     "gratisTipo": "prueba",
     "gratisTxt": "Crédito inicial gratis."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Pago por uso desde 0,15 $ por hora de audio (Universal-3.5 Pro 0,21 $/hora; en directo desde 0,15 $/hora) · Custom para empresas",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba gratis sin tarjeta: hasta 185 horas de transcripción de grabaciones o 333 horas en directo."
    }
   ],
   "voz-18": [
@@ -1489,6 +1573,12 @@
     "precioTxt": "Pago por uso · capa gratis",
     "gratisTipo": "util",
     "gratisTxt": "Capa gratis mensual para desarrolladores."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Capa gratis mensual · pago por uso (por segundo de audio o por carácter) · descuentos por volumen",
+    "gratisTipo": "util",
+    "gratisTxt": "Cada mes gratis: 5 horas de transcripción en directo, medio millón de caracteres de voz y 5 horas de traducción."
    }
   ],
   "voz-26": [
@@ -2001,6 +2091,12 @@
     "precioTxt": "Suscripción",
     "gratisTipo": "no",
     "gratisTxt": "Duolingo es gratis, pero las funciones de IA (Max) son de pago."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Suscripción (Duolingo no publica el precio en su web) · deja de venderse en noviembre de 2026",
+    "gratisTipo": "no",
+    "gratisTxt": "Duolingo es gratis, pero las funciones de IA (Max) son de pago."
    }
   ],
   "estudio-12": [
@@ -2101,6 +2197,12 @@
     "precioTxt": "Gratis limitado · Plus de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "2 documentos al día gratis, sin crear cuenta; con cuenta gratis guardas el historial."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Gratis limitado · Plus de pago (su web no publica el precio)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "2 documentos al día gratis; Plus quita ese límite."
    }
   ],
   "estudio-20": [
@@ -2475,6 +2577,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Créditos gratis limitados."
+   },
+   {
+    "fecha": "2026-11-07",
+    "precioTxt": "Prueba gratis de 7 días · Team de pago por usuario · Enterprise a medida",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba de 7 días con 50 $ en créditos y sin tarjeta. Después hay que pagar."
    }
   ],
   "trabajo-24": [
