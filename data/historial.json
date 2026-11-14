@@ -223,6 +223,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis dentro de Opera."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis y sin crear cuenta, dentro del navegador Opera en el ordenador y en Android."
    }
   ],
   "chat-20": [
@@ -231,6 +237,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Búsquedas básicas gratis; lo avanzado es de pago."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Pro 15 $/mes (pago anual) · Team 25 $/mes (pago anual) · Enterprise a medida",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Gratis con el modelo rápido «Express» y preguntas básicas limitadas; sin modelos premium ni el agente de investigación."
    }
   ],
   "chat-21": [
@@ -283,6 +295,12 @@
     "precioTxt": "Suscripción mensual baja",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba limitada; el uso normal es con suscripción barata."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis con límites · suscripción de pago (precio no publicado en la web oficial)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "Se puede usar gratis con límites de uso (la web no da la cifra)."
    }
   ],
   "chat-26": [
@@ -327,6 +345,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis (código abierto) · versión para empresas con precio a consultar",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis y de código abierto: usa modelos de IA en tu propio ordenador, sin cuenta."
    }
   ],
   "chat-30": [
@@ -335,6 +359,12 @@
     "precioTxt": "Gratis · licencia de pago",
     "gratisTipo": "util",
     "gratisTxt": "Gratis para uso personal; licencia de pago con extras."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Aurum 149 $/año (solo pago anual) · Aurum Lifetime 349 $ (pago único) · Empresas: precio a medida (desde 5 usuarios)",
+    "gratisTipo": "util",
+    "gratisTxt": "Plan gratis para siempre: chatea con modelos locales y online, con personajes, documentos propios y modo agente, aunque algunas funciones están recortadas."
    }
   ],
   "imagen-01": [
@@ -619,6 +649,12 @@
     "precioTxt": "Licencia o suscripción",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba con marca de agua; luego de pago."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gigapixel 29 $/mes · 19 $/mes con compromiso anual · 149 $/año · Gigapixel Pro 499 $/año · Topaz Studio (todas las apps) 79 $/mes o 499 $/año · Studio Pro 799 $/año. Solo suscripción",
+    "gratisTipo": "no",
+    "gratisTxt": "No tiene plan gratis: la web oficial solo ofrece suscripciones."
    }
   ],
   "imagen-26": [
@@ -641,6 +677,12 @@
     "precioTxt": "Gratis con créditos diarios",
     "gratisTipo": "util",
     "gratisTxt": "Créditos gratis diarios."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · AI Beginner 7,49 $/mes · AI Hobbyist 12,49 $/mes · AI Enthusiast 24,99 $/mes · AI Creator 39,99 $/mes · AI Artist 62,49 $/mes (pago mensual, sin impuestos; más barato en trimestral o anual)",
+    "gratisTipo": "util",
+    "gratisTxt": "5 créditos gratis al día por entrar (más 3 por votar en el reto diario) e imágenes con Stable Diffusion básico sin límite."
    }
   ],
   "imagen-28": [
@@ -1009,6 +1051,12 @@
     "precioTxt": "Licencia de pago",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba con marca de agua; licencia de pago."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Topaz Video 59 $/mes · 39 $/mes con compromiso anual · 299 $/año · Topaz Studio (todas las apps) 79 $/mes o 499 $/año · Studio Pro 799 $/año · versión web 29 $/mes o 299 $/año. Solo suscripción",
+    "gratisTipo": "no",
+    "gratisTxt": "No hay prueba gratis: puedes probarlo 2 días después de comprar y pedir el reembolso."
    }
   ],
   "video-29": [
@@ -1299,6 +1347,12 @@
     "precioTxt": "Gratis",
     "gratisTipo": "libre",
     "gratisTxt": "Gratis."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis (código abierto)",
+    "gratisTipo": "libre",
+    "gratisTxt": "Gratis y sin registro: subes un audio en la web y te lo convierte en partitura MIDI."
    }
   ],
   "musica-30": [
@@ -1475,6 +1529,12 @@
     "precioTxt": "API",
     "gratisTipo": "prueba",
     "gratisTxt": "Uso gratis limitado."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Pago por uso desde 0,30 $ por hora de audio (Standard 0,45 $ y Enhanced 0,75 $; hay un modelo más barato) · Suscripción desde 10 $/mes con créditos incluidos · Enterprise a medida",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Crédito gratis al crear la cuenta para probar."
    }
   ],
   "voz-19": [
@@ -1617,6 +1677,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Lectura gratis con voces básicas."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Lite 13,90 $/mes o 79 $/año · Plus 20,90 $/mes o 119 $/año · Pro 25,90 $/mes o 159 $/año · Programa de escritorio de pago único: Personal 99,50 $, Professional 129,50 $, Ultimate 199,50 $",
+    "gratisTipo": "util",
+    "gratisTxt": "Escucha ilimitada con voces gratis y unos minutos al día con voces mejores (20.000 caracteres Lite y 4.000 Plus); no deja descargar MP3."
    }
   ],
   "voz-30": [
@@ -1901,6 +1967,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Gratis para construir; publicar en serio es de pago."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Starter 32 $/mes (pago anual) o 39 $ mensual · Growth 119 $/mes (anual) o 134 $ mensual · Team 349 $/mes (anual) o 399 $ mensual · Enterprise a medida. Precio por app; los planes con app móvil cuestan más",
+    "gratisTipo": "util",
+    "gratisTxt": "Gratis para construir y probar, con 500 créditos de IA al mes, pero no deja publicar la app ni usar tu propio dominio."
    }
   ],
   "codigo-25": [
@@ -1925,6 +1997,12 @@
     "precioTxt": "Pago por uso",
     "gratisTipo": "prueba",
     "gratisTxt": "Pago por uso con crédito inicial."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis (Hobby, con tus propias claves o suscripción de IA) · Individual 20 $/mes · Enterprise a medida · el uso de modelos se paga aparte a precio de coste",
+    "gratisTipo": "util",
+    "gratisTxt": "El plan Hobby es gratis con todas las funciones si conectas tus propias claves o tu suscripción de IA; si no, pagas lo que gastes."
    }
   ],
   "codigo-28": [
@@ -2017,6 +2095,12 @@
     "precioTxt": "Gratis limitado · planes de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Uso gratis limitado."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Premium 20 $/mes · Max 200 $/mes · Advanced y Team: precio sin confirmar (la web oficial da cifras distintas)",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 créditos al mes para el asistente de IA, con modelos básicos."
    }
   ],
   "estudio-05": [
@@ -2069,6 +2153,12 @@
     "precioTxt": "Gratis limitado · Pro de pago",
     "gratisTipo": "limitado",
     "gratisTxt": "Pocas búsquedas gratis."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Pro 16 $/mes (pago anual) · Team 15 $/persona/mes (pago anual) · Enterprise a medida",
+    "gratisTipo": "util",
+    "gratisTxt": "Búsquedas a fondo, chat e informes gratis, con límites de uso (la web no da la cifra)."
    }
   ],
   "estudio-10": [
@@ -2169,6 +2259,12 @@
     "precioTxt": "Gratis · Plus de pago",
     "gratisTipo": "util",
     "gratisTxt": "Uso gratis con límites."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Plus de pago",
+    "gratisTipo": "limitado",
+    "gratisTxt": "100 créditos al día para resolver ejercicios (se reinician a medianoche); respuestas avanzadas limitadas."
    }
   ],
   "estudio-18": [
@@ -2177,6 +2273,12 @@
     "precioTxt": "Gratis · Pro de pago",
     "gratisTipo": "util",
     "gratisTxt": "Soluciones gratis; pasos completos en Pro."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Pro 9,95 $/mes · 32,95 $ cada 6 meses · 39,95 $/año",
+    "gratisTipo": "util",
+    "gratisTxt": "Te da la solución gratis; los pasos completos, el chat con IA y quitar anuncios son de Pro."
    }
   ],
   "estudio-19": [
@@ -2429,6 +2531,12 @@
     "precioTxt": "Gratis · planes de pago",
     "gratisTipo": "util",
     "gratisTxt": "Grabaciones gratis con resúmenes limitados."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Gratis · Pro 18 $/usuario/mes (pago anual) o 29 $ mensual · Business 29 $/usuario/mes (anual) o 39 $ mensual · Enterprise a medida",
+    "gratisTipo": "util",
+    "gratisTxt": "Graba y transcribe reuniones sin límite, pero solo 10 reuniones con notas de IA, 10 preguntas a la IA y 3 meses de almacenamiento."
    }
   ],
   "trabajo-10": [
@@ -2473,6 +2581,12 @@
     "precioTxt": "Planes de pago",
     "gratisTipo": "prueba",
     "gratisTxt": "Prueba de 14 días; suscripción."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Pro 12 $/mes (pago anual) · Team 40 $/usuario/mes (pago anual) o 50 $ mensual · Enterprise a medida",
+    "gratisTipo": "prueba",
+    "gratisTxt": "Prueba de 14 días en Pro o Team; pide tarjeta y cobra si no cancelas. Estudiantes con correo .edu: 1 año gratis."
    }
   ],
   "trabajo-14": [
@@ -2523,6 +2637,12 @@
     "precioTxt": "Suscripción",
     "gratisTipo": "no",
     "gratisTxt": "Suscripción."
+   },
+   {
+    "fecha": "2026-11-14",
+    "precioTxt": "Starter 25 $/usuario/mes (pago anual) o 30 $ mensual · Business 33 $/usuario/mes (anual) o 40 $ mensual · Enterprise a medida",
+    "gratisTipo": "no",
+    "gratisTxt": "No tiene plan gratis."
    }
   ],
   "trabajo-18": [

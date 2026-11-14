@@ -1,13 +1,118 @@
 {
  "meta": {
-  "ultimaRevision": "2026-11-07",
-  "proximaRevision": "2026-11-14",
+  "ultimaRevision": "2026-11-14",
+  "proximaRevision": "2026-11-21",
   "frecuencia": "semanal",
   "totalFichas": 240,
   "nombre": "Cualia",
   "formulaNota": "calidad×4 + versatilidad×2 + facilidad×2 + precio×2"
  },
  "novedades": [
+  {
+   "fecha": "2026-11-14",
+   "ia": "Cualia",
+   "texto": "Revisión: 17 fichas verificadas con fuentes oficiales, 4 renombradas (Opera AI, Msty Studio, Superhuman Mail y Topaz Video), precios y plan gratis corregidos en 20 fichas y novedades de Claude, Gemini, GitHub Copilot, Adobe Firefly, ElevenLabs, DeepL, n8n y Replit."
+  },
+  {
+   "fecha": "2026-11-14",
+   "ia": "Opera AI",
+   "texto": "Actualizamos la ficha: Opera Aria ahora se llama Opera AI. Sigue siendo gratis y sin cuenta."
+  },
+  {
+   "fecha": "2026-11-14",
+   "ia": "Superhuman Mail",
+   "texto": "Actualizamos la ficha: el correo de Superhuman ahora se llama Superhuman Mail."
+  },
+  {
+   "fecha": "2026-11-14",
+   "ia": "Topaz Video",
+   "texto": "Actualizamos la ficha: Topaz Video AI ahora se llama Topaz Video y es solo de suscripción."
+  },
+  {
+   "fecha": "2026-11-14",
+   "ia": "Msty Studio",
+   "texto": "Actualizamos la ficha: Msty ahora se llama Msty Studio y tiene web nueva (msty.ai)."
+  },
+  {
+   "fecha": "2026-11-13",
+   "ia": "GitHub Copilot",
+   "texto": "Llega Gemini 4 Hydrogen. El 14 de diciembre se retiran seis modelos más, cada uno con sustituto."
+  },
+  {
+   "fecha": "2026-11-13",
+   "ia": "n8n",
+   "texto": "Parches de seguridad: si instalas n8n en tu propio servidor, actualízalo."
+  },
+  {
+   "fecha": "2026-11-12",
+   "ia": "Antigravity",
+   "texto": "Llega Gemini 4 Hydrogen y el modo «Orchestrator», que gasta menos cuota."
+  },
+  {
+   "fecha": "2026-11-12",
+   "ia": "Replit",
+   "texto": "El agente ya crea campañas de Google Ads (Pro) y, en EE. UU., compra suministros con tu permiso."
+  },
+  {
+   "fecha": "2026-11-12",
+   "ia": "Amp",
+   "texto": "Cambia el selector de modo por un selector de modelo, con Claude Opus 5.5 por defecto."
+  },
+  {
+   "fecha": "2026-11-11",
+   "ia": "DeepL",
+   "texto": "Presenta Aure, una voz de IA que traduce lo que dices imitando tu tono, también en español."
+  },
+  {
+   "fecha": "2026-11-11",
+   "ia": "ElevenLabs",
+   "texto": "Anuncia ElevenAI, una app para dictar y tomar notas de reuniones (acceso anticipado gratis)."
+  },
+  {
+   "fecha": "2026-11-11",
+   "ia": "Granola",
+   "texto": "Nuevo «Agent Brief»: un resumen diario de tus reuniones para Claude o ChatGPT (Business y Enterprise)."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "Claude",
+   "texto": "Llegan en beta Claude Sheets y Whiteboards en los planes de pago; Dashboards pasa a llamarse Claude Data."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "Gemini",
+   "texto": "Gemini 4 Carbon, el modelo más potente de Google, llega a la app para suscriptores Ultra."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "Adobe Firefly",
+   "texto": "Adobe MAX: nuevas herramientas para retocar fotos, Firefly Design en beta y más modelos de otras empresas."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "Adobe Firefly (vídeo)",
+   "texto": "El editor de vídeo de Firefly ya deja montar un vídeo completo por escenas, con subtítulos y transiciones (beta)."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "n8n",
+   "texto": "Presenta Nod, un agente gratis y de código abierto para Mac y Windows (versión de prueba)."
+  },
+  {
+   "fecha": "2026-11-10",
+   "ia": "v0",
+   "texto": "Ya puedes conectar ChatGPT Business para que ciertas respuestas no gasten créditos de v0."
+  },
+  {
+   "fecha": "2026-11-09",
+   "ia": "Claude",
+   "texto": "Nuevo modelo Claude Fable 5.2, más rápido y mejor programando, en todos los planes."
+  },
+  {
+   "fecha": "2026-11-09",
+   "ia": "ElevenLabs",
+   "texto": "Scribe v3: nuevo modelo para pasar voz a texto, también en directo."
+  },
   {
    "fecha": "2026-11-07",
    "ia": "Cualia",
@@ -202,111 +307,6 @@
    "fecha": "2026-10-06",
    "ia": "Nano Banana 2",
    "texto": "Google lanza Nano Banana 2.1, con imágenes de hasta 4K."
-  },
-  {
-   "fecha": "2026-10-06",
-   "ia": "Suno",
-   "texto": "Italia investiga si las condiciones de uso de Suno son abusivas para los consumidores."
-  },
-  {
-   "fecha": "2026-10-04",
-   "ia": "Cualia",
-   "texto": "Revisión semanal: 22 fichas actualizadas, 17 verificadas por primera vez, ninguna sustituida. Baja el precio de Quizlet en el proyecto «Estudiar mejor»."
-  },
-  {
-   "fecha": "2026-10-04",
-   "ia": "Grammarly",
-   "texto": "Corregimos la ficha: Grammarly ya corrige también en español y en más de 20 idiomas."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "Gemini",
-   "texto": "Google recorta el plan gratis: desde el 9 de octubre solo incluirá el modelo ligero Flash-Lite."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "Cualia",
-   "texto": "Revisión semanal: 44 fichas actualizadas, 22 verificadas por primera vez, 1 sustituida (Roo Code → Kilo Code). Cambian 5 proyectos."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "Kilo Code",
-   "texto": "Entra en el catálogo en lugar de Roo Code, que cerró en mayo de 2026."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "Devin Desktop (antes Windsurf)",
-   "texto": "Actualizamos la ficha de Windsurf, que se llama Devin Desktop desde junio de 2026."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "Adobe Podcast",
-   "texto": "Premium ya no se vende suelto: va incluido en Firefly Pro (19,99 $/mes)."
-  },
-  {
-   "fecha": "2026-10-03",
-   "ia": "CapCut",
-   "texto": "CapCut Pro cuesta 19,99 $/mes según su web (varía por país)."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "JetBrains AI (Junie)",
-   "texto": "Llega Junie Lite, una IA gratis para cualquier cuenta de JetBrains."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "Lovable",
-   "texto": "Si eliges servidores en la UE, cada petición gasta más créditos."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "Suno",
-   "texto": "Suno Speech (beta): voz hablada y música de fondo en una sola pista."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "Flux.2 Pro",
-   "texto": "Black Forest Labs lanza FLUX.3 Image, con salida hasta 4K."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "GitHub Copilot",
-   "texto": "Copilot ya puede manejar apps del ordenador (vista previa)."
-  },
-  {
-   "fecha": "2026-10-01",
-   "ia": "Claude Code",
-   "texto": "Sonnet 5.5 pasa a ser el modelo por defecto y llegan los Mods."
-  },
-  {
-   "fecha": "2026-09-30",
-   "ia": "v0",
-   "texto": "El plan Premium de 20 $ deja de venderse a usuarios nuevos; el plan de pago pasa a empezar en 30 $/mes."
-  },
-  {
-   "fecha": "2026-09-30",
-   "ia": "Ideogram",
-   "texto": "Ideogram 4.5, pensado para editar una imagen muchas veces sin perder calidad."
-  },
-  {
-   "fecha": "2026-09-30",
-   "ia": "HeyGen",
-   "texto": "HeyGen Video: su primer modelo para crear vídeos desde texto o imagen."
-  },
-  {
-   "fecha": "2026-09-30",
-   "ia": "Gemini",
-   "texto": "Google presenta Gemini 4 Argon, de momento con acceso restringido."
-  },
-  {
-   "fecha": "2026-09-29",
-   "ia": "ChatGPT",
-   "texto": "OpenAI presenta los «dots», agentes que trabajan solos en segundo plano, solo para los planes Pro y Business Premium."
-  },
-  {
-   "fecha": "2026-09-29",
-   "ia": "ChatGPT",
-   "texto": "GPT-6.1 Sol llega a los planes de pago y nace el plan Pro de 500 $/mes."
   }
  ],
  "cats": [
@@ -402,10 +402,10 @@
       "Analizar un contrato",
       "Crear una pequeña web"
      ],
-     "novedad": "5 nov 2026: en beta y solo en EE. UU., los planes de pago pueden conectar cuentas del banco para ver gastos y preguntarle a Claude por ellos. 8 oct 2026: crear documentos, presentaciones y diseños (Docs, Slides y Design) pasa a ser gratis en todos los planes; los paneles de datos (Dashboards), en beta para planes de pago. 7 oct: nuevo modelo Claude Haiku 5.5.",
+     "novedad": "10 nov 2026: llegan en beta Claude Sheets (hojas de cálculo) y Whiteboards (pizarras) en los planes de pago; los paneles Dashboards pasan a llamarse Claude Data. 9 nov: nuevo modelo Claude Fable 5.2, en todos los planes. 5 nov: en beta y solo en EE. UU., los planes de pago pueden conectar cuentas del banco para preguntarle por sus gastos.",
      "web": "https://claude.ai",
      "verificado": true,
-     "actualizado": "2026-11-07",
+     "actualizado": "2026-11-14",
      "dominio": "claude.ai",
      "gratisTipo": "util",
      "gratisTxt": "Uso diario con límite de mensajes que se renueva cada pocas horas.",
@@ -469,10 +469,10 @@
       "Preguntar sobre una foto",
       "Organizar el calendario"
      ],
-     "novedad": "13 oct 2026: Gemini 4 Argon llega a la app para AI Pro y Ultra. 28 oct: Google presenta Gemini 4 Carbon, de momento solo para un grupo reducido de expertos en ciberseguridad. Desde el 9 oct el plan gratis usa solo Flash-Lite.",
+     "novedad": "10 nov 2026: Gemini 4 Carbon, el modelo más potente de Google, llega a la app para suscriptores Ultra. 17 nov: en cuentas personales los Gems pasan a ser «skills» (los Gems se borran el 17 dic). Desde el 9 oct el plan gratis usa solo Flash-Lite.",
      "web": "https://gemini.google.com",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-14",
      "dominio": "gemini.google.com",
      "gratisTipo": "util",
      "gratisTxt": "Desde el 9 de octubre de 2026, lo gratis solo usa el modelo ligero Flash-Lite; Flash y Pro pasan a planes de pago.",
@@ -737,7 +737,7 @@
       "Programar",
       "Razonar paso a paso"
      ],
-     "novedad": "DeepSeek V4.1 Flash (10 sept 2026), ahora también entiende imágenes.",
+     "novedad": "",
      "web": "https://chat.deepseek.com",
      "verificado": true,
      "actualizado": "2026-09-29",
@@ -1242,30 +1242,29 @@
     },
     {
      "id": "chat-19",
-     "nombre": "Opera Aria",
+     "nombre": "Opera AI",
      "empresa": "Opera",
      "precio": "gratis",
      "precioTxt": "Gratis",
      "nivel": 1,
      "nota": 64,
-     "desc": "Asistente integrado en el navegador Opera.",
+     "desc": "Asistente de IA integrado en el navegador Opera (antes se llamaba Aria).",
      "para": "Usuarios de Opera.",
      "ejemplos": [
       "Resumir páginas",
       "Buscar rápido",
       "Traducir una web mientras navegas"
      ],
-     "novedad": "",
+     "novedad": "Aria ahora se llama Opera AI: sigue siendo gratis y no pide cuenta.",
      "web": "https://www.opera.com/features/aria",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "opera.com",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis dentro de Opera.",
+     "gratisTxt": "Gratis y sin crear cuenta, dentro del navegador Opera en el ordenador y en Android.",
      "plataformas": [
-      "web",
-      "movil",
-      "escritorio"
+      "escritorio",
+      "movil"
      ],
      "mejorEn": "ambos",
      "notas": {
@@ -1286,14 +1285,14 @@
      "afiliado": "",
      "precioMes": 0,
      "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "consumoTxt": "No tiene planes de pago ni límites publicados."
     },
     {
      "id": "chat-20",
      "nombre": "You.com",
      "empresa": "You.com",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Pro 15 $/mes (pago anual) · Team 25 $/mes (pago anual) · Enterprise a medida",
      "nivel": 1,
      "nota": 62,
      "desc": "Buscador con IA y modo de investigación profunda.",
@@ -1306,10 +1305,10 @@
      "novedad": "",
      "web": "https://you.com",
      "verificado": false,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-14",
      "dominio": "you.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Búsquedas básicas gratis; lo avanzado es de pago.",
+     "gratisTxt": "Gratis con el modelo rápido «Express» y preguntas básicas limitadas; sin modelos premium ni el agente de investigación.",
      "plataformas": [
       "web",
       "movil"
@@ -1331,9 +1330,9 @@
      ],
      "slug": "you-com",
      "afiliado": "",
-     "precioMes": 20,
+     "precioMes": 13,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija, pero el uso de los modelos premium en Pro tiene un límite que no publican."
     },
     {
      "id": "chat-21",
@@ -1527,8 +1526,8 @@
      "id": "chat-25",
      "nombre": "T3 Chat",
      "empresa": "T3 Tools",
-     "precio": "pago",
-     "precioTxt": "Suscripción mensual baja",
+     "precio": "freemium",
+     "precioTxt": "Gratis con límites · suscripción de pago (precio no publicado en la web oficial)",
      "nivel": 2,
      "nota": 74,
      "desc": "Chat muy rápido que reúne los mejores modelos por una cuota pequeña.",
@@ -1541,10 +1540,10 @@
      "novedad": "",
      "web": "https://t3.chat",
      "verificado": false,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-14",
      "dominio": "t3.chat",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Prueba limitada; el uso normal es con suscripción barata.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "Se puede usar gratis con límites de uso (la web no da la cifra).",
      "plataformas": [
       "web"
      ],
@@ -1565,9 +1564,9 @@
      ],
      "slug": "t3-chat",
      "afiliado": "",
-     "precioMes": 8,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija. Tiene límites de uso, pero para un uso normal no se notan; si lo usas muchísimo te pedirá esperar unas horas o subir de plan."
+     "precioMes": null,
+     "consumo": "creditos",
+     "consumoTxt": "La suscripción tiene un cupo que se recarga cada 4 horas y otro extra que se recarga cada mes; si te pasas, puedes tener que comprar más."
     },
     {
      "id": "chat-26",
@@ -1712,7 +1711,7 @@
      "nombre": "GPT4All",
      "empresa": "Nomic AI",
      "precio": "gratis",
-     "precioTxt": "Gratis",
+     "precioTxt": "Gratis (código abierto) · versión para empresas con precio a consultar",
      "nivel": 3,
      "nota": 62,
      "desc": "App de escritorio para chatear con modelos locales y tus documentos.",
@@ -1724,11 +1723,11 @@
      ],
      "novedad": "",
      "web": "https://www.nomic.ai/gpt4all",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "nomic.ai",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis.",
+     "gratisTxt": "Gratis y de código abierto: usa modelos de IA en tu propio ordenador, sin cuenta.",
      "plataformas": [
       "escritorio"
      ],
@@ -1745,20 +1744,21 @@
      ],
      "contras": [
       "Modelos pequeños y limitados",
-      "Interfaz básica"
+      "Interfaz básica",
+      "Sin versiones nuevas desde febrero de 2025"
      ],
      "slug": "gpt4all",
      "afiliado": "",
      "precioMes": 0,
      "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "consumoTxt": "No cuesta nada: todo funciona en tu ordenador; solo la versión para empresas es de pago."
     },
     {
      "id": "chat-30",
-     "nombre": "Msty",
+     "nombre": "Msty Studio",
      "empresa": "Msty",
      "precio": "freemium",
-     "precioTxt": "Gratis · licencia de pago",
+     "precioTxt": "Gratis · Aurum 149 $/año (solo pago anual) · Aurum Lifetime 349 $ (pago único) · Empresas: precio a medida (desde 5 usuarios)",
      "nivel": 2,
      "nota": 64,
      "desc": "App que mezcla modelos locales y en la nube en una misma interfaz.",
@@ -1768,15 +1768,16 @@
       "Usar modelos en tu ordenador y en la nube desde la misma app",
       "Guardar tus instrucciones favoritas para reutilizarlas"
      ],
-     "novedad": "",
-     "web": "https://msty.app",
-     "verificado": false,
-     "actualizado": "2026-10-31",
-     "dominio": "msty.app",
+     "novedad": "Msty ahora se llama Msty Studio y su web es msty.ai; la versión web es solo para planes de pago.",
+     "web": "https://msty.ai",
+     "verificado": true,
+     "actualizado": "2026-11-14",
+     "dominio": "msty.ai",
      "gratisTipo": "util",
-     "gratisTxt": "Gratis para uso personal; licencia de pago con extras.",
+     "gratisTxt": "Plan gratis para siempre: chatea con modelos locales y online, con personajes, documentos propios y modo agente, aunque algunas funciones están recortadas.",
      "plataformas": [
-      "escritorio"
+      "escritorio",
+      "web"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -1795,12 +1796,12 @@
      ],
      "slug": "msty",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 11,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Pagas una cuota al año o una licencia única; si conectas modelos online con tu propia clave, ese servicio te cobra aparte."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "chat",
    "empieza": {
     "titulo": "¿Es tu primera vez? Empieza por una de estas",
@@ -2029,10 +2030,10 @@
       "Quitar objetos",
       "Imágenes para una campaña"
      ],
-     "novedad": "Firefly Image 5: edita solo una parte de la imagen con texto.",
+     "novedad": "10 nov 2026 (Adobe MAX): nuevas herramientas para cambiar textos, retocar y cambiar la luz de tus fotos; Firefly Design en beta y más modelos de otras empresas, como Nano Banana 2.1 y GPT Image 2.6.",
      "web": "https://firefly.adobe.com",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-14",
      "dominio": "firefly.adobe.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Pocos créditos gratis al mes.",
@@ -2957,7 +2958,7 @@
      "nombre": "Topaz Gigapixel",
      "empresa": "Topaz Labs (Adobe)",
      "precio": "pago",
-     "precioTxt": "Licencia o suscripción",
+     "precioTxt": "Gigapixel 29 $/mes · 19 $/mes con compromiso anual · 149 $/año · Gigapixel Pro 499 $/año · Topaz Studio (todas las apps) 79 $/mes o 499 $/año · Studio Pro 799 $/año. Solo suscripción",
      "nivel": 2,
      "nota": 64,
      "desc": "Aumenta la resolución de fotos con resultados muy naturales.",
@@ -2967,13 +2968,13 @@
       "Recuperar detalle",
       "Imprimir en grande una foto pequeña"
      ],
-     "novedad": "Adobe compró Topaz Labs (23 sept 2026). La app sigue existiendo por separado.",
+     "novedad": "10 nov 2026 (Adobe MAX): Adobe, dueña de Topaz desde septiembre, lleva modelos de Topaz como Wonder 4 a Creative Cloud. Gigapixel se sigue vendiendo aparte.",
      "web": "https://www.topazlabs.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "topazlabs.com",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Prueba con marca de agua; luego de pago.",
+     "gratisTipo": "no",
+     "gratisTxt": "No tiene plan gratis: la web oficial solo ofrece suscripciones.",
      "plataformas": [
       "escritorio"
      ],
@@ -2994,9 +2995,9 @@
      ],
      "slug": "topaz-gigapixel",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 11,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija mensual o anual; los créditos extra que vende son sobre todo para procesar en la nube."
     },
     {
      "id": "imagen-26",
@@ -3051,7 +3052,7 @@
      "nombre": "NightCafe",
      "empresa": "NightCafe",
      "precio": "freemium",
-     "precioTxt": "Gratis con créditos diarios",
+     "precioTxt": "Gratis · AI Beginner 7,49 $/mes · AI Hobbyist 12,49 $/mes · AI Enthusiast 24,99 $/mes · AI Creator 39,99 $/mes · AI Artist 62,49 $/mes (pago mensual, sin impuestos; más barato en trimestral o anual)",
      "nivel": 1,
      "nota": 64,
      "desc": "Comunidad para crear imágenes con varios modelos y retos diarios.",
@@ -3063,11 +3064,11 @@
      ],
      "novedad": "",
      "web": "https://creator.nightcafe.studio",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "creator.nightcafe.studio",
      "gratisTipo": "util",
-     "gratisTxt": "Créditos gratis diarios.",
+     "gratisTxt": "5 créditos gratis al día por entrar (más 3 por votar en el reto diario) e imágenes con Stable Diffusion básico sin límite.",
      "plataformas": [
       "web",
       "movil"
@@ -3089,9 +3090,9 @@
      ],
      "slug": "nightcafe",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 6,
      "consumo": "creditos",
-     "consumoTxt": "Funciona con créditos: cada imagen gasta uno o varios. Si generas mucho, tendrás que comprar más o subir de plan."
+     "consumoTxt": "Los modelos avanzados gastan créditos; si se acaban, compras más o subes de plan. Los créditos que no gastas se acumulan."
     },
     {
      "id": "imagen-28",
@@ -3234,7 +3235,7 @@
      "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "imagen",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -4172,10 +4173,10 @@
       "Extender un clip",
       "Fondos animados para un montaje"
      ],
-     "novedad": "Oct 2026: oferta de generaciones ilimitadas durante 12 meses para quien contrate Pro, Pro Plus o Premium (solo en la web y la app de Firefly).",
+     "novedad": "10 nov 2026 (Adobe MAX): el editor de vídeo de Firefly deja planear la historia por escenas, montar clips en una línea de tiempo y añadir subtítulos y transiciones con IA (en beta). Suma Kling 4.0 y Seedance 2.5.",
      "web": "https://firefly.adobe.com",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-14",
      "dominio": "firefly.adobe.com",
      "gratisTipo": "limitado",
      "gratisTxt": "Unas pocas generaciones gratis para probar; la web de Adobe no da una cifra clara.",
@@ -4533,10 +4534,10 @@
     },
     {
      "id": "video-28",
-     "nombre": "Topaz Video AI",
+     "nombre": "Topaz Video",
      "empresa": "Topaz Labs (Adobe)",
      "precio": "pago",
-     "precioTxt": "Licencia de pago",
+     "precioTxt": "Topaz Video 59 $/mes · 39 $/mes con compromiso anual · 299 $/año · Topaz Studio (todas las apps) 79 $/mes o 499 $/año · Studio Pro 799 $/año · versión web 29 $/mes o 299 $/año. Solo suscripción",
      "nivel": 2,
      "nota": 62,
      "desc": "Mejora la resolución y fluidez de vídeos antiguos o de baja calidad.",
@@ -4546,15 +4547,16 @@
       "Estabilizar",
       "Recuperar un vídeo familiar antiguo"
      ],
-     "novedad": "Adobe compró Topaz Labs (23 sept 2026). La app sigue existiendo por separado.",
+     "novedad": "Topaz Video AI ahora se llama Topaz Video y es solo de suscripción; la antigua licencia de por vida ya no se vende.",
      "web": "https://www.topazlabs.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "topazlabs.com",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Prueba con marca de agua; licencia de pago.",
+     "gratisTipo": "no",
+     "gratisTxt": "No hay prueba gratis: puedes probarlo 2 días después de comprar y pedir el reembolso.",
      "plataformas": [
-      "escritorio"
+      "escritorio",
+      "web"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -4573,9 +4575,9 @@
      ],
      "slug": "topaz-video-ai",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 21,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija con procesado ilimitado en tu ordenador; procesar en la nube gasta créditos mensuales (25 al mes) y se pueden comprar más."
     },
     {
      "id": "video-29",
@@ -4670,7 +4672,7 @@
      "consumoTxt": "Se paga por minutos de vídeo doblado: doblar mucho contenido sube el precio."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "video",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -6007,7 +6009,7 @@
      "nombre": "Basic Pitch",
      "empresa": "Spotify",
      "precio": "gratis",
-     "precioTxt": "Gratis",
+     "precioTxt": "Gratis (código abierto)",
      "nivel": 2,
      "nota": 64,
      "desc": "Herramienta gratuita de Spotify que transcribe audio a notas MIDI.",
@@ -6019,11 +6021,11 @@
      ],
      "novedad": "",
      "web": "https://basicpitch.spotify.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "basicpitch.spotify.com",
      "gratisTipo": "libre",
-     "gratisTxt": "Gratis.",
+     "gratisTxt": "Gratis y sin registro: subes un audio en la web y te lo convierte en partitura MIDI.",
      "plataformas": [
       "web"
      ],
@@ -6046,7 +6048,7 @@
      "afiliado": "",
      "precioMes": 0,
      "consumo": "gratis",
-     "consumoTxt": "No tiene costes ocultos: se puede usar gratis."
+     "consumoTxt": "No hay planes de pago ni créditos."
     },
     {
      "id": "musica-30",
@@ -6095,7 +6097,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "musica",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -6136,10 +6138,10 @@
       "Audiolibro",
       "Doblar al inglés"
      ],
-     "novedad": "2 nov 2026: SFX v3 pasa a ser el modelo de efectos por defecto y ya crea bucles sin cortes; la clonación profesional de voz funciona con Eleven v4. 29 oct 2026: SFX v3, nuevo modelo de efectos de sonido que entiende mejor mezclas de varios sonidos. 28 sept: Eleven v4, con más de 90 idiomas y clonación de voz con unos 10 segundos de audio.",
+     "novedad": "11 nov 2026: anuncia ElevenAI, una app para dictar y tomar notas de reuniones (acceso anticipado gratis). 9 nov: Scribe v3, nuevo modelo para pasar voz a texto, también en directo. 2 nov: SFX v3 pasa a ser el modelo de efectos por defecto.",
      "web": "https://elevenlabs.io",
      "verificado": true,
-     "actualizado": "2026-11-07",
+     "actualizado": "2026-11-14",
      "dominio": "elevenlabs.io",
      "gratisTipo": "limitado",
      "gratisTxt": "Unos 10 minutos de voz al mes, sin uso comercial.",
@@ -6912,8 +6914,8 @@
      "id": "voz-18",
      "nombre": "Speechmatics",
      "empresa": "Speechmatics",
-     "precio": "pago",
-     "precioTxt": "API",
+     "precio": "freemium",
+     "precioTxt": "Pago por uso desde 0,30 $ por hora de audio (Standard 0,45 $ y Enhanced 0,75 $; hay un modelo más barato) · Suscripción desde 10 $/mes con créditos incluidos · Enterprise a medida",
      "nivel": 3,
      "nota": 62,
      "desc": "Transcripción precisa con buen soporte de acentos.",
@@ -6925,11 +6927,11 @@
      ],
      "novedad": "",
      "web": "https://www.speechmatics.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "speechmatics.com",
      "gratisTipo": "prueba",
-     "gratisTxt": "Uso gratis limitado.",
+     "gratisTxt": "Crédito gratis al crear la cuenta para probar.",
      "plataformas": [
       "web"
      ],
@@ -6950,9 +6952,9 @@
      ],
      "slug": "speechmatics",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 9,
      "consumo": "uso",
-     "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
+     "consumoTxt": "Pagas por cada hora de audio que transcribes; el precio cambia según el modelo."
     },
     {
      "id": "voz-19",
@@ -7062,10 +7064,10 @@
       "Quitar ruido de un podcast",
       "Preparar el audio para publicarlo"
      ],
-     "novedad": "",
+     "novedad": "9 nov 2026: «Sync Tracks» alinea solas las pistas grabadas por separado. 7 nov: ya puedes poner varias intros y outros.",
      "web": "https://auphonic.com",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-14",
      "dominio": "auphonic.com",
      "gratisTipo": "util",
      "gratisTxt": "2 horas de audio al mes, con la sintonía de Auphonic y sin procesar en lote.",
@@ -7423,7 +7425,7 @@
      "nombre": "NaturalReader",
      "empresa": "NaturalReader",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Lite 13,90 $/mes o 79 $/año · Plus 20,90 $/mes o 119 $/año · Pro 25,90 $/mes o 159 $/año · Programa de escritorio de pago único: Personal 99,50 $, Professional 129,50 $, Ultimate 199,50 $",
      "nivel": 1,
      "nota": 62,
      "desc": "Lector de textos en voz alta sencillo.",
@@ -7435,11 +7437,11 @@
      ],
      "novedad": "",
      "web": "https://www.naturalreaders.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "naturalreaders.com",
      "gratisTipo": "util",
-     "gratisTxt": "Lectura gratis con voces básicas.",
+     "gratisTxt": "Escucha ilimitada con voces gratis y unos minutos al día con voces mejores (20.000 caracteres Lite y 4.000 Plus); no deja descargar MP3.",
      "plataformas": [
       "web",
       "movil",
@@ -7462,9 +7464,9 @@
      ],
      "slug": "naturalreader",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 6,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija, con topes: 1 millón de caracteres en MP3 al mes y límites diarios en las voces avanzadas."
     },
     {
      "id": "voz-30",
@@ -7513,7 +7515,7 @@
      "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "voz",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -7554,10 +7556,10 @@
       "Arreglar errores",
       "Entender un proyecto"
      ],
-     "novedad": "Oct 2026: Sonnet 5.5 pasa a ser el modelo por defecto y llegan los «Mods» para personalizarlo (1 oct).",
+     "novedad": "9 nov 2026: llega Claude Fable 5.2, más rápido y mejor programando, con un «modo rápido» en Claude Code. Oct 2026: Sonnet 5.5 pasa a ser el modelo por defecto y llegan los «Mods» para personalizarlo.",
      "web": "https://claude.com/claude-code",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-11-14",
      "dominio": "claude.com",
      "gratisTipo": "no",
      "gratisTxt": "Incluido en Claude Pro (unos 22 €/mes) o superior.",
@@ -7650,10 +7652,10 @@
       "Cambiar de modelo libremente",
       "Automatizar tareas en la terminal"
      ],
-     "novedad": "Más de 160.000 estrellas en GitHub.",
+     "novedad": "13 nov 2026: versión 2.3.0, los subagentes pueden trabajar en segundo plano. 10 nov: modo «Auto» que elige el modelo solo si usas una cuenta de GitHub Copilot.",
      "web": "https://opencode.ai",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-14",
      "dominio": "opencode.ai",
      "gratisTipo": "libre",
      "gratisTxt": "Gratis; pagas solo el modelo que uses (o usa modelos gratis).",
@@ -7743,10 +7745,10 @@
       "Explicar funciones",
       "Pedir que arregle un error"
      ],
-     "novedad": "4 nov 2026: Copilot llega en prueba al asistente de Xcode. Aviso: el 16 nov se retiran de Copilot Claude Opus 4.8, Claude Opus 5 y GPT-5.6 Terra. 28 oct 2026: Copilot Fusion en todos los planes: eliges el nivel de esfuerzo y Copilot escoge los modelos por ti (30 % de descuento temporal en planes de pago). 7 oct: Claude Haiku 5.5 en los planes de pago.",
+     "novedad": "9-13 nov 2026: llegan Claude Fable 5.2, Gemini 4 Carbon y Gemini 4 Hydrogen. El 16 nov se retiran Claude Opus 4.8, Opus 5 y GPT-5.6 Terra, y el 14 dic otros seis modelos (entre ellos Claude Haiku 4.5 y Grok 4.6), cada uno con sustituto. 4 nov: Copilot llega en prueba a Xcode.",
      "web": "https://github.com/features/copilot",
      "verificado": true,
-     "actualizado": "2026-11-07",
+     "actualizado": "2026-11-14",
      "dominio": "github.com",
      "gratisTipo": "util",
      "gratisTxt": "Plan gratis con límite mensual de sugerencias.",
@@ -7836,10 +7838,10 @@
       "Pedir a varios agentes tareas a la vez",
       "Revisar una app en el navegador integrado"
      ],
-     "novedad": "Ya no está en vista previa: disponible para todos, gratis con límites.",
+     "novedad": "12 nov 2026: llega Gemini 4 Hydrogen (AI Pro y Ultra) y el modo «Orchestrator», que reparte el trabajo entre modelos para gastar menos cuota.",
      "web": "https://antigravity.google",
      "verificado": true,
-     "actualizado": "2026-10-11",
+     "actualizado": "2026-11-14",
      "dominio": "antigravity.google",
      "gratisTipo": "util",
      "gratisTxt": "Gratis para particulares, con límites de uso semanales.",
@@ -7974,10 +7976,10 @@
       "Componentes de interfaz",
       "Página de inicio de un producto"
      ],
-     "novedad": "Sept 2026: el plan Premium de 20 $ ya no se vende a usuarios nuevos; el siguiente escalón es Team (30 $/mes).",
+     "novedad": "10 nov 2026: ya puedes conectar ChatGPT Business (además de Plus y Pro) para que ciertas respuestas no gasten créditos de v0; nueva revisión de seguridad del código en los planes de pago.",
      "web": "https://v0.app",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-11-14",
      "dominio": "v0.app",
      "gratisTipo": "limitado",
      "gratisTxt": "5 $ en créditos al mes y un máximo de 7 mensajes al día.",
@@ -8020,10 +8022,10 @@
       "Bot de Telegram",
       "Web para reservar citas"
      ],
-     "novedad": "23 oct 2026: un agente vigila tu app publicada y propone arreglos si algo falla. 16 oct: Claude Haiku 5.5 en Core y Pro.",
+     "novedad": "12 nov 2026: el agente puede crear campañas de Google Ads (Pro) y, en EE. UU., comprar suministros para tu negocio con tu permiso (Core y Pro). 23 oct: un agente vigila tu app publicada y propone arreglos.",
      "web": "https://replit.com",
      "verificado": true,
-     "actualizado": "2026-10-29",
+     "actualizado": "2026-11-14",
      "dominio": "replit.com",
      "gratisTipo": "util",
      "gratisTxt": "Créditos diarios para el agente con tope mensual y 1 app publicada con el sello de Replit.",
@@ -8206,7 +8208,7 @@
       "Usar el modelo que prefieras",
       "Crear una función nueva en VS Code"
      ],
-     "novedad": "14 sept 2026: llega Cline Desktop, una app de escritorio gratuita para usar modelos abiertos.",
+     "novedad": "",
      "web": "https://cline.bot",
      "verificado": true,
      "actualizado": "2026-10-31",
@@ -8612,7 +8614,7 @@
      "nombre": "Bubble",
      "empresa": "Bubble",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Starter 32 $/mes (pago anual) o 39 $ mensual · Growth 119 $/mes (anual) o 134 $ mensual · Team 349 $/mes (anual) o 399 $ mensual · Enterprise a medida. Precio por app; los planes con app móvil cuestan más",
      "nivel": 2,
      "nota": 64,
      "desc": "Plataforma sin código veterana, ahora con IA para generar apps.",
@@ -8624,11 +8626,11 @@
      ],
      "novedad": "",
      "web": "https://bubble.io",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "bubble.io",
      "gratisTipo": "util",
-     "gratisTxt": "Gratis para construir; publicar en serio es de pago.",
+     "gratisTxt": "Gratis para construir y probar, con 500 créditos de IA al mes, pero no deja publicar la app ni usar tu propio dominio.",
      "plataformas": [
       "web"
      ],
@@ -8649,9 +8651,9 @@
      ],
      "slug": "bubble",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 28,
+     "consumo": "uso",
+     "consumoTxt": "Cada plan incluye una cantidad de «unidades de trabajo»; si tu app usa más, pagas el exceso o subes de plan."
     },
     {
      "id": "codigo-32",
@@ -8669,12 +8671,12 @@
       "Hacer una app de Android sin instalar nada",
       "Probar los modelos de Gemini gratis"
      ],
-     "novedad": "Sustituye a Firebase Studio, que no admite usuarios nuevos desde el 22 jun 2026 y cerrará el 22 mar 2027.",
+     "novedad": "10 nov 2026: Gemini 4 Carbon disponible en la API de pago. 13 nov: los suscriptores de Google AI Pro y Ultra pueden canjear créditos gratis de Google Cloud dentro de AI Studio. Sustituye a Firebase Studio, que cerrará el 22 mar 2027.",
      "web": "https://aistudio.google.com",
      "afiliado": "",
      "dominio": "aistudio.google.com",
      "verificado": true,
-     "actualizado": "2026-10-11",
+     "actualizado": "2026-11-14",
      "gratisTipo": "libre",
      "gratisTxt": "Usarlo es gratis con una cuenta de Google; puedes publicar hasta 2 apps sin cuenta de facturación.",
      "consumo": "gratis",
@@ -8749,9 +8751,9 @@
     {
      "id": "codigo-27",
      "nombre": "Amp",
-     "empresa": "Sourcegraph",
-     "precio": "pago",
-     "precioTxt": "Pago por uso",
+     "empresa": "Amp",
+     "precio": "freemium",
+     "precioTxt": "Gratis (Hobby, con tus propias claves o suscripción de IA) · Individual 20 $/mes · Enterprise a medida · el uso de modelos se paga aparte a precio de coste",
      "nivel": 3,
      "nota": 64,
      "desc": "Agente de código pensado para proyectos grandes.",
@@ -8761,14 +8763,16 @@
       "Entender cómo funciona un proyecto grande",
       "Hacer un cambio en muchos archivos a la vez"
      ],
-     "novedad": "",
+     "novedad": "12 nov 2026: cambia el selector de modo por un selector de modelo, con Claude Opus 5.5 por defecto. 10 nov: llegan los «Boxes», ordenadores en la nube siempre encendidos para tus agentes.",
      "web": "https://ampcode.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "ampcode.com",
-     "gratisTipo": "prueba",
-     "gratisTxt": "Pago por uso con crédito inicial.",
+     "gratisTipo": "util",
+     "gratisTxt": "El plan Hobby es gratis con todas las funciones si conectas tus propias claves o tu suscripción de IA; si no, pagas lo que gastes.",
      "plataformas": [
+      "web",
+      "movil",
       "escritorio"
      ],
      "mejorEn": "ordenador",
@@ -8788,9 +8792,9 @@
      ],
      "slug": "amp",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 17,
      "consumo": "uso",
-     "consumoTxt": "Se paga según lo que uses (por imagen, por minuto o por texto). El coste real depende de cuánto trabajes con ella."
+     "consumoTxt": "Los modelos se cobran según lo que uses, sin recargo; los créditos comprados caducan a los 12 meses."
     },
     {
      "id": "codigo-28",
@@ -8900,10 +8904,10 @@
       "Web de un evento",
       "Web para un pequeño negocio"
      ],
-     "novedad": "",
+     "novedad": "12 nov 2026: el asistente de Framer ya crea y edita imágenes y efectos visuales para tu web.",
      "web": "https://www.framer.com",
      "verificado": true,
-     "actualizado": "2026-10-04",
+     "actualizado": "2026-11-14",
      "dominio": "framer.com",
      "gratisTipo": "util",
      "gratisTxt": "Webs gratis con dominio de Framer y 1 GB de tráfico.",
@@ -8933,7 +8937,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "codigo",
    "empieza": {
     "titulo": "¿No sabes programar? Empieza por estas",
@@ -9106,7 +9110,7 @@
      "nombre": "SciSpace",
      "empresa": "SciSpace",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · planes de pago",
+     "precioTxt": "Gratis · Premium 20 $/mes · Max 200 $/mes · Advanced y Team: precio sin confirmar (la web oficial da cifras distintas)",
      "nivel": 2,
      "nota": 64,
      "desc": "Explica artículos científicos en lenguaje sencillo.",
@@ -9118,13 +9122,14 @@
      ],
      "novedad": "",
      "web": "https://scispace.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "scispace.com",
      "gratisTipo": "limitado",
-     "gratisTxt": "Uso gratis limitado.",
+     "gratisTxt": "100 créditos al mes para el asistente de IA, con modelos básicos.",
      "plataformas": [
-      "web"
+      "web",
+      "movil"
      ],
      "mejorEn": "ordenador",
      "notas": {
@@ -9143,9 +9148,9 @@
      ],
      "slug": "scispace",
      "afiliado": "",
-     "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "precioMes": 17,
+     "consumo": "creditos",
+     "consumoTxt": "Cada plan trae créditos al mes (Premium, 1.200); si se acaban, esperas al mes siguiente o subes de plan."
     },
     {
      "id": "estudio-05",
@@ -9336,7 +9341,7 @@
      "nombre": "Undermind",
      "empresa": "Undermind",
      "precio": "freemium",
-     "precioTxt": "Gratis limitado · Pro de pago",
+     "precioTxt": "Gratis · Pro 16 $/mes (pago anual) · Team 15 $/persona/mes (pago anual) · Enterprise a medida",
      "nivel": 2,
      "nota": 64,
      "desc": "Búsqueda académica profunda que lee cientos de artículos por ti.",
@@ -9348,11 +9353,11 @@
      ],
      "novedad": "",
      "web": "https://www.undermind.ai",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "undermind.ai",
-     "gratisTipo": "limitado",
-     "gratisTxt": "Pocas búsquedas gratis.",
+     "gratisTipo": "util",
+     "gratisTxt": "Búsquedas a fondo, chat e informes gratis, con límites de uso (la web no da la cifra).",
      "plataformas": [
       "web"
      ],
@@ -9373,9 +9378,9 @@
      ],
      "slug": "undermind",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 14,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija: Pro da 10 veces más uso que el plan gratis; no hay pago por uso."
     },
     {
      "id": "estudio-10",
@@ -9722,10 +9727,10 @@
      "novedad": "",
      "web": "https://www.gauthmath.com",
      "verificado": false,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-14",
      "dominio": "gauthmath.com",
-     "gratisTipo": "util",
-     "gratisTxt": "Uso gratis con límites.",
+     "gratisTipo": "limitado",
+     "gratisTxt": "100 créditos al día para resolver ejercicios (se reinician a medianoche); respuestas avanzadas limitadas.",
      "plataformas": [
       "web",
       "movil"
@@ -9748,15 +9753,15 @@
      "slug": "gauth",
      "afiliado": "",
      "precioMes": null,
-     "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumo": "creditos",
+     "consumoTxt": "Funciona con créditos: el plan gratis da 100 al día; la prueba de Plus, 1.500 al mes. El precio de Plus no está publicado en su web."
     },
     {
      "id": "estudio-18",
      "nombre": "Symbolab",
      "empresa": "Symbolab",
      "precio": "freemium",
-     "precioTxt": "Gratis · Pro de pago",
+     "precioTxt": "Gratis · Pro 9,95 $/mes · 32,95 $ cada 6 meses · 39,95 $/año",
      "nivel": 1,
      "nota": 64,
      "desc": "Calculadora que muestra los pasos de la solución.",
@@ -9768,11 +9773,11 @@
      ],
      "novedad": "",
      "web": "https://www.symbolab.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "symbolab.com",
      "gratisTipo": "util",
-     "gratisTxt": "Soluciones gratis; pasos completos en Pro.",
+     "gratisTxt": "Te da la solución gratis; los pasos completos, el chat con IA y quitar anuncios son de Pro.",
      "plataformas": [
       "web",
       "movil"
@@ -9794,9 +9799,9 @@
      ],
      "slug": "symbolab",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 9,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija que se renueva sola; sin créditos ni pago por uso."
     },
     {
      "id": "estudio-19",
@@ -10096,10 +10101,10 @@
       "Mejorar un texto en inglés",
       "Traducir un documento Word entero"
      ],
-     "novedad": "",
+     "novedad": "11 nov 2026: presenta Aure, una voz de IA que traduce lo que dices imitando tu tono y tu ritmo (en DeepL Voice; empieza con 8 idiomas, entre ellos el español).",
      "web": "https://www.deepl.com",
      "verificado": true,
-     "actualizado": "2026-10-03",
+     "actualizado": "2026-11-14",
      "dominio": "deepl.com",
      "gratisTipo": "util",
      "gratisTxt": "50.000 caracteres al mes y 1 documento al mes.",
@@ -10364,7 +10369,7 @@
      "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "estudio",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
@@ -10692,10 +10697,10 @@
       "Lista de tareas de una reunión",
       "Preguntar qué se decidió la semana pasada"
      ],
-     "novedad": "Oct 2026: dictado por voz gratis en todos los planes para escribir en cualquier app del Mac (beta); Windows y móvil, pronto.",
+     "novedad": "11 nov 2026: «Agent Brief», un resumen diario de tus reuniones que pueden leer Claude o ChatGPT (solo Business y Enterprise). Oct 2026: dictado por voz gratis en el Mac (beta).",
      "web": "https://www.granola.ai",
      "verificado": true,
-     "actualizado": "2026-10-31",
+     "actualizado": "2026-11-14",
      "dominio": "granola.ai",
      "gratisTipo": "limitado",
      "gratisTxt": "Notas de reuniones gratis, pero solo guarda 30 días de historial.",
@@ -10776,7 +10781,7 @@
      "nombre": "tl;dv",
      "empresa": "tl;dv",
      "precio": "freemium",
-     "precioTxt": "Gratis · planes de pago",
+     "precioTxt": "Gratis · Pro 18 $/usuario/mes (pago anual) o 29 $ mensual · Business 29 $/usuario/mes (anual) o 39 $ mensual · Enterprise a medida",
      "nivel": 1,
      "nota": 64,
      "desc": "Graba reuniones y crea informes para el equipo.",
@@ -10788,13 +10793,14 @@
      ],
      "novedad": "",
      "web": "https://tldv.io",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "tldv.io",
      "gratisTipo": "util",
-     "gratisTxt": "Grabaciones gratis con resúmenes limitados.",
+     "gratisTxt": "Graba y transcribe reuniones sin límite, pero solo 10 reuniones con notas de IA, 10 preguntas a la IA y 3 meses de almacenamiento.",
      "plataformas": [
       "web",
+      "movil",
       "escritorio"
      ],
      "mejorEn": "ordenador",
@@ -10814,9 +10820,9 @@
      ],
      "slug": "tl-dv",
      "afiliado": "",
-     "precioMes": null,
+     "precioMes": 18,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija por usuario; solo Enterprise puede pagar por uso."
     },
     {
      "id": "trabajo-10",
@@ -10925,10 +10931,10 @@
       "Automatizar facturas",
       "Resumen diario de noticias por correo"
      ],
-     "novedad": "",
+     "novedad": "10 nov 2026: n8n Labs presenta Nod, un agente gratis y de código abierto para Mac y Windows (versión de prueba). 13 nov: parches de seguridad; si instalas n8n tú mismo, actualízalo.",
      "web": "https://n8n.io",
      "verificado": true,
-     "actualizado": "2026-09-29",
+     "actualizado": "2026-11-14",
      "dominio": "n8n.io",
      "gratisTipo": "libre",
      "gratisTxt": "Gratis si lo instalas tú; la nube es de pago.",
@@ -10962,7 +10968,7 @@
      "nombre": "Beautiful.ai",
      "empresa": "Beautiful.ai",
      "precio": "pago",
-     "precioTxt": "Planes de pago",
+     "precioTxt": "Pro 12 $/mes (pago anual) · Team 40 $/usuario/mes (pago anual) o 50 $ mensual · Enterprise a medida",
      "nivel": 1,
      "nota": 62,
      "desc": "Presentaciones que se maquetan solas.",
@@ -10974,11 +10980,11 @@
      ],
      "novedad": "",
      "web": "https://www.beautiful.ai",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "beautiful.ai",
      "gratisTipo": "prueba",
-     "gratisTxt": "Prueba de 14 días; suscripción.",
+     "gratisTxt": "Prueba de 14 días en Pro o Team; pide tarjeta y cobra si no cancelas. Estudiantes con correo .edu: 1 año gratis.",
      "plataformas": [
       "web"
      ],
@@ -10999,9 +11005,9 @@
      ],
      "slug": "beautiful-ai",
      "afiliado": "",
-     "precioMes": 12,
+     "precioMes": 10,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija con IA ilimitada; no hay créditos."
     },
     {
      "id": "trabajo-14",
@@ -11111,7 +11117,7 @@
       "Resumir una lluvia de ideas",
       "Crear un diagrama a partir de un texto"
      ],
-     "novedad": "10 sept 2026: Bending Spoons acuerda comprar Miro; de momento no cambia nada para los usuarios.",
+     "novedad": "",
      "web": "https://miro.com/ai/",
      "verificado": true,
      "actualizado": "2026-10-31",
@@ -11146,10 +11152,10 @@
     },
     {
      "id": "trabajo-17",
-     "nombre": "Superhuman",
-     "empresa": "Superhuman (Grammarly)",
+     "nombre": "Superhuman Mail",
+     "empresa": "Superhuman (antes Grammarly)",
      "precio": "pago",
-     "precioTxt": "Suscripción",
+     "precioTxt": "Starter 25 $/usuario/mes (pago anual) o 30 $ mensual · Business 33 $/usuario/mes (anual) o 40 $ mensual · Enterprise a medida",
      "nivel": 1,
      "nota": 64,
      "desc": "Cliente de correo rápido que redacta y clasifica con IA.",
@@ -11159,13 +11165,13 @@
       "Clasificar la bandeja",
       "Escribir respuestas con tu estilo"
      ],
-     "novedad": "",
+     "novedad": "El correo de Superhuman ahora se llama Superhuman Mail; «Superhuman» es el nombre de toda la suite, que incluye Grammarly.",
      "web": "https://superhuman.com",
-     "verificado": false,
-     "actualizado": "2026-10-31",
+     "verificado": true,
+     "actualizado": "2026-11-14",
      "dominio": "superhuman.com",
      "gratisTipo": "no",
-     "gratisTxt": "Suscripción.",
+     "gratisTxt": "No tiene plan gratis.",
      "plataformas": [
       "web",
       "movil",
@@ -11188,9 +11194,9 @@
      ],
      "slug": "superhuman",
      "afiliado": "",
-     "precioMes": 30,
+     "precioMes": 22,
      "consumo": "fijo",
-     "consumoTxt": "Cuota fija: pagas lo mismo cada mes y para un uso normal no hay costes extra."
+     "consumoTxt": "Cuota fija por usuario; no publican límites de uso de la IA."
     },
     {
      "id": "trabajo-18",
@@ -11803,7 +11809,7 @@
      "consumoTxt": "La licencia cubre el uso diario, pero desde octubre de 2026 las funciones avanzadas (agentes como Cowork) se cobran aparte con créditos según el uso."
     }
    ],
-   "actualizado": "2026-11-07",
+   "actualizado": "2026-11-14",
    "id": "trabajo",
    "empieza": {
     "titulo": "¿Empiezas? Prueba estas",
